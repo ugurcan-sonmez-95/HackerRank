@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-13-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-21-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -36,3 +36,11 @@
 | [Grading Students](https://www.hackerrank.com/challenges/grading) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Grading_Students/grading_students.cpp)</li><ul></p> | **Easy**
 | [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Apple_and_Orange/apple_and_orange.cpp)</li><ul></p> | **Easy**
 | [Kangaroo](https://www.hackerrank.com/challenges/kangaroo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Kangaroo/kangaroo.cpp)</li><ul></p> | **Easy**
+| [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Between_Two_Sets/between_two_sets.cpp)</li><ul></p> | **Easy**
+| [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Breaking_the_Records/breaking_the_records.cpp)</li><ul></p> | **Easy**
+| [Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Birthday_Chocolate/birthday_chocolate.cpp)</li><ul></p> | **Easy**
+| [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Divisible_Sum_Pairs/divisible_sum_pairs.cpp)</li><ul></p> | **Easy**
+| [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Migratory_Birds/migratory_birds.cpp)</li><ul></p> | **Easy**
+| [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Day_of_the_Programmer/day_of_the_programmer.cpp)</li><ul></p> | **Easy**
+| [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bon_Appétit/bon_appétit.cpp)</li><ul></p> | **Easy**
+| [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sock_Merchant/sock_merchant.cpp)</li><ul></p> | **Easy**
