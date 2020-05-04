@@ -1,11 +1,11 @@
-// Simple Array Sum - Solution
+// A Very Big Sum - Solution
 
 #include <iostream>
-#include <vector> 
+#include <vector>
 
-int simpleArraySum(std::vector<int> ar) {
-    int sum{};
-    for (auto num: ar)
+long aVeryBigSum(std::vector<long> vec) {
+    long sum{};
+    for (auto num: vec)
         sum += num;
     return sum;
 }
@@ -13,13 +13,13 @@ int simpleArraySum(std::vector<int> ar) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> ar;
+    std::vector<long> vec;
     int val;
     for (int i{}; i < n; i++) {
         std::cin >> val;
-        ar.push_back(val);
+        vec.push_back(val);
     }
-    int result = simpleArraySum(ar);
+    long result = aVeryBigSum(vec);
     std::cout << result << std::endl;
 
     return 0;

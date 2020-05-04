@@ -1,3 +1,5 @@
+// Compare the Triplets - Solution
+
 #include <iostream>
 #include <vector>
 
