@@ -32,8 +32,8 @@ int main() {
         scores.push_back(val);
     }
     std::vector<int> result = breakingRecords(scores);
-    for (int j{}; j < result.size(); j++) 
-        std::cout << result[j] << " ";
+    for (auto el: result) 
+        std::cout << el << " ";
 
     return 0;
 }

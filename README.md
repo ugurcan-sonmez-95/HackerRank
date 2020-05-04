@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-25-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-39-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -48,3 +48,17 @@
 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Counting_Valleys/counting_valleys.cpp)</li><ul></p> | **Easy**
 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Electronics_Shop/electronics_shop.cpp)</li><ul></p> | **Easy**
 | [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Cats_and_a_Mouse/cats_and_a_mouse.cpp)</li><ul></p> | **Easy**
+| [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Picking_Numbers/picking_numbers.cpp)</li><ul></p> | **Easy**
+| [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Hurdle_Race/the_hurdle_race.cpp)</li><ul></p> | **Easy**
+| [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Designer_PDF_Viewer/designer_pdf_viewer.cpp)</li><ul></p> | **Easy**
+| [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Utopian_Tree/utopian_tree.cpp)</li><ul></p> | **Easy**
+| [Angry Professor](https://www.hackerrank.com/challenges/angry-professor) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Angry_Professor/angry_professor.cpp)</li><ul></p> | **Easy**
+| [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Beautiful_Days_at_the_Movies/beautiful_days_at_the_movies.cpp)</li><ul></p> | **Easy**
+| [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Viral_Advertising/viral_advertising.cpp)</li><ul></p> | **Easy**
+| [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Save_the_Prisoner/save_the_prisoner.cpp)</li><ul></p> | **Easy**
+| [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Circular_Array_Rotation/circular_array_rotation.cpp)</li><ul></p> | **Easy**
+| [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sequence_Equation/sequence_equation.cpp)</li><ul></p> | **Easy**
+| [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Jumping_on_the_Clouds_Revisited/jumping_on_the_clouds_revisited.cpp)</li><ul></p> | **Easy**
+| [Find Digits](https://www.hackerrank.com/challenges/find-digits) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Find_Digits/find_digits.cpp)</li><ul></p> | **Easy**
+| [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Append_and_Delete/append_and_delete.cpp)</li><ul></p> | **Easy**
+| [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sherlock_and_Squares/sherlock_and_squares.cpp)</li><ul></p> | **Easy**

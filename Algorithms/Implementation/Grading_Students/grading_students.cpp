@@ -20,8 +20,8 @@ int main() {
         grades.push_back(val);
     }
     std::vector<int> result = gradingStudents(grades);
-    for (int j{}; j < result.size(); j++) 
-        std::cout << result[j] << std::endl;
+    for (auto el: result) 
+        std::cout << el << std::endl;
 
     return 0;
 }

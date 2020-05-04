@@ -30,8 +30,8 @@ int main() {
         b.push_back(val2);
     }
     std::vector<int> result = compareTriplets(a, b);
-    for (int k{}; k < result.size(); k++) 
-        std::cout << result[k] << " ";
+    for (auto el: result) 
+        std::cout << el << " ";
 
     return 0;
 }
