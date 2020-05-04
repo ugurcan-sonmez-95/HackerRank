@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-21-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-25-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -44,3 +44,7 @@
 | [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Day_of_the_Programmer/day_of_the_programmer.cpp)</li><ul></p> | **Easy**
 | [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bon_Appétit/bon_appétit.cpp)</li><ul></p> | **Easy**
 | [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sock_Merchant/sock_merchant.cpp)</li><ul></p> | **Easy**
+| [Drawing Book](https://www.hackerrank.com/challenges/drawing-book) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sock_Merchant/sock_merchant.cpp)</li><ul></p> | **Easy**
+| [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Counting_Valleys/counting_valleys.cpp)</li><ul></p> | **Easy**
+| [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Electronics_Shop/electronics_shop.cpp)</li><ul></p> | **Easy**
+| [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Cats_and_a_Mouse/cats_and_a_mouse.cpp)</li><ul></p> | **Easy**
