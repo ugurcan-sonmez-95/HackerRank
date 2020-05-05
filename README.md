@@ -82,3 +82,9 @@
 | [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Manasa_and_Stones/manasa_and_stones.cpp)</li><ul></p> | **Easy**
 | [Happy Ladybugs](https://www.hackerrank.com/challenges/happy-ladybugs) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Happy_Ladybugs/happy_ladybugs.cpp)</li><ul></p> | **Easy**
 | [Strange Counter](https://www.hackerrank.com/challenges/strange-code) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Strange_Counter/strange_counter.cpp)</li><ul></p> | **Easy**
+| [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Forming_a_Magic_Square/forming_a_magic_square.cpp)</li><ul></p> | **Medium**
+| [Climbing the Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Climbing_the_Leaderboard/climbing_the_leaderboard.cpp)</li><ul></p> | **Medium**
+| [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Extra_Long_Factorials/extra_long_factorials.cpp)</li><ul></p> | **Medium**
+| [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Non_Divisible_Subset/non_divisible_subset.cpp)</li><ul></p> | **Medium**
+| [Queen's Attack II](https://www.hackerrank.com/challenges/queens-attack-2) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Queens_Attack_2/queens_attack_two.cpp)</li><ul></p> | **Medium**
+| [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Organizing_Containers_of_Balls/organizing_containers_of_balls.cpp)</li><ul></p> | **Medium**
