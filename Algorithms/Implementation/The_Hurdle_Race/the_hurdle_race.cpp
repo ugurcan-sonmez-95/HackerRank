@@ -12,11 +12,9 @@ int hurdleRace(int k, std::vector<int> height) {
 int main() {
     int n, k;
     std::cin >> n >> k;
-    std::vector<int> height;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        height.push_back(val);
+    std::vector<int> height(n);
+    for (int i{}; i < height.size(); i++) {
+        std::cin >> height[i];
     }
     int result = hurdleRace(k, height);
     std::cout << result << std::endl;

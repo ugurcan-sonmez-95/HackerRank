@@ -13,11 +13,9 @@ int designerPdfViewer(std::vector<int> h, std::string word) {
 }
 
 int main() {
-    std::vector<int> h;
-    int val;
-    for (int i{}; i < 26; i++) {
-        std::cin >> val;
-        h.push_back(val);
+    std::vector<int> h(26);
+    for (int i{}; i < h.size(); i++) {
+        std::cin >> h[i];
     }
     std::string word;
     std::cin >> word;

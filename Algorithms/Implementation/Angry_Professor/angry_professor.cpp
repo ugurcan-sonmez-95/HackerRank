@@ -12,14 +12,12 @@ std::string angryProfessor(int k, std::vector<int> a) {
 int main() {
     int t;
     std::cin >> t;
+    int n, k;
     while (t != 0) {
-        int n, k;
         std::cin >> n >> k;
-        std::vector<int> a;
-        int val;
-        for (int i{}; i < n; i++) {
-            std::cin >> val;
-            a.push_back(val);
+        std::vector<int> a(n);
+        for (int i{}; i < a.size(); i++) {
+            std::cin >> a[i];
         }
         std::string result = angryProfessor(k, a);
         std::cout << result << std::endl;

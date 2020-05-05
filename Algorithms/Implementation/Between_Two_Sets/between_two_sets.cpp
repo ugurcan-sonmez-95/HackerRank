@@ -37,16 +37,12 @@ int getTotalX(std::vector<int> a, std::vector<int> b) {
 int main() {
     int n, m;
     std::cin >> n >> m;
-    std::vector<int> a, b;
-    int val1; 
-    for (int i{}; i < n; i++) {
-        std::cin >> val1;
-        a.push_back(val1);
+    std::vector<int> a(n), b(m);
+    for (int i{}; i < a.size(); i++) {
+        std::cin >> a[i];
     }
-    int val2;
-    for (int j{}; j < m; j++) {
-        std::cin >> val2;
-        b.push_back(val2);
+    for (int j{}; j < b.size(); j++) {
+        std::cin >> b[j];
     }
     int result = getTotalX(a, b);
     std::cout << result << std::endl;

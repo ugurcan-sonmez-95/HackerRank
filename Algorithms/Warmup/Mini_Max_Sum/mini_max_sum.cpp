@@ -19,11 +19,9 @@ void miniMaxSum(std::vector<int> vec) {
 }
 
 int main() {
-    std::vector<int> vec;
-    int val;
-    for (int i{}; i < 5; i++) {
-        std::cin >> val;
-        vec.push_back(val);
+    std::vector<int> vec(5);
+    for (int i{}; i < vec.size(); i++) {
+        std::cin >> vec[i];
     }
     miniMaxSum(vec);
 

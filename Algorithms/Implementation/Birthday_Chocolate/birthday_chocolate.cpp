@@ -18,11 +18,9 @@ int birthday(std::vector<int> s, int d, int m) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> s;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        s.push_back(val);
+    std::vector<int> s(n);
+    for (int i{}; i < s.size(); i++) {
+        std::cin >> s[i];
     }
     int d, m;
     std::cin >> d >> m;

@@ -25,11 +25,9 @@ std::vector<int> breakingRecords(std::vector<int> scores) {
 int main() {
     int n; 
     std::cin >> n;
-    std::vector<int> scores;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        scores.push_back(val);
+    std::vector<int> scores(n);
+    for (int i{}; i < scores.size(); i++) {
+        std::cin >> scores[i];
     }
     std::vector<int> result = breakingRecords(scores);
     for (auto el: result) 

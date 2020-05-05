@@ -18,17 +18,13 @@ int getMoneySpent(std::vector<int> keyboards, std::vector<int> drives, int b) {
 int main() {
     int b, n, m;
     std::cin >> b >> n >> m;
-    std::vector<int> keyboards;
-    int val1;
-    for (int i{}; i < n; i++) {
-        std::cin >> val1;
-        keyboards.push_back(val1);
+    std::vector<int> keyboards(n);
+    for (int i{}; i < keyboards.size(); i++) {
+        std::cin >> keyboards[i];
     }
-    std::vector<int> drives;
-    int val2;
-    for (int j{}; j < m; j++) {
-        std::cin >> val2;
-        drives.push_back(val2);
+    std::vector<int> drives(m);
+    for (int j{}; j < drives.size(); j++) {
+        std::cin >> drives[j];
     }
     int result = getMoneySpent(keyboards, drives, b);
     std::cout << result << std::endl;

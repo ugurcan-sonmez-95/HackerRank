@@ -20,11 +20,9 @@ int divisibleSumPairs(int n, int k, std::vector<int> vec) {
 int main() {
     int n, k;
     std::cin >> n >> k;
-    std::vector<int> vec;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        vec.push_back(val);
+    std::vector<int> vec(n);
+    for (int i{}; i < vec.size(); i++) {
+        std::cin >> vec[i];
     }
     int result = divisibleSumPairs(n, k, vec);
     std::cout << result << std::endl;

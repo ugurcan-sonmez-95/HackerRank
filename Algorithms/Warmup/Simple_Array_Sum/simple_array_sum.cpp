@@ -3,9 +3,9 @@
 #include <iostream>
 #include <vector> 
 
-int simpleArraySum(std::vector<int> ar) {
+int simplevecraySum(std::vector<int> vec) {
     int sum{};
-    for (auto num: ar)
+    for (auto num: vec)
         sum += num;
     return sum;
 }
@@ -13,13 +13,11 @@ int simpleArraySum(std::vector<int> ar) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> ar;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        ar.push_back(val);
+    std::vector<int> vec(n);
+    for (int i{}; i < vec.size(); i++) {
+        std::cin >> vec[i];
     }
-    int result = simpleArraySum(ar);
+    int result = simplevecraySum(vec);
     std::cout << result << std::endl;
 
     return 0;

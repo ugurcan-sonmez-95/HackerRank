@@ -13,11 +13,9 @@ long aVeryBigSum(std::vector<long> vec) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<long> vec;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        vec.push_back(val);
+    std::vector<long> vec(n);
+    for (int i{}; i < vec.size(); i++) {
+        std::cin >> vec[i];
     }
     long result = aVeryBigSum(vec);
     std::cout << result << std::endl;

@@ -18,11 +18,9 @@ int jumpingOnClouds(std::vector<int> c, int k) {
 int main() {
     int n, k;
     std::cin >> n >> k;
-    std::vector<int> c;
-    int val;
+    std::vector<int> c(n);
     for (int i{}; i < n; i++) {
-        std::cin >> val;
-        c.push_back(val);
+        std::cin >> c[i];
     }
     int result = jumpingOnClouds(c, k);
     std::cout << result << std::endl;

@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-39-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-59-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -62,3 +62,23 @@
 | [Find Digits](https://www.hackerrank.com/challenges/find-digits) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Find_Digits/find_digits.cpp)</li><ul></p> | **Easy**
 | [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Append_and_Delete/append_and_delete.cpp)</li><ul></p> | **Easy**
 | [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sherlock_and_Squares/sherlock_and_squares.cpp)</li><ul></p> | **Easy**
+| [Library Fine](https://www.hackerrank.com/challenges/library-fine) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Library_Fine/library_fine.cpp)</li><ul></p> | **Easy**
+| [Cut the sticks](https://www.hackerrank.com/challenges/cut-the-sticks) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Cut_the_sticks/cut_the_sticks.cpp)</li><ul></p> | **Easy**
+| [Repeated String](https://www.hackerrank.com/challenges/repeated-string) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Repeated_String/repeated_string.cpp)</li><ul></p> | **Easy**
+| [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Jumping_on_the_Clouds/jumping_on_the_clouds.cpp)</li><ul></p> | **Easy**
+| [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Equalize_the_Array/equalize_the_array.cpp)</li><ul></p> | **Easy**
+| [ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/ACM_ICPC_Team/acm_icpc_team.cpp)</li><ul></p> | **Easy**
+| [Taum and B'day](https://www.hackerrank.com/challenges/taum-and-bday) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Taum_and_Bday/taum_and_bday.cpp)</li><ul></p> | **Easy**
+| [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Modified_Kaprekar_Numbers/modified_kaprekar_numbers.cpp)</li><ul></p> | **Easy**
+| [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Beautiful_Triplets/beautiful_triplets.cpp)</li><ul></p> | **Easy**
+| [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Minimum_Distances/minimum_distances.cpp)</li><ul></p> | **Easy**
+| [Halloween Sale](https://www.hackerrank.com/challenges/halloween-sale) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Halloween_Sale/halloween_sale.cpp)</li><ul></p> | **Easy**
+| [Chocolate Feast](https://www.hackerrank.com/challenges/chocolate-feast) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Chocolate_Feast/chocolate_feast.cpp)</li><ul></p> | **Easy**
+| [Service Lane](https://www.hackerrank.com/challenges/service-lane) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Service_Lane/service_lane.cpp)</li><ul></p> | **Easy**
+| [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Lisas_Workbook/lisas_workbook.cpp)</li><ul></p> | **Easy**
+| [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Flatland_Space_Stations/flatland_space_stations.cpp)</li><ul></p> | **Easy**
+| [Fair Rations](https://www.hackerrank.com/challenges/fair-rations) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Fair_Rations/fair_rations.cpp)</li><ul></p> | **Easy**
+| [Cavity Map](https://www.hackerrank.com/challenges/cavity-map) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Cavity_Map/cavity_map.cpp)</li><ul></p> | **Easy**
+| [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Manasa_and_Stones/manasa_and_stones.cpp)</li><ul></p> | **Easy**
+| [Happy Ladybugs](https://www.hackerrank.com/challenges/happy-ladybugs) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Happy_Ladybugs/happy_ladybugs.cpp)</li><ul></p> | **Easy**
+| [Strange Counter](https://www.hackerrank.com/challenges/strange-code) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Strange_Counter/strange_counter.cpp)</li><ul></p> | **Easy**

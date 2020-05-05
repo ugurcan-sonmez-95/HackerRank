@@ -13,11 +13,9 @@ std::vector<int> gradingStudents(std::vector<int> grades) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> grades;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        grades.push_back(val);
+    std::vector<int> grades(n);
+    for (int i{}; i < grades.size(); i++) {
+        std::cin >> grades[i];
     }
     std::vector<int> result = gradingStudents(grades);
     for (auto el: result) 

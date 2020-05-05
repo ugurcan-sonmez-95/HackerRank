@@ -16,11 +16,9 @@ void bonAppetit(std::vector<int> bill, int k, int b) {
 int main() {
     int n, k;
     std::cin >> n >> k;
-    std::vector<int> bill;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        bill.push_back(val);
+    std::vector<int> bill(n);
+    for (int i{}; i < bill.size(); i++) {
+        std::cin >> bill[i];
     }
     int b;
     std::cin >> b;

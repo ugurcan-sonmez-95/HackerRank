@@ -18,11 +18,9 @@ int pickingNumbers(std::vector<int> a) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> a;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        a.push_back(val);
+    std::vector<int> a(n);
+    for (int i{}; i < a.size(); i++) {
+        std::cin >> a[i];
     }
     int result = pickingNumbers(a);
     std::cout << result << std::endl;

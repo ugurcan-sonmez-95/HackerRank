@@ -23,11 +23,9 @@ int migratoryBirds(std::vector<int> vec) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> vec;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        vec.push_back(val);
+    std::vector<int> vec(n);
+    for (int i{}; i < vec.size(); i++) {
+        std::cin >> vec[i];
     }
     int result = migratoryBirds(vec);
     std::cout << result << std::endl;

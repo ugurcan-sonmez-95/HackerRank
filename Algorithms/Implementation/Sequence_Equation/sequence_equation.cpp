@@ -17,11 +17,9 @@ std::vector<int> permutationEquation(std::vector<int> p) {
 int main() {
     int n; 
     std::cin >> n;
-    std::vector<int> p;
-    int val;
-    for (int i{}; i < n; i++) {
-        std::cin >> val;
-        p.push_back(val);
+    std::vector<int> p(n);
+    for (int i{}; i < p.size(); i++) {
+        std::cin >> p[i];
     }
     std::vector<int> result = permutationEquation(p);
     for (auto el: result)

@@ -18,16 +18,12 @@ std::vector<int> compareTriplets(std::vector<int> a, std::vector<int> b) {
 }
 
 int main() {
-    std::vector<int> a, b;
-    int val1;
-    for (int i{}; i < 3; i++) {
-        std::cin >> val1;
-        a.push_back(val1);
+    std::vector<int> a(3), b(3);
+    for (int i{}; i < a.size(); i++) {
+        std::cin >> a[i];
     }
-    int val2;
-    for (int j{}; j < 3; j++) {
-        std::cin >> val2;
-        b.push_back(val2);
+    for (int j{}; j < b.size(); j++) {
+        std::cin >> b[j];
     }
     std::vector<int> result = compareTriplets(a, b);
     for (auto el: result) 
