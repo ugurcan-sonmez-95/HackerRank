@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-66-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-67-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -89,3 +89,4 @@
 | [Queen's Attack II](https://www.hackerrank.com/challenges/queens-attack-2) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Queens_Attack_2/queens_attack_two.cpp)</li><ul></p> | **Medium**
 | [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Organizing_Containers_of_Balls/organizing_containers_of_balls.cpp)</li><ul></p> | **Medium**
 | [Encryption](https://www.hackerrank.com/challenges/encryption) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Encryption/encryption.cpp)</li><ul></p> | **Medium**
+| [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bigger_is_Greater/bigger_is_greater.cpp)</li><ul></p> | **Medium**
