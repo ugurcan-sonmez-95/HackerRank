@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-65-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-66-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -88,3 +88,4 @@
 | [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Non_Divisible_Subset/non_divisible_subset.cpp)</li><ul></p> | **Medium**
 | [Queen's Attack II](https://www.hackerrank.com/challenges/queens-attack-2) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Queens_Attack_2/queens_attack_two.cpp)</li><ul></p> | **Medium**
 | [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Organizing_Containers_of_Balls/organizing_containers_of_balls.cpp)</li><ul></p> | **Medium**
+| [Encryption](https://www.hackerrank.com/challenges/encryption) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Encryption/encryption.cpp)</li><ul></p> | **Medium**
