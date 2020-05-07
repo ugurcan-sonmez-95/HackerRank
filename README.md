@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-67-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-68-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
