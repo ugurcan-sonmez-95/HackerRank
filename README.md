@@ -92,3 +92,4 @@
 | [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bigger_is_Greater/bigger_is_greater.cpp)</li><ul></p> | **Medium**
 | [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Time_in_Words/the_time_in_words.cpp)</li><ul></p> | **Medium**
 | [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Grid_Search/the_grid_search.cpp)</li><ul></p> | **Medium**
+| [3D Surface Area](https://www.hackerrank.com/challenges/3d-surface-area) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/3D_Surface_Area/3d_surface_area.cpp)</li><ul></p> | **Medium**
