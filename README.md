@@ -90,3 +90,4 @@
 | [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Organizing_Containers_of_Balls/organizing_containers_of_balls.cpp)</li><ul></p> | **Medium**
 | [Encryption](https://www.hackerrank.com/challenges/encryption) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Encryption/encryption.cpp)</li><ul></p> | **Medium**
 | [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bigger_is_Greater/bigger_is_greater.cpp)</li><ul></p> | **Medium**
+| [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Time_in_Words/the_time_in_words.cpp)</li><ul></p> | **Medium**
