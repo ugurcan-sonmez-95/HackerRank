@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-68-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-69-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -91,3 +91,4 @@
 | [Encryption](https://www.hackerrank.com/challenges/encryption) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Encryption/encryption.cpp)</li><ul></p> | **Medium**
 | [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bigger_is_Greater/bigger_is_greater.cpp)</li><ul></p> | **Medium**
 | [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Time_in_Words/the_time_in_words.cpp)</li><ul></p> | **Medium**
+| [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Grid_Search/the_grid_search.cpp)</li><ul></p> | **Medium**
