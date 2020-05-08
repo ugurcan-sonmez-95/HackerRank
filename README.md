@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-71-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-72-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -94,3 +94,4 @@
 | [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Grid_Search/the_grid_search.cpp)</li><ul></p> | **Medium**
 | [3D Surface Area](https://www.hackerrank.com/challenges/3d-surface-area) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/3D_Surface_Area/3d_surface_area.cpp)</li><ul></p> | **Medium**
 | [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Absolute_Permutation/absolute_permutation.cpp)</li><ul></p> | **Medium**
+| [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Bomberman_Game/the_bomberman_game.cpp)</li><ul></p> | **Medium**
