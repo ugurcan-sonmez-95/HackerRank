@@ -9,7 +9,7 @@ int twoPluses(int n, int m, int N) {
         for (int j{}; j < m; j++)
             std::cin >> grid[i][j];
     }
-    int area;
+    int product;
     for (int i{1}; i < n; i++) {
         for (int j{1}; j < m; j++) {
             int x{}; 
@@ -19,7 +19,7 @@ int twoPluses(int n, int m, int N) {
                     for (int l{1}; l < m; l++) {
                         int y{};
                         while (grid[k+y][l] == 'G' && grid[k][l+y] == 'G' && grid[k-y][l] == 'G' && grid[k][l-y] == 'G') {
-                            area = std::max(area, (4*x+1)*(4*y+1));
+                            product = std::max(product, (4*x+1)*(4*y+1));
                             y++;
                         }
                     }
@@ -33,7 +33,7 @@ int twoPluses(int n, int m, int N) {
             }
         }
     }
-    return area;
+    return product;
 }
 
 int main() {
