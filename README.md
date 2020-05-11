@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-72-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-73-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -95,3 +95,4 @@
 | [3D Surface Area](https://www.hackerrank.com/challenges/3d-surface-area) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/3D_Surface_Area/3d_surface_area.cpp)</li><ul></p> | **Medium**
 | [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Absolute_Permutation/absolute_permutation.cpp)</li><ul></p> | **Medium**
 | [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Bomberman_Game/the_bomberman_game.cpp)</li><ul></p> | **Medium**
+| [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Emas_Supercomputer/emas_supercomputer.cpp)</li><ul></p> | **Medium**
