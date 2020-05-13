@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-75-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-76-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -98,3 +98,4 @@
 | [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Emas_Supercomputer/emas_supercomputer.cpp)</li><ul></p> | **Medium**
 | [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Larrys_Array/larrys_array.cpp)</li><ul></p> | **Medium**
 | [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/almost_sorted.cpp)</li><ul></p> | **Medium**
+| [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/matrix_layer_rotation.cpp)</li><ul></p> | **Hard**
