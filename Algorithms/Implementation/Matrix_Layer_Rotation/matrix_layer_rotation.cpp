@@ -1,4 +1,4 @@
-// Matrix Later Rotation - Solution
+// Matrix Layer Rotation - Solution
 
 #include <iostream>
 #include <vector>
