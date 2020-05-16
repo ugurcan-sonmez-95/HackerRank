@@ -108,4 +108,4 @@
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
-| [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Arrays_DS/arrays_ds.cpp)</li><ul></p> | **Easy**
+| [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/Arrays_DS/arrays_ds.cpp)</li><ul></p> | **Easy**
