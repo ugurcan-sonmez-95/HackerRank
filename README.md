@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-78-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-79-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -110,3 +110,4 @@
 | ---- | -------- | :--------:
 | [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/Arrays_DS/arrays_ds.cpp)</li><ul></p> | **Easy**
 | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/2D_Array_DS/2d_array_ds.cpp)</li><ul></p> | **Easy**
+| [Dynamic Array](https://www.hackerrank.com/challenges/dynamic-array) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/Dynamic_Array/dynamic_array.cpp)</li><ul></p> | **Easy**
