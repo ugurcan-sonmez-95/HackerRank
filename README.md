@@ -5,16 +5,20 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-76-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-77-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
 ## Algorithms
 
-* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#warmup)
-* [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#implementation)
+* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#algorithms-warmup)
+* [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#algorithms-implementation)
 
-### Warmup
+## Data Structures
+
+* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#datastructures-warmup)
+
+### Algorithms - Warmup
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
@@ -29,7 +33,7 @@
 | [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Birthday_Cake_Candles/birthday_cake_candles.cpp)</li><ul></p> | **Easy**
 | [Time Conversion](https://www.hackerrank.com/challenges/time-conversion) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Time_Conversion/time_conversion.cpp)</li><ul></p> | **Easy**
 
-### Implementation
+### Algorithms - Implementation
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
@@ -99,3 +103,9 @@
 | [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Larrys_Array/larrys_array.cpp)</li><ul></p> | **Medium**
 | [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/almost_sorted.cpp)</li><ul></p> | **Medium**
 | [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/matrix_layer_rotation.cpp)</li><ul></p> | **Hard**
+
+### Data Structures - Warmup
+
+| Name | Solution | Difficulty
+| ---- | -------- | :--------:
+| [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Arrays_DS/arrays_ds.cpp)</li><ul></p> | **Easy**
