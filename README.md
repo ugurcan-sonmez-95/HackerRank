@@ -104,7 +104,7 @@
 | [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/almost_sorted.cpp)</li><ul></p> | **Medium**
 | [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/matrix_layer_rotation.cpp)</li><ul></p> | **Hard**
 
-### Data Structures-Warmup
+### Data_Structures-Warmup
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
