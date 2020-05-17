@@ -11,8 +11,8 @@
 
 ## Algorithms
 
-* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#algorithms-warmup)
-* [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#algorithms-implementation)
+* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#warmup)
+* [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#implementation)
 
 ## Data Structures
 
