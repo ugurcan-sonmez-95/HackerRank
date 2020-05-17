@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-80-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-81-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -16,7 +16,7 @@
 
 ## Data Structures
 
-* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#data_structures-warmup)
+* [Arrays](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#arrays)
 
 ### Algorithms-Warmup
 
@@ -104,7 +104,7 @@
 | [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/almost_sorted.cpp)</li><ul></p> | **Medium**
 | [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/matrix_layer_rotation.cpp)</li><ul></p> | **Hard**
 
-### Data_Structures-Warmup
+### Arrays
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
@@ -112,3 +112,4 @@
 | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/2D_Array_DS/2d_array_ds.cpp)</li><ul></p> | **Easy**
 | [Dynamic Array](https://www.hackerrank.com/challenges/dynamic-array) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/Dynamic_Array/dynamic_array.cpp)</li><ul></p> | **Easy**
 | [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/Left_Rotation/left_rotation.cpp)</li><ul></p> | **Easy**
+| [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays) | <p align="center"><ul><li>[C++](./Data_Structures/Warmup/Sparse_Arrays/sparse_arrays.cpp)</li><ul></p> | **Medium**
