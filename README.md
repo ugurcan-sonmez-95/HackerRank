@@ -18,7 +18,7 @@
 
 * [Arrays](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#arrays)
 
-### Algorithms-Warmup
+### Warmup
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
@@ -33,7 +33,7 @@
 | [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Birthday_Cake_Candles/birthday_cake_candles.cpp)</li><ul></p> | **Easy**
 | [Time Conversion](https://www.hackerrank.com/challenges/time-conversion) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Time_Conversion/time_conversion.cpp)</li><ul></p> | **Easy**
 
-### Algorithms-Implementation
+### Implementation
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
