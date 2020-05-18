@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-82-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-83-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -17,6 +17,7 @@
 ## Data Structures
 
 * [Arrays](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#arrays)
+* [Linked Lists](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#linkedlists)
 
 ### Warmup
 
@@ -114,3 +115,9 @@
 | [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Left_Rotation/left_rotation.cpp)</li><ul></p> | **Easy**
 | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Sparse_Arrays/sparse_arrays.cpp)</li><ul></p> | **Medium**
 | [Array Manipulation](https://www.hackerrank.com/challenges/crush) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Array_Manipulation/array_manipulation.cpp)</li><ul></p> | **Hard**
+
+### Linked Lists
+
+| Name | Solution | Difficulty
+| ---- | -------- | :--------:
+| [Print the Elements of a Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Print_the_Elements_of_a_Linked_List/print_the_elements_of_a_linked_list.cpp)</li><ul></p> | **Easy**
