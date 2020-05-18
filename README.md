@@ -17,7 +17,7 @@
 ## Data Structures
 
 * [Arrays](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#arrays)
-* [Linked Lists](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#linkedlists)
+* [Linked Lists](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#linked_lists)
 
 ### Warmup
 
@@ -116,7 +116,7 @@
 | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Sparse_Arrays/sparse_arrays.cpp)</li><ul></p> | **Medium**
 | [Array Manipulation](https://www.hackerrank.com/challenges/crush) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Array_Manipulation/array_manipulation.cpp)</li><ul></p> | **Hard**
 
-### Linked Lists
+### Linked_Lists
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
