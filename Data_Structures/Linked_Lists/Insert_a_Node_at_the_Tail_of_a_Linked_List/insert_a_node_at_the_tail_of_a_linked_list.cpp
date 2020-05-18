@@ -1,6 +1,7 @@
 // Insert a Node at the Tail of a Linked List - Solution
 
 #include <iostream>
+#include <memory>
 
 class SinglyLinkedListNode {
     public:
@@ -51,7 +52,7 @@ SinglyLinkedListNode* insertNodeAtTail(SinglyLinkedListNode* head, int data) {
 }
 
 int main() {
-    SinglyLinkedList* llist = new SinglyLinkedList();
+    std::unique_ptr<SinglyLinkedList> llist = std::make_unique<SinglyLinkedList>();
     int llist_count;
     std::cin >> llist_count;
     for (int i = 0; i < llist_count; i++) {
