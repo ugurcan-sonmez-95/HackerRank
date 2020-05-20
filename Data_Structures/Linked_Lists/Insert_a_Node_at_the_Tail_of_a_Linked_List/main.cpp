@@ -36,17 +36,23 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
+// Inserts a node at the end of the linked list
 SinglyLinkedListNode* insertNodeAtTail(SinglyLinkedListNode* head, int data) {
     SinglyLinkedListNode *new_node = new SinglyLinkedListNode(data);
     SinglyLinkedListNode *last = head;
+    // Assign data to the new_node's data
     new_node->data = data;
+    // Make new_node the last node
     new_node->next = nullptr;
+    // If the linked list is empty, make the head as new_node
     if (head == nullptr) {
         head = new_node;
         return head;
     }
+    // Otherwise, traverse until the last node
     while (last->next != nullptr)
         last = last->next;
+    // Assign new_node to last->next
     last->next = new_node;
     return head; 
 }

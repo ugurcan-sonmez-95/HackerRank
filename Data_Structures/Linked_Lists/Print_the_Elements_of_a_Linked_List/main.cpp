@@ -40,6 +40,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
+// Prints the linked list
 void printLinkedList(SinglyLinkedListNode* head) {
     while (head != nullptr) {
         std::cout << head->data << std::endl;
