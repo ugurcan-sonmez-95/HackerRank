@@ -49,7 +49,7 @@
 | [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Day_of_the_Programmer/main.cpp)</li><ul></p> | **Easy**
 | [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bon_Appétit/main.cpp)</li><ul></p> | **Easy**
 | [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sock_Merchant/main.cpp)</li><ul></p> | **Easy**
-| [Drawing Book](https://www.hackerrank.com/challenges/drawing-book) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sock_Merchant/main.cpp)</li><ul></p> | **Easy**
+| [Drawing Book](https://www.hackerrank.com/challenges/drawing-book) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Drawing_Book/main.cpp)</li><ul></p> | **Easy**
 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Counting_Valleys/main.cpp)</li><ul></p> | **Easy**
 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Electronics_Shop/main.cpp)</li><ul></p> | **Easy**
 | [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Cats_and_a_Mouse/main.cpp)</li><ul></p> | **Easy**
