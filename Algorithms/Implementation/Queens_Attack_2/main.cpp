@@ -8,6 +8,7 @@ int queensAttack(int n, int k, int r_q, int c_q, std::vector<std::vector<int>> o
     int up {n - r_q}, down {r_q - 1}, left {c_q - 1}, right {n - c_q};
     int right_up = std::min(right,up), right_down = std::min(right,down);
     int left_up = std::min(left,up), left_down = std::min(left,down);
+    // Check all possible squares that queen can move 
     for (auto obstacle: obstacles) {
         if (obstacle[1] == c_q) {
             if (obstacle[0] < r_q) 
