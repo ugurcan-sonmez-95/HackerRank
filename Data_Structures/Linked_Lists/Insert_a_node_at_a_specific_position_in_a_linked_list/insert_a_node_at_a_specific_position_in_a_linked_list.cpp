@@ -33,7 +33,7 @@ class SinglyLinkedList {
 
 void print_singly_linked_list(SinglyLinkedListNode* node) {
     while (node) {
-        std::cout << node->data << std::endl;
+        std::cout << node->data << " ";
         node = node->next;
     }
 }
@@ -42,7 +42,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     while (node) {
         SinglyLinkedListNode* temp = node;
         node = node->next;
-        free(temp);
+        delete temp;
     }
 }
 
