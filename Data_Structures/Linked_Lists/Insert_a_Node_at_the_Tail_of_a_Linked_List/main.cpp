@@ -23,7 +23,7 @@ class SinglyLinkedList {
 
 void print_singly_linked_list(SinglyLinkedListNode* node) {
     while (node) {
-        std::cout << node->data << std::endl;
+        std::cout << node->data << '\n';
         node = node->next;
     }
 }

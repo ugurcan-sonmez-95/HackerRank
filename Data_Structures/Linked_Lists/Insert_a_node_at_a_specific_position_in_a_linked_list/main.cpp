@@ -68,6 +68,7 @@ SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data,
     prev->next = new_node;
     return head;
     delete new_node;
+    delete prev;
 }
 
 int main() {
