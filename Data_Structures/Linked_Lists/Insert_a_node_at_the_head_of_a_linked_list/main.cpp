@@ -38,6 +38,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
+// Inserts a node at the head of the linked list
 SinglyLinkedListNode* insertNodeAtHead(SinglyLinkedListNode* head, int data) {
     SinglyLinkedListNode *new_node = new SinglyLinkedListNode(data);
     // Assign data to new_node's data

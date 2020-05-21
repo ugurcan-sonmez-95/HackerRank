@@ -47,6 +47,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
+// Deletes a node
 SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, int position) {
     // If the linked list is empty
     if (head == nullptr)

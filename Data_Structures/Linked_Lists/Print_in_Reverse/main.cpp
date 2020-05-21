@@ -46,6 +46,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
+// Prints the reversed linked list
 void reversePrint(SinglyLinkedListNode* head) {
     // Initialize prev, cur and next
     SinglyLinkedListNode *cur = head, *prev = nullptr, *next = nullptr;

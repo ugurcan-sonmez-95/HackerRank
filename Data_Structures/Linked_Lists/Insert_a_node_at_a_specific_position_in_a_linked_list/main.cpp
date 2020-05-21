@@ -46,6 +46,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
+// Inserts node to a specific position
 SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data, int position) {
     SinglyLinkedListNode *new_node = new SinglyLinkedListNode(data);
     new_node->data = data;
