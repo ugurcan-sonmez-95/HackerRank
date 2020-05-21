@@ -28,7 +28,7 @@ int main() {
     }
     std::vector<int> result = circularArrayRotation(a, k, queries);
     for (auto el: result) 
-        std::cout << el << std::endl;
+        std::cout << el << '\n';
 
     return 0;
 }

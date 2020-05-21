@@ -14,7 +14,7 @@ int main() {
     int x1, v1, x2, v2;
     std::cin >> x1 >> v1 >> x2 >> v2;
     std::string result = kangaroo(x1, v1, x2, v2);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

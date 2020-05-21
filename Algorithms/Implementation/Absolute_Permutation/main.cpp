@@ -37,7 +37,7 @@ int main() {
         std::vector<int> result = absolutePermutation(n, k);
         for (auto el: result)
             std::cout << el << " ";
-        std::cout << std::endl;
+        std::cout << '\n';
         t--;
     }
     return 0;

@@ -17,7 +17,7 @@ int main() {
         if (orange_dist >= s && orange_dist <= t) 
             orange_on_house++;
     }
-    std::cout << apple_on_house << "\n" << orange_on_house << std::endl;
+    std::cout << apple_on_house << "\n" << orange_on_house;
     
     return 0;
 }

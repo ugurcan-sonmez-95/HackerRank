@@ -24,7 +24,7 @@ int main() {
         std::cin >> s[i];
     }
     int result = nonDivisibleSubset(n, k, s);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

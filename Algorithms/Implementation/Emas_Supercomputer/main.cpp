@@ -40,7 +40,7 @@ int main() {
     int n, m, N{20};
     std::cin >> n >> m;
     int result = twoPluses(n, m, N);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

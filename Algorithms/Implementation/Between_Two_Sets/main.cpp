@@ -45,7 +45,7 @@ int main() {
         std::cin >> b[j];
     }
     int result = getTotalX(a, b);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

@@ -23,7 +23,7 @@ int main() {
         std::cin >> vec[i];
     }
     int result = equalizeArray(vec);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

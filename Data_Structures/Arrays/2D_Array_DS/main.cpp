@@ -25,7 +25,7 @@ int main() {
         }
     }
     int result = hourglassSum(v);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

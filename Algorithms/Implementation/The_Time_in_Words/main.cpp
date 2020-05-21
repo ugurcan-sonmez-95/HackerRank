@@ -60,7 +60,7 @@ int main() {
     int h, m;
     std::cin >> h >> m;
     std::string result = timeInWords(h, m);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

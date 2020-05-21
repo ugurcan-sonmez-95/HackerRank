@@ -14,7 +14,7 @@ int main() {
         int n, m, s;
         std::cin >> n >> m >> s;
         int result = saveThePrisoner(n, m, s);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         t--;
     }
     return 0;

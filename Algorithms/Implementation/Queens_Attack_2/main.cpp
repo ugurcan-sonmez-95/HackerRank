@@ -54,7 +54,7 @@ int main() {
         }
     }
     int result = queensAttack(n, k, r_q, c_q, obstacles);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

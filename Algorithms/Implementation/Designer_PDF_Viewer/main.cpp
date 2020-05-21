@@ -20,7 +20,7 @@ int main() {
     std::string word;
     std::cin >> word;
     int result = designerPdfViewer(h, word);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

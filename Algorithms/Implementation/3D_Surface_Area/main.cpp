@@ -31,7 +31,7 @@ int main() {
         } 
     }
     int result = surfaceArea(A);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

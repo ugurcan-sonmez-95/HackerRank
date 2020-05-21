@@ -10,7 +10,7 @@ int main() {
     h = (apm == 'A') ? (h == 12 ? 0 : h) : (h == 12 ? 12 : h+12);
     std::cout << std::setw(2) << std::setfill('0') << h << ':'
               << std::setw(2) << std::setfill('0') << m << ':'
-              << std::setw(2) << std::setfill('0') << s << std::endl; 
+              << std::setw(2) << std::setfill('0') << s << '\n'; 
 
     return 0;
 }

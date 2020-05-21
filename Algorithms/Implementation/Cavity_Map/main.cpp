@@ -18,7 +18,7 @@ int main() {
     for (int a{}; a < n; a++) {
         for (int b{}; b < n; b++)
             std::cout << vec[a][b];
-        std::cout << std::endl;
+        std::cout << '\n';
     }
     return 0;
 }

@@ -24,7 +24,7 @@ int main() {
     while (g != 0) {
         std::cin >> n >> b;
         std::string result = happyLadybugs(b);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         g--;
     }
     return 0;

@@ -18,7 +18,7 @@ int main() {
     while (q != 0) {
         std::cin >> a >> b;
         int result = squares(a, b);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         q--;
     }
     return 0;

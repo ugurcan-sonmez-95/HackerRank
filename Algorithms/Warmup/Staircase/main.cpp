@@ -5,7 +5,7 @@
 void staircase(int n) {
     for (int i{1}; i <= n; i++) {
         std::string hash(i,'#'), space(n-i,' ');
-        std::cout << space << std::right << hash << std::endl;
+        std::cout << space << std::right << hash << '\n';
     }
 }
 

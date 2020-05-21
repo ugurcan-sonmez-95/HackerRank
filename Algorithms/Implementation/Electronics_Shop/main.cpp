@@ -27,7 +27,7 @@ int main() {
         std::cin >> drives[j];
     }
     int result = getMoneySpent(keyboards, drives, b);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

@@ -23,7 +23,7 @@ int main() {
         std::cin >> a[i];
     }
     int result = pickingNumbers(a);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

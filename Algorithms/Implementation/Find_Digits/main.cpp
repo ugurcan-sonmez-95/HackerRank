@@ -20,7 +20,7 @@ int main() {
     for (int i{}; i < t; i++) {
         std::cin >> n;
         int result = findDigits(n);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
     }
     return 0;
 }

@@ -15,7 +15,7 @@ void miniMaxSum(std::vector<int> vec) {
         else if (vec[i] > max)
             max = vec[i];
     }
-    std::cout << (sum - max) << " " << (sum - min) << std::endl;
+    std::cout << (sum - max) << " " << (sum - min) << '\n';
 }
 
 int main() {

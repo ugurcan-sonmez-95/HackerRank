@@ -20,7 +20,7 @@ int main() {
             std::cin >> a[i];
         }
         std::string result = angryProfessor(k, a);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         t--;
     }
     return 0;

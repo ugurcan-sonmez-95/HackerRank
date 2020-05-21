@@ -21,7 +21,7 @@ int main() {
     std::string s;
     std::cin >> s;
     int result = countingValleys(n, s);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

@@ -25,7 +25,7 @@ int main() {
         for (int i{}; i < A.size(); i++) 
             std::cin >> A[i];
         std::string result = larrysArray(A);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         t--;
     }
     return 0;

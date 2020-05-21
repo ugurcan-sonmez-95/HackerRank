@@ -13,7 +13,7 @@ int main() {
         int i, j;
         std::cin >> i >> j;
         int min = *std::min_element(indices+i, indices+j+1);
-        std::cout << min << std::endl;
+        std::cout << min << '\n';
     }
     return 0;
 }

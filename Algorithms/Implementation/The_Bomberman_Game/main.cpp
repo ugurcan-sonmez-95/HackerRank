@@ -62,7 +62,7 @@ int main() {
     }
     std::vector<std::string> result = bomberMan(r, c, n, grid);
     for (auto el: result)
-        std::cout << el << std::endl;
+        std::cout << el << '\n';
 
     return 0;
 }

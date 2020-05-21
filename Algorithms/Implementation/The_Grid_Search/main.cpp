@@ -43,7 +43,7 @@ int main() {
                 P.push_back(s2);
         }
         std::string result = gridSearch(G, P);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         t--;
     }
     return 0;

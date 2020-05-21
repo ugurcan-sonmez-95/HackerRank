@@ -16,7 +16,7 @@ int main() {
         int n;
         std::cin >> n;
         int result = utopianTree(n);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
     }
     return 0;
 }

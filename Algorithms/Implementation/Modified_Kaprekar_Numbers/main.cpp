@@ -15,7 +15,7 @@ void kaprekarNumbers(long p, long q) {
         } 
     }
     if (testCount == 0) 
-        std::cout << "INVALID RANGE" << std::endl;
+        std::cout << "INVALID RANGE";
 }
 
 int main() {

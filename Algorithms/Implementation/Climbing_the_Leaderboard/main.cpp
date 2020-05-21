@@ -35,7 +35,7 @@ int main() {
         std::cin >> alice[j];
     std::vector<int> result = climbingLeaderboard(scores, alice);
     for (auto el: result)
-        std::cout << el << std::endl;
+        std::cout << el << '\n';
 
     return 0;
 }

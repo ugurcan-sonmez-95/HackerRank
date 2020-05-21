@@ -20,7 +20,7 @@ int main() {
     int d1, m1, y1, d2, m2, y2;
     std::cin >> d1 >> m1 >> y1 >> d2 >> m2 >> y2;
     int result = libraryFine(d1, m1, y1, d2, m2, y2);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

@@ -38,7 +38,7 @@ void matrixRotation(int m, int n, int r, std::vector<std::vector<int>> matrix) {
     for (int i{}; i < matrix.size(); i++) {
         for (int j{}; j < matrix[0].size(); j++) 
             std::cout << matrix[i][j] << " ";
-        std::cout << std::endl;
+        std::cout << '\n';
     }
 }
 

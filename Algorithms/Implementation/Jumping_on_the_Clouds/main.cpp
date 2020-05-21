@@ -23,7 +23,7 @@ int main() {
         std::cin >> c[i];
     }
     int result = jumpingOnClouds(c);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

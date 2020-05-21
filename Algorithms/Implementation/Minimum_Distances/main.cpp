@@ -28,7 +28,7 @@ int main() {
         std::cin >> a[i];
     }
     int result = minimumDistances(a);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

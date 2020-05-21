@@ -19,7 +19,7 @@ int main() {
     while (t != 0) {
         std::cin >> b >> w >> bc >> wc >> z;
         long result = taumBday(b, w, bc, wc, z);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         t--;
     }
     return 0;

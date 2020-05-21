@@ -13,7 +13,7 @@ int main() {
     int n, p; 
     std::cin >> n >> p;
     int result = pageCount(n, p);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

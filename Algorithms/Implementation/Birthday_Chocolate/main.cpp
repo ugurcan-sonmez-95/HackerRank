@@ -25,7 +25,7 @@ int main() {
     int d, m;
     std::cin >> d >> m;
     int result = birthday(s, d, m);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

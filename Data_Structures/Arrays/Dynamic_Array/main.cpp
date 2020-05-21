@@ -33,7 +33,7 @@ int main() {
     }
     std::vector<int> result = dynamicArray(N, queries);
     for (auto el: result)
-        std::cout << el << std::endl;
+        std::cout << el << '\n';
 
     return 0;
 }

@@ -18,7 +18,7 @@ int main() {
     int year;
     std::cin >> year;
     std::string result = dayOfProgrammer(year);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

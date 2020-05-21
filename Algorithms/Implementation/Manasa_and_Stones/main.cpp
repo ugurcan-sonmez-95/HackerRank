@@ -19,7 +19,7 @@ int main() {
     std::cin >> n >> a >> b;
     std::set<int> result = stones(n, a, b);
     std::for_each(result.begin(), result.end(), [](int x) { std::cout << x << " "; });
-    std::cout << std::endl;
+    std::cout << '\n';
     t--;
     }
     return 0;

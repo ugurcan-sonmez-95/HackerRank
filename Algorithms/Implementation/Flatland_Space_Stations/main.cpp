@@ -25,7 +25,7 @@ int main() {
         std::cin >> c[i];
     }
     int result = flatlandSpaceStations(n, c);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

@@ -28,7 +28,7 @@ int main() {
         std::cin >> vec[i];
     }
     int result = migratoryBirds(vec);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

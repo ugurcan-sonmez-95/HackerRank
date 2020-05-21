@@ -23,7 +23,7 @@ int main() {
     long n;
     std::cin >> n;
     long result = repeatedString(s, n);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

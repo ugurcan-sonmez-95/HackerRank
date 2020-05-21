@@ -19,7 +19,7 @@ int main() {
     int p, d, m, s;
     std::cin >> p >> d >> m >> s;
     int result = howManyGames(p, d, m, s);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

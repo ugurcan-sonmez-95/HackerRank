@@ -17,7 +17,7 @@ int main() {
     int n;
     std::cin >> n;
     int result = viralAdvertising(n);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

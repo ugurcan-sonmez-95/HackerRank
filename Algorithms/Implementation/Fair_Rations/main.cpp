@@ -34,7 +34,7 @@ int main() {
         std::cin >> B[i];
     }
     std::string result = fairRations(B);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

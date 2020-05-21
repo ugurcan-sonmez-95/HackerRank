@@ -14,7 +14,7 @@ int main() {
     while (T != 0) {
         std::cin >> w;
         std::string result = biggerIsGreater(w);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         T--;
     }
     return 0;

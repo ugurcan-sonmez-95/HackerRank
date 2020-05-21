@@ -22,7 +22,7 @@ int main() {
     int i, j, k;
     std::cin >> i >> j >> k;
     int result = beautifulDays(i, j, k);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }

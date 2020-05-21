@@ -21,7 +21,7 @@ int main() {
     while (t != 0) {
         std::cin >> n >> c >> m;
         int result = chocolateFeast(n, c, m);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         t--;
     }
     return 0;

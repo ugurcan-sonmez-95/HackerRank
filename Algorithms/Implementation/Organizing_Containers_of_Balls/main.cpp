@@ -42,7 +42,7 @@ int main() {
             } 
         }
         std::string result = organizingContainers(container);
-        std::cout << result << std::endl;
+        std::cout << result << '\n';
         q--;
     }
     return 0;

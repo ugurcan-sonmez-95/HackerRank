@@ -40,7 +40,7 @@ int main() {
     }
     std::vector<int> result = acmTeam(topic);
     for (auto el: result) 
-        std::cout << el << std::endl;
+        std::cout << el << '\n';
 
     return 0;
 }

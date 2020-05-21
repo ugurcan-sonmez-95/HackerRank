@@ -17,7 +17,7 @@ int main() {
         std::cin >> height[i];
     }
     int result = hurdleRace(k, height);
-    std::cout << result << std::endl;
+    std::cout << result;
 
     return 0;
 }
