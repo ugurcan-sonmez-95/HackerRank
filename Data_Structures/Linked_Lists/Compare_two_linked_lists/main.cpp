@@ -48,7 +48,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
 
 // Compares two linked lists
 bool compare_lists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
-    // Traverse both linked lists and stop if there is a mismatching or when reaching the end of a linked list
+    // Traverse both linked lists and stop whether there is a mismatching or when reaching the end of a linked list
     while (head1 && head2 && head1->data == head2->data) {
         head1 = head1->next;
         head2 = head2->next;
