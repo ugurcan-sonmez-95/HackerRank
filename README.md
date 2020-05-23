@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-88-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-90-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -126,3 +126,5 @@
 | [Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Insert_a_node_at_a_specific_position_in_a_linked_list/main.cpp)</li><ul></p> | **Easy**
 | [Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Delete_a_Node/main.cpp)</li><ul></p> | **Easy**
 | [Print in Reverse](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Print_in_Reverse/main.cpp)</li><ul></p> | **Easy**
+| [Reverse a linked list](https://www.hackerrank.com/challenges/reverse-a-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Reverse_a_linked_list/main.cpp)</li><ul></p> | **Easy**
+| [Compare two linked lists](https://www.hackerrank.com/challenges/compare-two-linked-lists) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Compare_two_linked_lists/main.cpp)</li><ul></p> | **Easy**
