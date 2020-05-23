@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-90-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-91-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -128,3 +128,4 @@
 | [Print in Reverse](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Print_in_Reverse/main.cpp)</li><ul></p> | **Easy**
 | [Reverse a linked list](https://www.hackerrank.com/challenges/reverse-a-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Reverse_a_linked_list/main.cpp)</li><ul></p> | **Easy**
 | [Compare two linked lists](https://www.hackerrank.com/challenges/compare-two-linked-lists) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Compare_two_linked_lists/main.cpp)</li><ul></p> | **Easy**
+| [Merge two sorted linked lists](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Merge_two_sorted_linked_lists/main.cpp)</li><ul></p> | **Easy**
