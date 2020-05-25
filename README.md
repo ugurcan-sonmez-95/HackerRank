@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-95-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-96-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -133,3 +133,4 @@
 | [Delete duplicate-value nodes from a sorted linked list](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Delete_duplicate-value_nodes_from_a_sorted_linked_list/main.cpp)</li><ul></p> | **Easy**
 | [Find Merge Point of Two Lists](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Find_Merge_Point_of_Two_Lists/main.cpp)</li><ul></p> | **Easy**
 | [Inserting a Node Into a Sorted Doubly Linked List](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Inserting_a_Node_Into_a_Sorted_Doubly_Linked_List/main.cpp)</li><ul></p> | **Easy**
+| [Reverse a doubly linked list](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Reverse_a_doubly_linked_list/main.cpp)</li><ul></p> | **Easy**
