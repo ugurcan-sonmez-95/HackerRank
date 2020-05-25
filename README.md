@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-92-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-93-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -130,3 +130,4 @@
 | [Compare two linked lists](https://www.hackerrank.com/challenges/compare-two-linked-lists) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Compare_two_linked_lists/main.cpp)</li><ul></p> | **Easy**
 | [Merge two sorted linked lists](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Merge_two_sorted_linked_lists/main.cpp)</li><ul></p> | **Easy**
 | [Get Node Value](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Get_Node_Value/main.cpp)</li><ul></p> | **Easy**
+| [Delete duplicate-value nodes from a sorted linked list](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list) | <p align="center"><ul><li>[C++](./Data_Structures/Linked_Lists/Delete_duplicate-value_nodes_from_a_sorted_linked_list/main.cpp)</li><ul></p> | **Easy**
