@@ -82,6 +82,7 @@ int main() {
         SinglyLinkedListNode *llist1 = removeDuplicates(llist->head);
         print_singly_linked_list(llist1);
         free_singly_linked_list(llist1);
+        delete llist1;
     }
     return 0;
 }
