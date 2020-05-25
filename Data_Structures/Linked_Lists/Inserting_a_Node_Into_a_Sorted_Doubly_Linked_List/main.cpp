@@ -50,6 +50,7 @@ void free_doubly_linked_list(DoublyLinkedListNode* node) {
     }
 }
 
+// Inserts a node into a sorted doubly linked list
 DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* head, int data) {
     // Check whether the linked list is empty
     if (head == nullptr) {
