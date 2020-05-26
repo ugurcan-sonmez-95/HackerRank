@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-98-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-99-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -111,6 +111,7 @@
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
 | [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Super_Reduced_String/main.cpp)</li><ul></p> | **Easy**
+| [CamelCase](https://www.hackerrank.com/challenges/camelcase) | <p align="center"><ul><li>[C++](./Algorithms/Strings/CamelCase/main.cpp)</li><ul></p> | **Easy**
 
 ### Arrays
 
