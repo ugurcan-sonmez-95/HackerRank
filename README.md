@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-97-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-98-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++-red.svg">
 </p>
 
@@ -13,6 +13,7 @@
 
 * [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#warmup)
 * [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#implementation)
+* [Strings](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#strings)
 
 ## Data Structures
 
@@ -104,6 +105,12 @@
 | [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Larrys_Array/main.cpp)</li><ul></p> | **Medium**
 | [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/main.cpp)</li><ul></p> | **Medium**
 | [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/main.cpp)</li><ul></p> | **Hard**
+
+### Strings
+
+| Name | Solution | Difficulty
+| ---- | -------- | :--------:
+| [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Super_Reduced_String/main.cpp)</li><ul></p> | **Easy**
 
 ### Arrays
 
