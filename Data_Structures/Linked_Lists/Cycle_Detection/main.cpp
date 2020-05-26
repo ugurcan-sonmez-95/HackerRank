@@ -52,7 +52,7 @@ bool has_cycle(SinglyLinkedListNode* head) {
     SinglyLinkedListNode *ptr1 = head, *ptr2 = head;
     // ptr1 goes one step forward and ptr2 goes two steps forward
     // We compare them after these steps. 
-    // If there is no equality and the loop finds out whether there is a cycle, the output will be 0. Else 1.
+    // If there is no equality and the loop finds out there is not a cycle, the output will be 0. Else 1.
     while (ptr1 && ptr2 && ptr2->next) {
         ptr1 = ptr1->next;
         ptr2 = ptr2->next->next;
