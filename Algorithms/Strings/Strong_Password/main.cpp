@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cctype>
+#include <string>
 #include <algorithm>
 
 int minimumNumber(int n, std::string password) {
@@ -39,7 +40,7 @@ int main() {
     char ch;
     for (int i{}; i < n; i++) {
         std::cin >> ch;
-        password.append(1, ch);
+        password.push_back(ch);
     }
     int result = minimumNumber(n, password);
     std::cout << result; 
