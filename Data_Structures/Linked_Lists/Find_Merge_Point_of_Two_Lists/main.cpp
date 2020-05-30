@@ -67,35 +67,35 @@ int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
 }
 
 int main() {
-    int tests;
-    std::cin >> tests;
-    for (int tests_itr = 0; tests_itr < tests; tests_itr++) {
+    int testCount;
+    std::cin >> testCount;
+    for (int i = 0; i < testCount; i++) {
         int index;
         std::cin >> index;
         std::unique_ptr<SinglyLinkedList> llist1 = std::make_unique<SinglyLinkedList>();
-        int llist1_count;
-        std::cin >> llist1_count;
-        for (int i = 0; i < llist1_count; i++) {
+        int llist1_size;
+        std::cin >> llist1_size;
+        for (int i = 0; i < llist1_size; i++) {
             int llist1_item;
             std::cin >> llist1_item;
             llist1->insert_node(llist1_item);
         }
         std::unique_ptr<SinglyLinkedList> llist2 = std::make_unique<SinglyLinkedList>();
-        int llist2_count;
-        std::cin >> llist2_count;
-        for (int i = 0; i < llist2_count; i++) {
+        int llist2_size;
+        std::cin >> llist2_size;
+        for (int i = 0; i < llist2_size; i++) {
             int llist2_item;
             std::cin >> llist2_item;
             llist2->insert_node(llist2_item);
         }
         SinglyLinkedListNode *ptr1 = llist1->head;
       	SinglyLinkedListNode *ptr2 = llist2->head;
-        for (int i = 0; i < llist1_count; i++) {
+        for (int i = 0; i < llist1_size; i++) {
             if (i < index)
           		ptr1 = ptr1->next;
         }
-      	for (int i = 0; i < llist2_count; i++) {
-          	if (i != llist2_count-1) 
+      	for (int i = 0; i < llist2_size; i++) {
+          	if (i != llist2_size-1) 
           		ptr2 = ptr2->next;
         }
       	ptr2->next = ptr1;

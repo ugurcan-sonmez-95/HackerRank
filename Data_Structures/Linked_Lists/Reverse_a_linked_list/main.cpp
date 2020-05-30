@@ -67,13 +67,13 @@ SinglyLinkedListNode* reverse(SinglyLinkedListNode* head) {
 }
 
 int main() {
-    int tests;
-    std::cin >> tests;
-    for (int tests_itr = 0; tests_itr < tests; tests_itr++) {
+    int testCount;
+    std::cin >> testCount;
+    for (int i = 0; i < testCount; i++) {
         std::unique_ptr<SinglyLinkedList> llist = std::make_unique<SinglyLinkedList>();
-        int llist_count;
-        std::cin >> llist_count;
-        for (int i = 0; i < llist_count; i++) {
+        int llist_size;
+        std::cin >> llist_size;
+        for (int i = 0; i < llist_size; i++) {
             int llist_item;
             std::cin >> llist_item;
             llist->insert_node(llist_item);

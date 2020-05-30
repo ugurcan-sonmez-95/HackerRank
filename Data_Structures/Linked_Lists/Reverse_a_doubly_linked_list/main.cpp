@@ -69,13 +69,13 @@ DoublyLinkedListNode* reverse(DoublyLinkedListNode* head) {
 }
 
 int main() {
-    int t;
-    std::cin >> t;
-    for (int t_itr = 0; t_itr < t; t_itr++) {
+    int testCount;
+    std::cin >> testCount;
+    for (int i = 0; i < testCount; i++) {
         std::unique_ptr<DoublyLinkedList> llist = std::make_unique<DoublyLinkedList>();
-        int llist_count;
-        std::cin >> llist_count;
-        for (int i = 0; i < llist_count; i++) {
+        int llist_size;
+        std::cin >> llist_size;
+        for (int i = 0; i < llist_size; i++) {
             int llist_item;
             std::cin >> llist_item;
             llist->insert_node(llist_item);

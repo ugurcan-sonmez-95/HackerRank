@@ -74,9 +74,9 @@ SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data,
 
 int main() {
     std::unique_ptr<SinglyLinkedList> llist = std::make_unique<SinglyLinkedList>();
-    int llist_count;
-    std::cin >> llist_count;
-    for (int i = 0; i < llist_count; i++) {
+    int llist_size;
+    std::cin >> llist_size;
+    for (int i = 0; i < llist_size; i++) {
         int llist_item;
         std::cin >> llist_item;
         llist->insert_node(llist_item);
