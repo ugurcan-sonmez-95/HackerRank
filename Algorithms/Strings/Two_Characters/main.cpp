@@ -22,10 +22,9 @@ int maxAlternateStringSize(std::string s) {
     for (int i{}; i < vec_of_chars.size(); i++) {
         for (int j{i+1}; j < vec_of_chars.size(); j++) {
             std::vector<char> chars_to_validate;
-            for (auto ch: s) {
+            for (auto ch: s) 
                 if (ch == vec_of_chars[i] || ch == vec_of_chars[j]) // Gets only two distinct elements from s and adds them to a vector
                     chars_to_validate.push_back(ch);
-            }
             if (validation(chars_to_validate)) 
                 max_size = std::max(max_size, static_cast<int>(chars_to_validate.size()));
         }
