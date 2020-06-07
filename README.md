@@ -6,7 +6,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Problems%20Solved-101-brightgreen.svg">
-    <img src="https://img.shields.io/badge/Language-C++-red.svg">
+    <img src="https://img.shields.io/badge/Language-C++, Python 3-red.svg">
 </p>
 
 ## Algorithms
@@ -24,16 +24,16 @@
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
-| [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Solve_Me_First/main.cpp)</li><ul></p> | **Easy**
-| [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Simple_Array_Sum/main.cpp)</li><ul></p> |**Easy**
-| [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Compare_the_Triplets/main.cpp)</li><ul></p> | **Easy**
-| [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/A_Very_Big_Sum/main.cpp)</li><ul></p> | **Easy**
-| [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Diagonal_Difference/main.cpp)</li><ul></p> | **Easy**
-| [Plus Minus](https://www.hackerrank.com/challenges/plus-minus) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Plus_Minus/main.cpp)</li><ul></p> | **Easy**
-| [Staircase](https://www.hackerrank.com/challenges/staircase) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Staircase/main.cpp)</li><ul></p> | **Easy**
-| [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Mini_Max_Sum/main.cpp)</li><ul></p> | **Easy**
-| [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Birthday_Cake_Candles/main.cpp)</li><ul></p> | **Easy**
-| [Time Conversion](https://www.hackerrank.com/challenges/time-conversion) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Time_Conversion/main.cpp)</li><ul></p> | **Easy**
+| [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Solve_Me_First/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Solve_Me_First/main.py)</li><ul></p> | **Easy**
+| [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Simple_Array_Sum/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Simple_Array_Sum/main.py)</li><ul></p> |**Easy**
+| [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Compare_the_Triplets/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Compare_the_Triplets/main.py)</li><ul></p> | **Easy**
+| [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/A_Very_Big_Sum/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/A_Very_Big_Sum/main.py)</li><ul></p> | **Easy**
+| [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Diagonal_Difference/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Diagonal_Difference/main.py)</li><ul></p> | **Easy**
+| [Plus Minus](https://www.hackerrank.com/challenges/plus-minus) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Plus_Minus/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Plus_Minus/main.py)</li><ul></p> | **Easy**
+| [Staircase](https://www.hackerrank.com/challenges/staircase) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Staircase/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Staircase/main.py)</li><ul></p> | **Easy**
+| [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Mini_Max_Sum/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Mini_Max_Sum/main.py)</li><ul></p> | **Easy**
+| [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Birthday_Cake_Candles/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Birthday_Cake_Candles/main.py)</li><ul></p> | **Easy**
+| [Time Conversion](https://www.hackerrank.com/challenges/time-conversion) | <p align="center"><ul><li>[C++](./Algorithms/Warmup/Time_Conversion/main.cpp)</li><li>[Python 3](./Algorithms/Warmup/Time_Conversion/main.py)</li><ul></p> | **Easy**
 
 ### Implementation
 
