@@ -39,14 +39,14 @@
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
-| [Grading Students](https://www.hackerrank.com/challenges/grading) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Grading_Students/main.cpp)</li><ul></p> | **Easy**
-| [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Apple_and_Orange/main.cpp)</li><ul></p> | **Easy**
-| [Kangaroo](https://www.hackerrank.com/challenges/kangaroo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Kangaroo/main.cpp)</li><ul></p> | **Easy**
-| [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Between_Two_Sets/main.cpp)</li><ul></p> | **Easy**
-| [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Breaking_the_Records/main.cpp)</li><ul></p> | **Easy**
-| [Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Birthday_Chocolate/main.cpp)</li><ul></p> | **Easy**
-| [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Divisible_Sum_Pairs/main.cpp)</li><ul></p> | **Easy**
-| [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Migratory_Birds/main.cpp)</li><ul></p> | **Easy**
+| [Grading Students](https://www.hackerrank.com/challenges/grading) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Grading_Students/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Grading_Students/main.py)</li><ul></p> | **Easy**
+| [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Apple_and_Orange/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Apple_and_Orange/main.py)</li><ul></p> | **Easy**
+| [Kangaroo](https://www.hackerrank.com/challenges/kangaroo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Kangaroo/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Kangaroo/main.py)</li><ul></p> | **Easy**
+| [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Between_Two_Sets/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Between_Two_Sets/main.py)</li><ul></p> | **Easy**
+| [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Breaking_the_Records/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Breaking_the_Records/main.py)</li><ul></p> | **Easy**
+| [Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Birthday_Chocolate/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Birthday_Chocolate/main.py)</li><ul></p> | **Easy**
+| [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Divisible_Sum_Pairs/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Divisible_Sum_Pairs/main.py)</li><ul></p> | **Easy**
+| [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Migratory_Birds/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Migratory_Birds/main.py)</li><ul></p> | **Easy**
 | [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Day_of_the_Programmer/main.cpp)</li><ul></p> | **Easy**
 | [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Bon_Appétit/main.cpp)</li><ul></p> | **Easy**
 | [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Sock_Merchant/main.cpp)</li><ul></p> | **Easy**
