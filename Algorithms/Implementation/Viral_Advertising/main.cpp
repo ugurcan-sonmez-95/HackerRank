@@ -4,10 +4,10 @@
 #include <cmath>
 
 int viralAdvertising(int n) {
-    int cumulativeCount{2}, likeCount{2}, sharedCount{6};
-    for (int i{2}; i <= n; i++) {
-        likeCount = std::floor(sharedCount/2);
+    int sharedCount{5}, likeCount{2}, cumulativeCount{2};
+    for (int i{}; i < n-1; i++) {
         sharedCount = likeCount * 3;
+        likeCount = std::floor(sharedCount/2);
         cumulativeCount += likeCount;
     }
     return cumulativeCount;
