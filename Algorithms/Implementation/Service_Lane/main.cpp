@@ -1,19 +1,26 @@
 // Service Lane - Solution
 
 #include <iostream>
+#include <vector>
 #include <algorithm>
+
+int serviceLane(std::vector<int> width, int i, int j) {
+    int largest = *std::min_element(width.begin()+i, width.begin()+j+1);
+    return largest;
+}
 
 int main() {
     int n, t;
     std::cin >> n >> t;
-    int indices[n];
-    for (int a{}; a < n; a++)
-        std::cin >> indices[a];
-    for (int b{}; b < t; b++) {
-        int i, j;
+    std::vector<int> width(n);
+    for (int k{}; k < n; k++) 
+        std::cin >> width[k];
+    int i, j;
+    while (t != 0) {
         std::cin >> i >> j;
-        int min = *std::min_element(indices+i, indices+j+1);
-        std::cout << min << '\n';
+        int result = serviceLane(width, i, j);
+        std::cout << result << '\n';
+        t--;
     }
     return 0;
 }
