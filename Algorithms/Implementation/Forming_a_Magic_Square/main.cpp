@@ -6,7 +6,7 @@
 #include <cmath>
 
 int formingMagicSquare(std::vector<std::vector<int>> s) {
-    std::vector<std::vector<std::vector<int>>> allPossibilities 
+    std::vector<std::vector<std::vector<int>>> magic_squares 
                                    {{{8,1,6},{3,5,7},{4,9,2}}, 
                                     {{6,1,8},{7,5,3},{2,9,4}},
                                     {{4,9,2},{3,5,7},{8,1,6}},
@@ -20,7 +20,7 @@ int formingMagicSquare(std::vector<std::vector<int>> s) {
     for (int i{}; i < 8; i++) {
         for (int j{}; j < 3; j++) {
             for (int k{}; k < 3; k++) {
-                sum += std::abs(allPossibilities[i][j][k] - s[j][k]);
+                sum += std::abs(magic_squares[i][j][k] - s[j][k]);
             }
         }
         totalSum.push_back(sum);
