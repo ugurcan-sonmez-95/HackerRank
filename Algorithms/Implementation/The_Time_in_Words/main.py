@@ -1,7 +1,7 @@
 ### The Time in Words - Solution
 
 def timeInWords(h, m):
-    time_str, conversion = "", {}
+    conversion = {}
     conversion[1] = "one"
     conversion[2] = "two"
     conversion[3] = "three"
@@ -31,6 +31,7 @@ def timeInWords(h, m):
     conversion[27] = "twenty seven"
     conversion[28] = "twenty eight"
     conversion[29] = "twenty nine"
+    time_str = ""
     for i in range(1, 13):
         if ((h == i) and (m == 0)):
             time_str = conversion[i] + " o' clock"
