@@ -11,5 +11,5 @@ def chocolateFeast(n, c, m):
     print(chocolate_count)
 
 for _ in range(int(input())):
-    n, c, m = (int(x) for x in input().split())
+    n, c, m = map(int, input().split())
     chocolateFeast(n, c, m)

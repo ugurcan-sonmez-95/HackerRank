@@ -41,7 +41,7 @@ def bomberMan(n, grid):
         return final_grid2
     return final_grid3
 
-r, c, n = (int(x) for x in input().split())
+r, c, n = map(int, input().split())
 grid = [list(input()[:c]) for _ in range(r)]
 result = bomberMan(n, grid)
 for i in range(len(result)):

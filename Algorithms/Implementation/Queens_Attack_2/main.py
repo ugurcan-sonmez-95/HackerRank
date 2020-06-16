@@ -30,7 +30,7 @@ def queensAttack(*args):
     total = up + down + left + right + left_up + left_down + right_up + right_down
     print(total)
 
-n, k = (int(x) for x in input().split())
-r_q, c_q = (int(x) for x in input().split())
+n, k = map(int, input().split())
+r_q, c_q = map(int, input().split())
 obstacles = [list(map(int, input().split()[:2])) for _ in range(k)]
 queensAttack(n, k, r_q, c_q, obstacles)

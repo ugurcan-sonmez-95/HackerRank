@@ -8,7 +8,7 @@ def getTotalX(arrA, arrB):
                 count += 1
     print(count)
 
-n, m = (int(x) for x in input().split())
+n, m = map(int, input().split())
 arrA = list(map(int, input().split()[:n]))
 arrB = list(map(int, input().split()[:m]))
 getTotalX(arrA, arrB) 

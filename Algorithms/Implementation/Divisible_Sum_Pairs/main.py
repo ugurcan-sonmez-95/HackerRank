@@ -8,6 +8,6 @@ def divisibleSumPairs(k, arr):
                 count += 1
     print(count)
 
-n, k = (int(x) for x in input().split())
+n, k = map(int, input().split())
 arr = list(map(int, input().split()[:n]))
 divisibleSumPairs(k, arr)

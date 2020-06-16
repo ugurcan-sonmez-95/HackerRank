@@ -12,6 +12,6 @@ def surfaceArea(A):
                 area -= 2 * min(A[i][j-1], A[i][j])
     print(area)
 
-h, w = (int(x) for x in input().split())
+h, w = map(int, input().split())
 A = [list(map(int, input().split()[:w])) for _ in range(h)]
 surfaceArea(A)

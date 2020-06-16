@@ -7,5 +7,5 @@ def beautifulDays(i, j, k):
             count += 1
     print(count)
 
-i, j, k = (int(x) for x in input().split())
+i, j, k = map(int, input().split())
 beautifulDays(i, j, k)

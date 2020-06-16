@@ -22,5 +22,5 @@ def absolutePermutation(n, k):
     print(*perm)
 
 for _ in range(int(input())):
-    n, k = (int(x) for x in input().split())
+    n, k = map(int, input().split())
     absolutePermutation(n, k)

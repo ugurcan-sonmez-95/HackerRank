@@ -10,6 +10,6 @@ def libraryFine(*args):
         fine += 15 * (d1-d2)
     print(fine)
 
-d1, m1, y1 = (int(x) for x in input().split())
-d2, m2, y2 = (int(x) for x in input().split())
+d1, m1, y1 = map(int, input().split())
+d2, m2, y2 = map(int, input().split())
 libraryFine(d1, m1, y1, d2, m2, y2)

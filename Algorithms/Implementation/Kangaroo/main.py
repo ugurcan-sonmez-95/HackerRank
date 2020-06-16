@@ -9,5 +9,5 @@ def kangaroo(*args):
     else:
         print("NO")
 
-x1, v1, x2, v2 = (int(x) for x in input().split())
+x1, v1, x2, v2 = map(int, input().split())
 kangaroo(x1, v1, x2, v2)

@@ -40,7 +40,7 @@ def createRotatedMatrix(num_of_loops, final_matrix, rows):
             index %= len(r)
     return final_matrix
 
-def matrixRotation(*args):
+def main(*args):
     num_of_loops = min(row, col) // 2
     rows = storeRows(num_of_loops, matrix)
     final_matrix = deepcopy(matrix)
@@ -50,4 +50,4 @@ def matrixRotation(*args):
 
 row, col, rot_count = map(int, input().split())
 matrix = [list(map(int, input().split()[:col])) for _ in range(row)]
-matrixRotation(row, col, rot_count, matrix)
+main(row, col, rot_count, matrix)

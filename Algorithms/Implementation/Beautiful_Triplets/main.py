@@ -7,6 +7,6 @@ def beautifulTriplets(d, arr):
             count += 1
     print(count)
 
-n, d = (int(x) for x in input().split())
+n, d = map(int, input().split())
 arr = list(map(int, input().split()[:n]))
 beautifulTriplets(d, arr)

@@ -9,7 +9,7 @@ def getMoneySpent(keyboards, drives, b):
                 maximum = total
     print(maximum)
 
-b, n, m = (int(x) for x in input().split())
+b, n, m = map(int, input().split())
 keyboards = list(map(int, input().split()[:n]))
 drives = list(map(int, input().split()[:m]))
 getMoneySpent(keyboards, drives, b)

@@ -10,6 +10,6 @@ def workbook(*args):
                 page_num += 1
     print(special)
 
-n, k = (int(x) for x in input().split())
+n, k = map(int, input().split())
 arr = list(map(int, input().split()[:n]))
 workbook(n, k, arr)

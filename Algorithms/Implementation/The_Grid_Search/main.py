@@ -15,9 +15,9 @@ def gridSearch(grid, pattern):
     return "NO"
 
 for _ in range(int(input())):
-    R, C = (int(x) for x in input().split())
+    R, C = map(int, input().split())
     grid = [list(map(str, input()[:C])) for _ in range(R)]
-    r, c = (int(x) for x in input().split())
+    r, c = map(int, input().split())
     pattern = [list(map(str, input()[:c])) for _ in range(r)]
     result = gridSearch(grid, pattern)
     print(result)

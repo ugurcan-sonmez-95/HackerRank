@@ -11,5 +11,5 @@ def howManyGames(p, d, m, s):
             p = m
     print(count)
 
-p, d, m, s = (int(x) for x in input().split())
+p, d, m, s = map(int, input().split())
 howManyGames(p, d, m, s)

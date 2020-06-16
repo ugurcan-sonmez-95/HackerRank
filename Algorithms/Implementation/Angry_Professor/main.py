@@ -8,6 +8,6 @@ def angryProfessor(k, a):
     print("YES" if count < k else "NO")
 
 for _ in range(int(input())):
-    n, k = (int(x) for x in input().split())
+    n, k = map(int, input().split())
     a = list(map(int, input().split()[:n]))
     angryProfessor(k, a)

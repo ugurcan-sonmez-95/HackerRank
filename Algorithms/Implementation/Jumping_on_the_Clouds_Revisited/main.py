@@ -10,6 +10,6 @@ def jumpingOnClouds(c, k):
             energy -= 3
     print(energy)
 
-n, k = (int(x) for x in input().split())
+n, k = map(int, input().split())
 c = list(map(int, input().split()[:n]))
 jumpingOnClouds(c, k)

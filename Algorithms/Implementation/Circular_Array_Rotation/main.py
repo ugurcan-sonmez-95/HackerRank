@@ -5,7 +5,7 @@ def circularArrayRotation(arr, k):
     final_arr = (arr[-k:] + arr[:-k])
     return final_arr
 
-n, k, queries = (int(x) for x in input().split())
+n, k, queries = map(int, input().split())
 arr = list(map(int, input().split()[:n]))
 final_arr = circularArrayRotation(arr, k)
 for _ in range(queries):

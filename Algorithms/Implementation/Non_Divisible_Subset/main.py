@@ -11,6 +11,6 @@ def nonDivisibleSubset(k, s):
         result += max(subset_len[j], subset_len[k-j])
     print(result)
 
-n, k = (int(x) for x in input().split())
+n, k = map(int, input().split())
 s = list(map(int, input().split()[:n]))
 nonDivisibleSubset(k, s)

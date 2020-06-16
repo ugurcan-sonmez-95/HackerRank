@@ -9,5 +9,5 @@ def birthday(nums, d, m):
 
 squares = int(input())
 nums = list(map(int, input().split()[:squares]))
-d, m = (int(x) for x in input().split())
+d, m = map(int, input().split())
 birthday(nums, d, m)

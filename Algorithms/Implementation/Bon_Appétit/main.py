@@ -8,7 +8,7 @@ def bonAppetit(bill, k, b):
     else:
         print(b - costAnna)
 
-n, k = (int(x) for x in input().split())
+n, k = map(int, input().split())
 bill = list(map(int, input().split()[:n]))
 b = int(input())
 bonAppetit(bill, k, b)
