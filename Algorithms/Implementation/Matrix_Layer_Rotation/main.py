@@ -2,8 +2,7 @@
 
 from copy import deepcopy
 
-def matrixRotation(*args):
-    num_of_loops = min(row, col) // 2
+def storeRows(num_of_loops, matrix):
     rows = []
     for i in range(num_of_loops):
         r = []
@@ -16,7 +15,9 @@ def matrixRotation(*args):
         for m in range(col-i-1, i, -1):
             r.append(matrix[i][m])
         rows.append(r)
-    final_matrix = deepcopy(matrix)
+    return rows
+
+def createRotatedMatrix(num_of_loops, final_matrix, rows):
     for i in range(num_of_loops):
         r = rows[i]
         rotate = rot_count % len(r)
@@ -37,6 +38,13 @@ def matrixRotation(*args):
             final_matrix[i][m] = r[index]
             index += 1
             index %= len(r)
+    return final_matrix
+
+def matrixRotation(*args):
+    num_of_loops = min(row, col) // 2
+    rows = storeRows(num_of_loops, matrix)
+    final_matrix = deepcopy(matrix)
+    final_matrix = createRotatedMatrix(num_of_loops, final_matrix, rows)
     for i in final_matrix:
         print(*i)
 
