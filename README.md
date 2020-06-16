@@ -102,9 +102,9 @@
 | [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Absolute_Permutation/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Absolute_Permutation/main.py)</li><ul></p> | **Medium**
 | [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/The_Bomberman_Game/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/The_Bomberman_Game/main.py)</li><ul></p> | **Medium**
 | [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Emas_Supercomputer/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Emas_Supercomputer/main.py)</li><ul></p> | **Medium**
-| [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Larrys_Array/main.cpp)</li><ul></p> | **Medium**
-| [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/main.cpp)</li><ul></p> | **Medium**
-| [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/main.cpp)</li><ul></p> | **Hard**
+| [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Larrys_Array/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Larrys_Array/main.py)</li><ul></p> | **Medium**
+| [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Almost_Sorted/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Almost_Sorted/main.py)</li><ul></p> | **Medium**
+| [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) | <p align="center"><ul><li>[C++](./Algorithms/Implementation/Matrix_Layer_Rotation/main.cpp)</li><li>[Python 3](./Algorithms/Implementation/Matrix_Layer_Rotation/main.py)</li><ul></p> | **Hard**
 
 ### Strings
 

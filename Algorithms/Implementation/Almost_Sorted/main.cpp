@@ -22,7 +22,7 @@ void almostSorted(std::vector<int> vec) {
                 std::swap(vec[i], vec[el]);
                 std::reverse(vec.begin()+i, vec.begin()+el+1);
                 if (vec == v1) {
-                    std::cout << "yes " << "\n" << "reverse " << i+1 << " " << el+1;
+                    std::cout << "yes" << "\n" << "reverse " << i+1 << " " << el+1;
                     break;
                 }
                 else {
