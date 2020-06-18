@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <cctype>
-#include <string>
 #include <algorithm>
 
 int minimumNumber(int n, std::string password) {

@@ -110,10 +110,10 @@
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
-| [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Super_Reduced_String/main.cpp)</li><ul></p> | **Easy**
-| [CamelCase](https://www.hackerrank.com/challenges/camelcase) | <p align="center"><ul><li>[C++](./Algorithms/Strings/CamelCase/main.cpp)</li><ul></p> | **Easy**
-| [Strong Password](https://www.hackerrank.com/challenges/strong-password) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Strong_Password/main.cpp)</li><ul></p> | **Easy**
-| [Two Characters](https://www.hackerrank.com/challenges/two-characters) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Two_Characters/main.cpp)</li><ul></p> | **Easy**
+| [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Super_Reduced_String/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Super_Reduced_String/main.py)</li><ul></p> | **Easy**
+| [CamelCase](https://www.hackerrank.com/challenges/camelcase) | <p align="center"><ul><li>[C++](./Algorithms/Strings/CamelCase/main.cpp)</li><li>[Python 3](./Algorithms/Strings/CamelCase/main.py)</li><ul></p> | **Easy**
+| [Strong Password](https://www.hackerrank.com/challenges/strong-password) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Strong_Password/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Strong_Password/main.py)</li><ul></p> | **Easy**
+| [Two Characters](https://www.hackerrank.com/challenges/two-characters) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Two_Characters/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Two_Characters/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
