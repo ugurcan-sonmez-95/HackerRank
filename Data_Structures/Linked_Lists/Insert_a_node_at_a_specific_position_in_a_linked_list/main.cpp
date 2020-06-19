@@ -59,7 +59,7 @@ SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data,
         return new_node;
     }
     SinglyLinkedListNode *prev = head;
-    // Finds the previous node of the position that will we insert
+    // Finds the previous node of the position that will we insert into
     while (position-1 > 0) {
         prev = prev->next;
         position--;
