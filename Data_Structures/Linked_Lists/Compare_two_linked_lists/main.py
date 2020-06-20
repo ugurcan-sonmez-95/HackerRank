@@ -45,4 +45,4 @@ for _ in range(test_count):
         llist2_item = int(input())
         llist2.insert_node(llist2_item)
     result = compareLists(llist1.head, llist2.head)
-    print(result, sep='\n')
+    print(result)
