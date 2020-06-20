@@ -46,7 +46,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
-// Merges two linked lists
+// Merges two sorted linked lists
 SinglyLinkedListNode* mergeLists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
     // If one of the linked lists is empty, return the other one 
     if (!head1)
