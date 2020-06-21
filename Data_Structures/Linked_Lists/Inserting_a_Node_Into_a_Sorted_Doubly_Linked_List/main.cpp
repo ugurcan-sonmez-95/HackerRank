@@ -58,12 +58,12 @@ DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* head, int data) {
         return cur;
     }
     // Compare data and the data of head 
-    if (head->data <= data) {
+    else if (head->data <= data) {
         head->next = sortedInsert(head->next, data);
         head->next->prev = head;
     }
     // Put data in the linked list when the data of head is greater than data
-    else if (head->data > data) {
+    else {
         DoublyLinkedListNode *cur = new DoublyLinkedListNode(data);
         cur->next = head;
         cur->prev = head->prev;
