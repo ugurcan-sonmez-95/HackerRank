@@ -116,6 +116,7 @@
 | [Two Characters](https://www.hackerrank.com/challenges/two-characters) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Two_Characters/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Two_Characters/main.py)</li><ul></p> | **Easy**
 | [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Caesar_Cipher/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Caesar_Cipher/main.py)</li><ul></p> | **Easy**
 | [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Mars_Exploration/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Mars_Exploration/main.py)</li><ul></p> | **Easy**
+| [HackerRank in a String!](https://www.hackerrank.com/challenges/hackerrank-in-a-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/HackerRank_in_a_String/main.cpp)</li><li>[Python 3](./Algorithms/Strings/HackerRank_in_a_String/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
