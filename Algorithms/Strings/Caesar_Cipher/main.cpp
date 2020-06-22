@@ -9,7 +9,7 @@ void caesarCipher(std::string s, int k) {
     for (auto &ch: s) {
         if (std::isalpha(ch)) {
             first_letter = std::isupper(ch) ? 'A' : 'a';
-            ch = first_letter + (ch - first_letter + k) % 26;
+            ch = first_letter + ((ch - first_letter + k) % 26);
         }
     }
     std::cout << s;
