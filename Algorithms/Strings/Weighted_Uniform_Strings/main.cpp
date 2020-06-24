@@ -2,13 +2,15 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_set>
 
-std::vector<std::string> getAnswers(std::vector<bool> bool_check, int query_count) {
-    int weight;
+std::vector<std::string> getAnswers(std::unordered_set<int> total_weight, int query_count) {
+    int query;
     std::vector<std::string> ans;
     for (int j{}; j < query_count; j++) {
-        std::cin >> weight;
-        if (bool_check[weight])
+        std::cin >> query;
+        auto find = total_weight.find(query);
+        if (find != total_weight.end())
             ans.push_back("Yes");
         else
             ans.push_back("No");
@@ -17,20 +19,17 @@ std::vector<std::string> getAnswers(std::vector<bool> bool_check, int query_coun
 }
 
 std::vector<std::string> mainFunc(std::string s, int query_count) {
-    std::vector<bool> bool_check(10e6);
-    int count{1};
-    char prev{' '};
+    std::unordered_set<int> total_weight;
+    int count{1}, weight;
     for (int i{}; i < s.size(); i++) {
-        int letter_weight = s[i]-'a'+1;
-        if (s[i] == prev) {
+        weight = s[i]-'a'+1;
+        if ((i+1 != s.size()) && (s[i] == s[i+1]))
             count++;
-            letter_weight *= count;
-        } else
+        else
             count = 1;
-        prev = s[i];
-        bool_check[letter_weight] = true;
+        total_weight.insert(weight*count);
     }
-    std::vector<std::string> answers = getAnswers(bool_check, query_count);
+    std::vector<std::string> answers = getAnswers(total_weight, query_count);
     return answers;
 }
 
