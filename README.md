@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-104-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-106-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++, Python 3-red.svg">
 </p>
 
@@ -117,6 +117,8 @@
 | [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Caesar_Cipher/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Caesar_Cipher/main.py)</li><ul></p> | **Easy**
 | [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Mars_Exploration/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Mars_Exploration/main.py)</li><ul></p> | **Easy**
 | [HackerRank in a String!](https://www.hackerrank.com/challenges/hackerrank-in-a-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/HackerRank_in_a_String/main.cpp)</li><li>[Python 3](./Algorithms/Strings/HackerRank_in_a_String/main.py)</li><ul></p> | **Easy**
+| [Pangrams](https://www.hackerrank.com/challenges/pangrams) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Pangrams/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Pangrams/main.py)</li><ul></p> | **Easy**
+| [Weighted Uniform Strings](https://www.hackerrank.com/challenges/pangrams) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Weighted_Uniform_Strings/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Weighted_Uniform_Strings/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
