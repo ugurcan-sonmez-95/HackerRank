@@ -15,7 +15,7 @@ std::string separateNumbers(std::string s) {
                 break;
             i++;
         }
-        std::string cmp_str = "";
+        std::string cmp_str;
         long long n2 = std::stoll(s.substr(0, i));
         std::vector<long long> vec{n2};
         while (cmp_str.size() < s.size()) {
