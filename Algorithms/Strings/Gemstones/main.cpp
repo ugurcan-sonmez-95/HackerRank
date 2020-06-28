@@ -5,7 +5,7 @@
 #include <unordered_map>
 #include <algorithm>
 
-int gemstones(std::vector<std::string> str_vec) {
+void gemstones(std::vector<std::string> str_vec) {
     std::unordered_map<char, int> char_dict;
     for (auto str: str_vec) {
         std::sort(str.begin(), str.end());
@@ -20,7 +20,7 @@ int gemstones(std::vector<std::string> str_vec) {
             count++;
         find++;
     }
-    return count;
+    std::cout << count;
 }
 
 int main() {
@@ -29,8 +29,7 @@ int main() {
     std::vector<std::string> str_vec(n);
     for (int i{}; i < str_vec.size(); i++) 
         std::cin >> str_vec[i];
-    int result = gemstones(str_vec);
-    std::cout << result;
+    gemstones(str_vec);
 
     return 0;
 }
