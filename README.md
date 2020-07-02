@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-111-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-112-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++, Python 3-red.svg">
 </p>
 
@@ -124,6 +124,7 @@
 | [Gemstones](https://www.hackerrank.com/challenges/gem-stones) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Gemstones/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Gemstones/main.py)</li><ul></p> | **Easy**
 | [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Alternating_Characters/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Alternating_Characters/main.py)</li><ul></p> | **Easy**
 | [Beautiful Binary String](https://www.hackerrank.com/challenges/beautiful-binary-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Beautiful_Binary_String/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Beautiful_Binary_String/main.py)</li><ul></p> | **Easy**
+| [The Love-Letter Mystery](https://www.hackerrank.com/challenges/the-love-letter-mystery) | <p align="center"><ul><li>[C++](./Algorithms/Strings/The_Love-Letter_Mystery/main.cpp)</li><li>[Python 3](./Algorithms/Strings/The_Love-Letter_Mystery/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
