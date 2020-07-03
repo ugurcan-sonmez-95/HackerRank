@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::string gridSearch(std::vector<std::string> G, std::vector<std::string> P) {
+std::string checkExists(std::vector<std::string> G, std::vector<std::string> P) {
     for (int i{}; i < G.size(); i++) {
         for (int j{}; j < G[0].size(); j++) {
             int testCount{};
@@ -17,18 +17,18 @@ std::string gridSearch(std::vector<std::string> G, std::vector<std::string> P) {
                     }
                 }
             }
-            if (testCount == P.size() * P[0].size())
+            if (testCount == P.size() * P[0].size()) 
                 return "YES";
         }
     }
     return "NO";
 }
 
-int main() {
+void mainFunc() {
     int t, R, C, r, c;
-    std::cin >> t;
     std::string s1, s2;
-    while (t != 0) {
+    std::cin >> t;
+    while (t) {
         std::vector<std::string> G, P;
         std::cin >> R >> C;
         for (int i{}; i < R; i++) {
@@ -42,9 +42,14 @@ int main() {
             if (s2.size() == c)
                 P.push_back(s2);
         }
-        std::string result = gridSearch(G, P);
-        std::cout << result << '\n';
+        std::string ans = checkExists(G, P);
+        std::cout << ans << '\n';
         t--;
     }
+}
+
+int main() {
+    mainFunc();
+
     return 0;
 }

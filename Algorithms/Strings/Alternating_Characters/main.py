@@ -1,6 +1,6 @@
 ### Alternating Characters - Solution
 
-def alternatingCharacters(q, s):
+def alternatingCharacters():
     q = int(input())
     while q:
         s = input()
@@ -11,5 +11,4 @@ def alternatingCharacters(q, s):
         print(del_count)
         q -= 1
 
-q, s = None, ''
-alternatingCharacters(q, s)
+alternatingCharacters()

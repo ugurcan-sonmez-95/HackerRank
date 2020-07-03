@@ -4,23 +4,22 @@
 #include <vector>
 #include <algorithm>
 
-int serviceLane(std::vector<int> width, int i, int j) {
-    int largest = *std::min_element(width.begin()+i, width.begin()+j+1);
-    return largest;
+void serviceLane(int n, int t, int i, int j) {
+    std::cin >> n >> t;
+    std::vector<int> width(n);
+    for (int k{}; k < width.size(); k++)
+        std::cin >> width[k];
+    while (t) {
+        std::cin >> i >> j;
+        int largest = *std::min_element(width.begin()+i, width.begin()+j+1);
+        std::cout << largest << '\n';
+        t--;
+    }
 }
 
 int main() {
-    int n, t;
-    std::cin >> n >> t;
-    std::vector<int> width(n);
-    for (int k{}; k < n; k++) 
-        std::cin >> width[k];
-    int i, j;
-    while (t != 0) {
-        std::cin >> i >> j;
-        int result = serviceLane(width, i, j);
-        std::cout << result << '\n';
-        t--;
-    }
+    int n, t, i, j;
+    serviceLane(n, t, i, j);
+    
     return 0;
 }

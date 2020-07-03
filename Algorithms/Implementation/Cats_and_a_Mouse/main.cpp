@@ -2,19 +2,19 @@
 
 #include <iostream>
 
-std::string catAndMouse(int x, int y, int z) {
-    return abs(z-x) < abs(z-y) ? "Cat A" : abs(z-y) < abs(z-x) ? "Cat B" : "Mouse C";
+void catAndMouse(int q, int x, int y, int z) {
+    std::cin >> q;
+    while (q) {
+        std::cin >> x >> y >> z;
+        std::cout << (abs(z-x) < abs(z-y) ? "Cat A" : abs(z-y) < abs(z-x) ? "Cat B" : "Mouse C") << '\n';
+        q--;
+    }
 }
 
 int main() {
     int q;
-    std::cin >> q;
-    while (q != 0) {
-        int x, y, z;
-        std::cin >> x >> y >> z;
-        std::string result = catAndMouse(x, y, z);
-        std::cout << result << '\n';
-        q--;
-    }
+    int x, y, z;
+    catAndMouse(q, x, y, z);
+
     return 0;
 }

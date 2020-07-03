@@ -1,6 +1,6 @@
 ### HackerRank_in_a_String! - Solution
 
-def hackerrankInString(query_count, s):
+def hackerrankInString():
     query_count = int(input())
     while query_count:
         s = input()
@@ -16,5 +16,4 @@ def hackerrankInString(query_count, s):
         print(ans)
         query_count -= 1
 
-query_count, s = None, ''
-hackerrankInString(query_count, s)
+hackerrankInString()

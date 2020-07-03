@@ -2,25 +2,25 @@
 
 #include <iostream>
 
-int findDigits(int n) {
-    int count{}, remainder, num{n};
-    while (num > 0) {
-        remainder = num % 10;
-        if ((remainder != 0) && (n % remainder == 0)) 
-            count++;
-        num /= 10; 
+void findDigits(int t, int n) {
+    std::cin >> t;
+    while (t) {
+        std::cin >> n;
+        int count{}, remainder, num{n};
+        while (num > 0) {
+            remainder = num % 10;
+            if ((remainder != 0) && (n % remainder == 0)) 
+                count++;
+            num /= 10; 
+        }
+        std::cout << count << '\n';
+        t--;
     }
-    return count;
 }
 
 int main() {
-    int t; 
-    std::cin >> t;
-    int n;
-    for (int i{}; i < t; i++) {
-        std::cin >> n;
-        int result = findDigits(n);
-        std::cout << result << '\n';
-    }
+    int t, n;
+    findDigits(t, n);
+
     return 0;
 }

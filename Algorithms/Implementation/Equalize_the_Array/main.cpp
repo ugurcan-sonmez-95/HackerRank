@@ -19,9 +19,8 @@ int main() {
     int n;
     std::cin >> n;
     std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++) {
+    for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    }
     int result = equalizeArray(vec);
     std::cout << result;
 

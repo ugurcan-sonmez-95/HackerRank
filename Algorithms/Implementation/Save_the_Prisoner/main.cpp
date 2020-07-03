@@ -2,20 +2,19 @@
 
 #include <iostream>
 
-int saveThePrisoner(int n, int m, int s) {
-    int chairNum {((s-1) + m) % n};
-    return chairNum == 0 ? n : chairNum;
+void saveThePrisoner(int t, int n, int m, int s) {
+    std::cin >> t;
+    while (t) {
+        std::cin >> n >> m >> s;
+        int chairNum {((s-1) + m) % n};
+        std::cout << (chairNum == 0 ? n : chairNum) << '\n';
+        t--;
+    }
 }
 
 int main() {
-    int t;
-    std::cin >> t;
-    while (t != 0) {
-        int n, m, s;
-        std::cin >> n >> m >> s;
-        int result = saveThePrisoner(n, m, s);
-        std::cout << result << '\n';
-        t--;
-    }
+    int t, n, m, s;
+    saveThePrisoner(t, n, m, s);
+
     return 0;
 }

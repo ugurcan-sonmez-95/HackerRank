@@ -1,6 +1,6 @@
 ### The Grid Search - Solution
 
-def gridSearch(grid, pattern):
+def checkExists(grid, pattern):
     count = 0
     for i in range(len(grid[0])-len(pattern[0])+1):
         for j in range(len(grid)-len(pattern)+1):
@@ -14,10 +14,15 @@ def gridSearch(grid, pattern):
                         count = 0
     return "NO"
 
-for _ in range(int(input())):
-    R, C = map(int, input().split())
-    grid = [list(map(str, input()[:C])) for _ in range(R)]
-    r, c = map(int, input().split())
-    pattern = [list(map(str, input()[:c])) for _ in range(r)]
-    result = gridSearch(grid, pattern)
-    print(result)
+def main():
+    t = int(input())
+    while t:
+        R, C = map(int, input().split())
+        grid = [list(map(str, input()[:C])) for _ in range(R)]
+        r, c = map(int, input().split())
+        pattern = [list(map(str, input()[:c])) for _ in range(r)]
+        result = checkExists(grid, pattern)
+        print(result)
+        t -= 1
+
+main()

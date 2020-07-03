@@ -1,6 +1,6 @@
 ### Happy Ladybugs - Solution
 
-def happyLadyBugs(b):
+def checkPossible(b):
     for ch in b:
         if ((ch != '_') and b.count(ch) == 1):
             return "NO"
@@ -10,7 +10,14 @@ def happyLadyBugs(b):
                 return "NO"
     return "YES"
 
-for _ in range(int(input())):
-    n = int(input())
-    b = input()[:n]
-    print(happyLadyBugs(b))
+
+def main():
+    g = int(input())
+    while g:
+        n = int(input())
+        b = input()[:n]
+        result = checkPossible(b)
+        print(result)
+        g -= 1
+
+main()

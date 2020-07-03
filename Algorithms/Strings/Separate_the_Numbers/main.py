@@ -2,7 +2,7 @@
 
 from copy import copy
 
-def separateNumbers(q, s):
+def separateNumbers():
     q = int(input())
     while q:
         s = input()
@@ -27,5 +27,4 @@ def separateNumbers(q, s):
             print("NO")
         q -= 1
 
-q, s = None, ''
-separateNumbers(q, s)
+separateNumbers()

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> absolutePermutation(int n, int k) {
+std::vector<int> smallestAbsolutePermutation(int n, int k) {
     std::vector<int> perm;
     if (k == 0) {
         for (int i{1}; i <= n; i++)
@@ -29,16 +29,21 @@ std::vector<int> absolutePermutation(int n, int k) {
     return perm;
 }
 
-int main() {
-    int t, n, k;
+void mainFunc(int t, int n, int k) {
     std::cin >> t;
-    while (t != 0) {
+    while (t) {
         std::cin >> n >> k;
-        std::vector<int> result = absolutePermutation(n, k);
+        std::vector<int> result = smallestAbsolutePermutation(n, k);
         for (auto el: result)
             std::cout << el << " ";
         std::cout << '\n';
         t--;
     }
+}
+
+int main() {
+    int t, n, k;
+    mainFunc(t, n, k);
+    
     return 0;
 }

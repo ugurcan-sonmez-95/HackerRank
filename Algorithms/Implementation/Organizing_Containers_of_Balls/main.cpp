@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 
-std::string organizingContainers(std::vector<std::vector<int>> container) {
+std::string checkPossible(std::vector<std::vector<int>> container) {
     std::vector<int> rowSum, colSum;
     int n = container.size();
     for (int i{}; i < n; i++) {
@@ -27,23 +27,26 @@ std::string organizingContainers(std::vector<std::vector<int>> container) {
         return "Impossible";
 }
 
-int main() {
-    int q;
+void mainFunc(int q, int num) {
     std::cin >> q;
-    while (q != 0) {
-        int n;
-        std::cin >> n;
-        std::vector<std::vector<int>> container(n);
+    while (q) {
+        std::cin >> num;
+        std::vector<std::vector<int>> container(num);
         int val;
-        for (int j{}; j < n; j++) {
-            for (int k{}; k < n; k++) {
+        for (int i{}; i < num; i++) {
+            for (int j{}; j < num; j++) {
                 std::cin >> val;
-                container[j].push_back(val);
+                container[i].push_back(val);
             } 
         }
-        std::string result = organizingContainers(container);
-        std::cout << result << '\n';
+        std::cout << checkPossible(container) << '\n';
         q--;
     }
+}
+
+int main() {
+    int q, num;
+    mainFunc(q, num);
+
     return 0;
 }

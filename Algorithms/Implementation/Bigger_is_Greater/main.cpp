@@ -3,19 +3,19 @@
 #include <iostream>
 #include <algorithm>
 
-std::string biggerIsGreater(std::string w) {
-    return std::next_permutation(w.begin(), w.end()) ? w : "no answer";
+void biggerIsGreater(int t, std::string w) {
+    std::cin >> t;
+    while (t) {
+        std::cin >> w;
+        std::cout << (std::next_permutation(w.begin(), w.end()) ? w : "no answer") << '\n';
+        t--;
+    }
 }
 
 int main() {
-    int T;
-    std::cin >> T;
+    int t;
     std::string w;
-    while (T != 0) {
-        std::cin >> w;
-        std::string result = biggerIsGreater(w);
-        std::cout << result << '\n';
-        T--;
-    }
+    biggerIsGreater(t, w);
+    
     return 0;
 }

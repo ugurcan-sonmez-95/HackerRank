@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::string larrysArray(std::vector<int> A) {
+std::string checkSorted(std::vector<int> A) {
     int testCount{};
     for (int i{}; i < A.size()-1; i++) {
         for (int j{i+1}; j < A.size(); j++) {
@@ -16,17 +16,22 @@ std::string larrysArray(std::vector<int> A) {
     return "NO";
 }
 
-int main() {
-    int t, n;
+void mainFunc(int t, int n) {
     std::cin >> t;
-    while (t != 0) {
+    while (t) {
         std::cin >> n;
         std::vector<int> A(n);
-        for (int i{}; i < A.size(); i++) 
+        for (int i{}; i < A.size(); i++)
             std::cin >> A[i];
-        std::string result = larrysArray(A);
+        std::string result = checkSorted(A);
         std::cout << result << '\n';
         t--;
     }
+}
+
+int main() {
+    int t, n;
+    mainFunc(t, n);
+
     return 0;
 }

@@ -24,9 +24,8 @@ int main() {
     int n;
     std::cin >> n; 
     std::vector<int> a(n);
-    for (int i{}; i < a.size(); i++) {
+    for (int i{}; i < a.size(); i++) 
         std::cin >> a[i];
-    }
     int result = minimumDistances(a);
     std::cout << result;
 

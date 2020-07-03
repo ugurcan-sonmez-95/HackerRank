@@ -30,9 +30,8 @@ int main() {
     int N; 
     std::cin >> N;
     std::vector<int> B(N);
-    for (int i{}; i < B.size(); i++) {
+    for (int i{}; i < B.size(); i++) 
         std::cin >> B[i];
-    }
     std::string result = fairRations(B);
     std::cout << result;
 

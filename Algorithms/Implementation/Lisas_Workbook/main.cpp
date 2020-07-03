@@ -20,9 +20,8 @@ int main() {
     int n, k;
     std::cin >> n >> k;
     std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++) {
+    for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    }
     int result = workbook(n, k, vec);
     std::cout << result;
 

@@ -2,21 +2,21 @@
 
 #include <iostream>
 
-int utopianTree(int n) {
-    int height{1};
-    for (int i{1}; i <= n; i++) 
-        i % 2 == 0 ? height++ : height *= 2;
-    return height;
+void utopianTree(int t, int n) {
+    std::cin >> t;
+    while (t) {
+        std::cin >> n;
+        int height{1};
+        for (int i{1}; i <= n; i++) 
+            i % 2 == 0 ? height++ : height *= 2;
+        std::cout << height << '\n';
+        t--;
+    }
 }
 
 int main() {
-    int t;
-    std::cin >> t;
-    for (int i{}; i < t; i++) {
-        int n;
-        std::cin >> n;
-        int result = utopianTree(n);
-        std::cout << result << '\n';
-    }
+    int t, n;
+    utopianTree(t, n);
+
     return 0;
 }

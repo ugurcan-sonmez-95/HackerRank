@@ -1,6 +1,6 @@
 ### The Time in Words - Solution
 
-def timeInWords(h, m):
+def timeDefs():
     conversion = {}
     conversion[1] = "one"
     conversion[2] = "two"
@@ -31,6 +31,10 @@ def timeInWords(h, m):
     conversion[27] = "twenty seven"
     conversion[28] = "twenty eight"
     conversion[29] = "twenty nine"
+    return conversion
+
+def main(h, m):
+    conversion = timeDefs()
     time_str = ""
     for i in range(1, 13):
         if ((h == i) and (m == 0)):
@@ -52,4 +56,4 @@ def timeInWords(h, m):
     print(time_str)
 
 h, m = (int(input()) for _ in range(2))
-timeInWords(h, m)
+main(h, m)

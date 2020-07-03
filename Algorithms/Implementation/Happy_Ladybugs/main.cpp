@@ -2,8 +2,9 @@
 
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
-std::string happyLadybugs(std::string b) {
+std::string checkPossible(std::string b) {
     for (auto ch: b) {
         if (ch != '_' && std::count(b.begin(), b.end(), ch) == 1) 
             return "NO";
@@ -17,15 +18,20 @@ std::string happyLadybugs(std::string b) {
     return "YES";
 }
 
-int main() {
-    int g, n; 
-    std::string b;
+void mainFunc(int g, int n, std::string b) {
     std::cin >> g;
-    while (g != 0) {
+    while (g) {
         std::cin >> n >> b;
-        std::string result = happyLadybugs(b);
+        std::string result = checkPossible(b);
         std::cout << result << '\n';
         g--;
     }
+}
+
+int main() {
+    int g, n; 
+    std::string b;
+    mainFunc(g, n, b);
+
     return 0;
 }

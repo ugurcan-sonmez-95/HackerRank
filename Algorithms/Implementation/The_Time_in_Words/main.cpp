@@ -3,8 +3,7 @@
 #include <iostream>
 #include <map>
 
-std::string timeInWords(int h, int m) {
-    std::string time_str;
+std::map<int, std::string> timeDefs() {
     std::map<int, std::string> time;
     time[1] = "one";
     time[2] = "two";
@@ -35,6 +34,12 @@ std::string timeInWords(int h, int m) {
     time[27] = "twenty seven";
     time[28] = "twenty eight";
     time[29] = "twenty nine";
+    return time;
+}
+
+void mainFunc(int h, int m) {
+    std::string time_str;
+    std::map<int, std::string> time = timeDefs();
     for (int i{1}; i <= 12; i++) {
         if (h == i && m == 0)
             time_str = time[i] + " o' clock";
@@ -53,14 +58,13 @@ std::string timeInWords(int h, int m) {
         else if (h == i && m > 30)
             time_str = time[60-m] + " minutes to " + time[i+1];  
     }
-    return time_str;
+    std::cout << time_str;
 }
 
 int main() {
     int h, m;
     std::cin >> h >> m;
-    std::string result = timeInWords(h, m);
-    std::cout << result;
+    mainFunc(h, m);
 
     return 0;
 }

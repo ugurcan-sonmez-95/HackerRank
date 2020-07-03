@@ -1,6 +1,6 @@
 ### Absolute Permutation - Solution
 
-def absolutePermutation(n, k):
+def smallestAbsolutePermutation(n, k):
     perm = []
     if (k == 0):
         for i in range(1, n+1):
@@ -19,8 +19,14 @@ def absolutePermutation(n, k):
                     bool_check = False
                 else:
                     bool_check = True
-    print(*perm)
+    return perm
 
-for _ in range(int(input())):
-    n, k = map(int, input().split())
-    absolutePermutation(n, k)
+def main():
+    t = int(input())
+    while t:
+        n, k = map(int, input().split())
+        result = smallestAbsolutePermutation(n, k)
+        print(*result)
+        t -= 1
+
+main()

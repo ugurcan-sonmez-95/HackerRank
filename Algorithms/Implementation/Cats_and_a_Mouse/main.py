@@ -1,13 +1,15 @@
 ### Cats and a Mouse - Solution
 
-def catAndMouse(x, y, z):
-    if (abs(x - z) < abs(y - z)):
-        print("Cat A")
-    elif (abs(y - z) < abs(x - z)):
-        print("Cat B")
-    else:
-        print("Mouse C")
+def catAndMouse():
+    q = int(input())
+    while q:
+        x, y, z = map(int, input().split())
+        if (abs(x - z) < abs(y - z)):
+            print("Cat A")
+        elif (abs(y - z) < abs(x - z)):
+            print("Cat B")
+        else:
+            print("Mouse C")
+        q -= 1
 
-for _ in range(int(input())):
-    x, y, z = map(int, input().split())
-    catAndMouse(x, y, z)
+catAndMouse()

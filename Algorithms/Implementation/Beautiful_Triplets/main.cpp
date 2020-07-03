@@ -26,9 +26,8 @@ int main() {
     int n, d;
     std::cin >> n >> d;
     std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++) {
+    for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    }
     int result = beautifulTriplets(d, vec);
     std::cout << result;
 

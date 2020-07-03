@@ -1,6 +1,6 @@
 ### Funny String - Solution
 
-def funnyString(q, s):
+def funnyString():
     q = int(input())
     while q:
         s = input()
@@ -13,5 +13,4 @@ def funnyString(q, s):
             print("Funny") 
         q -= 1
 
-q, s = None, ''
-funnyString(q, s)
+funnyString()

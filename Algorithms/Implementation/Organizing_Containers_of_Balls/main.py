@@ -1,6 +1,6 @@
 ### Organizing Containers of Balls - Solution
 
-def organizingContainers(container):
+def checkPossible(container):
     row_sum, col_sum = [], []
     for i in range(len(container)):
         total = 0
@@ -15,11 +15,16 @@ def organizingContainers(container):
     row_sum.sort()
     col_sum.sort()
     if (row_sum == col_sum):
-        print("Possible")
+        return "Possible"
     else:
-        print("Impossible")
+        return "Impossible"
 
-for _ in range(int(input())):
-    n = int(input())
-    container = [list(map(int, input().split())) for _ in range(n)]
-    organizingContainers(container)
+def main():
+    q = int(input())
+    while q:
+        n = int(input())
+        container = [list(map(int, input().split())) for _ in range(n)]
+        print(checkPossible(container))
+        q -= 1
+
+main()

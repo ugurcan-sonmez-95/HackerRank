@@ -21,9 +21,8 @@ int main() {
     int n, m;
     std::cin >> n >> m;
     std::vector<int> c(m);
-    for (int i{}; i < c.size(); i++) {
+    for (int i{}; i < c.size(); i++) 
         std::cin >> c[i];
-    }
     int result = flatlandSpaceStations(n, c);
     std::cout << result;
 

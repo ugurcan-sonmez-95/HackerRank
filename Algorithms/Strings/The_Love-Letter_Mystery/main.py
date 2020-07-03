@@ -1,6 +1,6 @@
 ### The Love-Letter Mystery - Solution
 
-def theLoveLetterMystery(q, s):
+def theLoveLetterMystery():
     q = int(input())
     while q:
         s = input()
@@ -13,5 +13,4 @@ def theLoveLetterMystery(q, s):
         print(count)
         q -= 1
 
-q, s = None, ''
-theLoveLetterMystery(q, s)
+theLoveLetterMystery()
