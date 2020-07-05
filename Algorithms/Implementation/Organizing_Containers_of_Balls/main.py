@@ -24,7 +24,8 @@ def main():
     while q:
         n = int(input())
         container = [list(map(int, input().split())) for _ in range(n)]
-        print(checkPossible(container))
+        result = checkPossible(container)
+        print(result)
         q -= 1
 
 main()

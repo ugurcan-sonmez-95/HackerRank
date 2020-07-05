@@ -39,7 +39,8 @@ void mainFunc(int q, int num) {
                 container[i].push_back(val);
             } 
         }
-        std::cout << checkPossible(container) << '\n';
+        std::string result = checkPossible(container);
+        std::cout << result << '\n';
         q--;
     }
 }
