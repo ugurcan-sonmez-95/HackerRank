@@ -26,12 +26,12 @@ def print_singly_linked_list(node):
 def findMergeNode(head1, head2):
     cur1, cur2 = head1, head2
     # Traverse both lists. Stop when cur1 and cur2 are equal
-    while (cur1 != cur2):
-        if (cur1.next == None):
+    while cur1 != cur2:
+        if cur1.next == None:
             cur1 = head2
         else:
             cur1 = cur1.next
-        if (cur2.next == None):
+        if cur2.next == None:
             cur2 = head1
         else:
             cur2 = cur2.next

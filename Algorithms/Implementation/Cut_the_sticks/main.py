@@ -1,7 +1,7 @@
 ### Cut the sticks - Solution
 
 def cutTheSticks(arr):
-    while (len(arr) != 0):
+    while len(arr):
         print(len(arr))
         arr = [length for length in arr if (length != min(arr))]
 

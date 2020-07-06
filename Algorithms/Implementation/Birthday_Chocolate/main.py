@@ -3,7 +3,7 @@
 def birthday(nums, d, m):
     count = 0
     for i in range(len(nums)):
-        if (sum(nums[i:i+m]) == d):
+        if sum(nums[i:i+m]) == d:
             count += 1
     print(count)
 

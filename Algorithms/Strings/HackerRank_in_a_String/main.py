@@ -8,7 +8,7 @@ def hackerrankInString():
         count, temp = 0, 0
         for i in range(len(s1)):
             for j in range(temp, len(s)):
-                if (s[j] == s1[i]):
+                if s[j] == s1[i]:
                     count += 1
                     temp = j+1
                     break

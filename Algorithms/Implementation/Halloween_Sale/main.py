@@ -2,10 +2,10 @@
 
 def howManyGames(p, d, m, s):
     count = 0
-    while (s-p >= 0):
+    while s-p >= 0:
         count += 1
         s -= p
-        if (p-d > m):
+        if p-d > m:
             p -= d
         else:
             p = m

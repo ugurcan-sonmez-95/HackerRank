@@ -29,10 +29,10 @@ def hasCycle(head):
     # While 'slow' goes one step forward, 'fast' goes two
     # We compare them
     # If there is no equality and no cycle, we will get 0, else 1
-    while (slow and fast and fast.next):
+    while slow and fast and fast.next:
         slow = slow.next
         fast = fast.next.next
-        if (slow == fast):
+        if slow == fast:
             return True
     return False
 

@@ -3,9 +3,9 @@
 def compareTriplets(alice, bob):
     aliceScore, bobScore = 0, 0
     for i in range(len(alice)):
-        if (alice[i] > bob[i]):
+        if alice[i] > bob[i]:
             aliceScore += 1
-        elif (bob[i] > alice[i]):
+        elif bob[i] > alice[i]:
             bobScore += 1
     totalScores = [aliceScore, bobScore]
     return totalScores

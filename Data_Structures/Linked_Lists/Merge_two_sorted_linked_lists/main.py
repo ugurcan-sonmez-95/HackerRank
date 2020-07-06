@@ -29,12 +29,12 @@ def print_singly_linked_list(node):
 # Merges two sorted linked lists
 def mergeLists(head1, head2):
     # If one of the linked lists is empty, return the other one
-    if (not head1):
+    if not head1:
         return head2
-    if (not head2):
+    if not head2:
         return head1
     # Start with the linked list whose data is less than the other
-    if (head1.data < head2.data):
+    if head1.data < head2.data:
         temp = head1
         temp.next = mergeLists(head1.next, head2)
     else:

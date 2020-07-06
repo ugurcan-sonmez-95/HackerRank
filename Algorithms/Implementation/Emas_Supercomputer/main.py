@@ -2,7 +2,7 @@
  
 def sizePlus(i, j, row, col, grid_copy):
     size = 1
-    while (((i-size) >= 0) and ((i+size) < row) and ((j-size) >= 0) and ((j+size) < col) and (grid_copy[i-size][j] == grid_copy[i][j-size] == grid_copy[i][j+size] == grid_copy[i+size][j] == 'G')):
+    while (i-size >= 0) and (i+size < row) and (j-size >= 0) and (j+size < col) and (grid_copy[i-size][j] == grid_copy[i][j-size] == grid_copy[i][j+size] == grid_copy[i+size][j] == 'G'):
         size += 1
     return (size-1)
 
@@ -27,7 +27,7 @@ def main(row, col, grid):
             for k in range(size+1):
                 removePlus(k, i, j, grid_copy)
                 max_area = (4*k+1)*maxArea(grid_copy)
-                if (max_area > prod):
+                if max_area > prod:
                     prod = max_area
     print(prod)
 

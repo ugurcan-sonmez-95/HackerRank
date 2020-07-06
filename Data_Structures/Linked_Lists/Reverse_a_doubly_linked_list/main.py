@@ -28,13 +28,13 @@ def print_doubly_linked_list(node):
 def reverse(head):
     temp, cur = None, head
     # Swap previous and next nodes for all of the nodes
-    while (cur != None):
+    while cur != None:
         temp = cur.prev
         cur.prev = cur.next
         cur.next = temp
         cur = cur.prev
     # Check whether the linked list is empty or the linked list has one node
-    if (temp != None):
+    if temp != None:
         head = temp.prev
     return head
 

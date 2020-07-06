@@ -25,21 +25,21 @@ def print_singly_linked_list(node):
 # Deletes a node
 def deleteNode(head, position):
     # Check whether the linked list is empty
-    if (head == None):
+    if head == None:
         return head
     temp = head
     # If head will be removed
-    if (position == 0):
+    if position == 0:
         head = temp.next
         temp = None
         return head
     # Find previous node of the node that will be deleted
     for _ in range(position-1):
         temp = temp.next
-        if (temp == None):
+        if temp == None:
             break
     # If the position is more than a number of nodes
-    if ((temp == None) or (temp.next == None)):
+    if (temp == None) or (temp.next == None):
         return head
     # temp.next is the node that will be deleted
     next_node = temp.next.next

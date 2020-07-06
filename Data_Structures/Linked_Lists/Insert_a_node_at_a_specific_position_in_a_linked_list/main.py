@@ -27,15 +27,15 @@ def insertNodeAtPosition(head, data, position):
     new_node = SinglyLinkedListNode(data)
     new_node.data = data
     # Check whether the linked list is empty
-    if (head == None):
+    if head == None:
         return new_node
     # If we insert a node at the head
-    elif (position == 0):
+    elif position == 0:
         new_node.next = head
         return new_node
     prev = head
     # Finds the previous node of the position that will we insert into
-    while ((position-1) > 0):
+    while position-1 > 0:
         prev = prev.next
         position -= 1
     # Make new_node's next as prev's next and assign new_node to prev's next

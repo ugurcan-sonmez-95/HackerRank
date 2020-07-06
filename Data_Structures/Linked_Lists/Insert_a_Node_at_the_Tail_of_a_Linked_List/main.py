@@ -23,11 +23,11 @@ def insertNodeAtTail(head, data):
     # Make new_node the last node
     new_node.next = None
     # If the linked list is empty, make the head as new_node
-    if (head == None):
+    if head == None:
         head = new_node
         return head
     # Else traverse until the last node
-    while (last.next != None):
+    while last.next != None:
         last = last.next
     # Assign new_node to last.next
     last.next = new_node

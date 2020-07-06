@@ -27,11 +27,11 @@ def print_doubly_linked_list(node):
 # Inserts a node into a sorted doubly linked list
 def sortedInsert(head, data):
     # Check whether the linked list is empty
-    if (head == None):
+    if head == None:
         cur = DoublyLinkedListNode(data)
         return cur
     # Compare data and head data 
-    elif (head.data <= data):
+    elif head.data <= data:
         head.next = sortedInsert(head.next, data)
         head.next.prev = head
     # Put data in the linked list when head data is greater than data

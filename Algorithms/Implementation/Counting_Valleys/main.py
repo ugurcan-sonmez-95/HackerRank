@@ -3,9 +3,9 @@
 def countingValleys(s):
     level, count = 0, 0
     for i in range(len(s)):
-        if (s[i] == 'U'):
+        if s[i] == 'U':
             level += 1
-            if (level == 0):
+            if level == 0:
                 count += 1
         else:
             level -= 1

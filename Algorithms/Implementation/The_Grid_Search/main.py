@@ -4,11 +4,11 @@ def checkExists(grid, pattern):
     count = 0
     for i in range(len(grid[0])-len(pattern[0])+1):
         for j in range(len(grid)-len(pattern)+1):
-            if (grid[j][i:(i+len(pattern[0]))] == pattern[0]):
+            if grid[j][i:(i+len(pattern[0]))] == pattern[0]:
                 for k in range(1, len(pattern)):
-                    if (grid[j+k][i:(i+len(pattern[0]))] == pattern[k]):
+                    if grid[j+k][i:(i+len(pattern[0]))] == pattern[k]:
                         count += 1
-                        if (count == len(pattern)-1):
+                        if count == len(pattern)-1:
                             return "YES"
                     else:
                         count = 0

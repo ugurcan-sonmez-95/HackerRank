@@ -5,7 +5,7 @@ def getMoneySpent(keyboards, drives, b):
     for i in range(len(keyboards)):
         for j in range(len(drives)):
             total = keyboards[i] + drives[j]
-            if (total <= b and total > maximum):
+            if (total <= b) and (total > maximum):
                 maximum = total
     print(maximum)
 

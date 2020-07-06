@@ -4,7 +4,7 @@ def climbingLeaderboard(scores, alice):
     lb = sorted(set(scores), reverse=True)
     length = len(lb)
     for score in alice:
-        while ((length > 0) and (score >= lb[length-1])):
+        while (length > 0) and (score >= lb[length-1]):
             length -= 1
         print(length+1)
 
