@@ -6,7 +6,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Problems%20Solved-118-brightgreen.svg">
-    <img src="https://img.shields.io/badge/Language-C++, Python 3-red.svg">
+    <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
 </p>
 
 ## Algorithms
