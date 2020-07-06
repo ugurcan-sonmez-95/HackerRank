@@ -5,7 +5,7 @@ def chocolateFeast():
     while t:
         n, c, m = map(int, input().split())
         chocolate_count, wrapper_count = n//c, n//c 
-        while (wrapper_count >= m):
+        while wrapper_count >= m:
             extra_chocolate = 0
             extra_chocolate += wrapper_count // m
             remainder = wrapper_count % m

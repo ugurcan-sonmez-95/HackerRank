@@ -26,7 +26,7 @@ def print_singly_linked_list(node):
 def reverse(head):
     cur_node, prev_node, next_node = head, None, None
     # Assign current node's next to next_node
-    while (cur_node != None):
+    while cur_node != None:
         next_node = cur_node.next
         # Reverse the point that current node points to
         cur_node.next = prev_node

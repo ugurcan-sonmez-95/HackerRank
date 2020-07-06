@@ -37,21 +37,21 @@ def main(h, m):
     conversion = timeDefs()
     time_str = ""
     for i in range(1, 13):
-        if ((h == i) and (m == 0)):
+        if (h == i) and (m == 0):
             time_str = conversion[i] + " o' clock"
-        elif ((h == i) and (m == 15)):
+        elif (h == i) and (m == 15):
             time_str = "quarter past " + conversion[i]
-        elif ((h == i) and (m == 30)):
+        elif (h == i) and (m == 30):
             time_str = "half past " + conversion[i]
-        elif ((h == i) and (m == 45)):
+        elif (h == i) and (m == 45):
             time_str = "quarter to " + conversion[i+1]
-        elif ((h == i) and (m == 1)):
+        elif (h == i) and (m == 1):
             time_str = "one minute past " + conversion[i]
-        elif ((h == i) and (m == 59)):
+        elif (h == i) and (m == 59):
             time_str = "one minute to " + conversion[i+1]
-        elif ((h == i) and (m < 30)):
+        elif (h == i) and (m < 30):
             time_str = conversion[m] + " minutes past " + conversion[i]
-        elif ((h == i) and (m > 30)):
+        elif (h == i) and (m > 30):
             time_str = conversion[60-m] + " minutes to " + conversion[i+1]
     print(time_str)
 

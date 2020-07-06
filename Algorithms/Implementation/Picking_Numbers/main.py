@@ -6,7 +6,7 @@ def pickingNumbers(arr):
         ar[arr[i]] += 1
     for j in range(100):
         total = ar[j] + ar[j+1]
-        if (total > maximum):
+        if total > maximum:
             maximum = total
     print(maximum)
 

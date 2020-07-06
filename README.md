@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-114-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-115-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++, Python 3-red.svg">
 </p>
 
@@ -127,6 +127,7 @@
 | [The Love-Letter Mystery](https://www.hackerrank.com/challenges/the-love-letter-mystery) | <p align="center"><ul><li>[C++](./Algorithms/Strings/The_Love-Letter_Mystery/main.cpp)</li><li>[Python 3](./Algorithms/Strings/The_Love-Letter_Mystery/main.py)</li><ul></p> | **Easy**
 | [Palindrome Index](https://www.hackerrank.com/challenges/palindrome-index) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Palindrome_Index/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Palindrome_Index/main.py)</li><ul></p> | **Easy**
 | [Anagram](https://www.hackerrank.com/challenges/anagram) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Anagram/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Anagram/main.py)</li><ul></p> | **Easy**
+| [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Making_Anagrams/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Making_Anagrams/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 

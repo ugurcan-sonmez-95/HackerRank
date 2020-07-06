@@ -5,12 +5,12 @@ def arrayManipulation(n, queries):
     for i in range(len(queries)):
         a, b, k = queries[i][0], queries[i][1], queries[i][2]
         sums[a] += k
-        if ((b+1) <= n):
+        if b+1 <= n:
             sums[b+1] -= k
     temp, maximum = 0, 0
     for j in range(len(sums)):
         temp += sums[j]
-        if (temp > maximum):
+        if temp > maximum:
             maximum = temp
     print(maximum)
 

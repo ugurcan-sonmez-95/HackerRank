@@ -30,7 +30,7 @@ def getNode(head, position_from_tail):
     for _ in range(position_from_tail):
         ref = ref.next
     # Move main and ref to next nodes until next node of ref is at the end
-    while (ref.next != None):
+    while ref.next != None:
         main = main.next
         ref = ref.next
     return main.data

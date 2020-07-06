@@ -5,7 +5,7 @@ def weightedUniformStrings(s, query_count):
     count = 1
     for i in range(len(s)):
         weight = ord(s[i])-ord('a')+1
-        if ((i+1 != len(s)) and (s[i] == s[i+1])):
+        if (i+1 != len(s)) and (s[i] == s[i+1]):
             count += 1
         else:
             count = 1

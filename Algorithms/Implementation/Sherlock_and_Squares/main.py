@@ -7,7 +7,7 @@ def squares():
     while q:
         a, b = map(int, input().split())
         count = floor(sqrt(b) - floor(sqrt(a)))
-        if (sqrt(a) - floor(sqrt(a)) == 0):
+        if sqrt(a) - floor(sqrt(a)) == 0:
             count += 1
         print(count)
         q -= 1

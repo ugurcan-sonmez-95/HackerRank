@@ -7,9 +7,9 @@ def dynamicArray(n, queries):
     for i in range(len(queries)):
         x, y = queries[i][1], queries[i][2]
         idx = (x^last_answer) % n
-        if (queries[i][0] == 1):
+        if queries[i][0] == 1:
             seq[idx].append(y) 
-        elif (queries[i][0] == 2):
+        elif queries[i][0] == 2:
             last_answer = seq[idx][y % len(seq[idx])]
             last_answers.append(last_answer)
     print(*last_answers, sep='\n')

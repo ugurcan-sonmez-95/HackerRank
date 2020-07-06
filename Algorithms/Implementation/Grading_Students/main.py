@@ -2,7 +2,7 @@
 
 def gradingStudents(grades):
     for grade in grades:
-        if (grade < 38 or grade % 5 < 3):
+        if (grade < 38) or (grade % 5 < 3):
             print(grade)
         else:
             print((grade+5) - (grade%5))

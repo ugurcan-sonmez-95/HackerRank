@@ -3,7 +3,7 @@
 def bonAppetit(bill, k, b):
     total = sum(bill)
     costAnna = (total - bill[k]) // 2
-    if (costAnna == b):
+    if costAnna == b:
         print("Bon Appetit")
     else:
         print(b - costAnna)

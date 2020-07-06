@@ -14,7 +14,7 @@ def checkPossible(container):
         col_sum.append(total)
     row_sum.sort()
     col_sum.sort()
-    if (row_sum == col_sum):
+    if row_sum == col_sum:
         return "Possible"
     else:
         return "Impossible"

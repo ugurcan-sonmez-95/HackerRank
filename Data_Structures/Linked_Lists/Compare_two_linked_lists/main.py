@@ -25,7 +25,7 @@ def print_singly_linked_list(node):
 # Compares two linked lists
 def compareLists(head1, head2):
     # Traverse both linked lists and stop whether there is a mismatching or when reaching the end of a linked list
-    while (head1 and head2 and (head1.data == head2.data)):
+    while head1 and head2 and (head1.data == head2.data):
         head1 = head1.next
         head2 = head2.next
     # Check whether the linked lists are equal

@@ -2,9 +2,9 @@
 
 def jumpingOnClouds(c, k):
     energy, i = 100, len(c)
-    while (i != 0):
+    while i:
         i = (i+k) % len(c)
-        if (c[i] == 0):
+        if c[i] == 0:
             energy -= 1
         else:
             energy -= 3

@@ -3,7 +3,7 @@
 def appendAndDelete(s, t, k):
     numOfSameChars = min(len(s), len(t))
     for i in range(len(t)):
-        if (s[:i] != t[:i]):
+        if s[:i] != t[:i]:
             numOfSameChars = i - 1
             break
     diff = (len(s)-numOfSameChars) + (len(t)-numOfSameChars)

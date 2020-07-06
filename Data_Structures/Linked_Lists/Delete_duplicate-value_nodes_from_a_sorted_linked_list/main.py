@@ -26,11 +26,11 @@ def print_singly_linked_list(node):
 def removeDuplicates(head):
     cur = head
     # Check whether the linked list is empty
-    if (cur == None):
+    if cur == None:
         return head
     # Traverse the linked list and delete duplicates
-    while (cur.next != None):
-        if (cur.data == cur.next.data):
+    while cur.next != None:
+        if cur.data == cur.next.data:
             temp = cur.next.next
             cur.next = None
             cur.next = temp
