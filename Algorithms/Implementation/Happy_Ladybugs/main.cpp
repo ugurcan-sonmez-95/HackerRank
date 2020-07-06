@@ -18,7 +18,7 @@ std::string checkPossible(std::string b) {
     return "YES";
 }
 
-void mainFunc(int g, int n, std::string b) {
+void outputResult(int g, int n, std::string b) {
     std::cin >> g;
     while (g) {
         std::cin >> n >> b;
@@ -31,7 +31,7 @@ void mainFunc(int g, int n, std::string b) {
 int main() {
     int g, n; 
     std::string b;
-    mainFunc(g, n, b);
+    outputResult(g, n, b);
 
     return 0;
 }

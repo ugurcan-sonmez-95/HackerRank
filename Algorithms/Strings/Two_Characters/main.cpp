@@ -1,7 +1,7 @@
 // Two Characters - Solution
 
 #include <iostream>
-#include <unordered_set>
+#include <set>
 #include <vector>
 #include <algorithm>
 
@@ -17,7 +17,7 @@ bool validation(std::vector<char> chars_to_validate) {
 // Gets the size of longest possible alternate string 
 int maxAlternateStringSize(std::string s) {
     int max_size{};     
-    std::unordered_set<char> set_of_chars(s.begin(), s.end()); // Gets the unique elements as unsorted from s
+    std::set<char> set_of_chars(s.begin(), s.end()); // Gets the unique elements as unsorted from s
     std::vector<char> vec_of_chars(set_of_chars.begin(), set_of_chars.end());
     for (int i{}; i < vec_of_chars.size(); i++) {
         for (int j{i+1}; j < vec_of_chars.size(); j++) {

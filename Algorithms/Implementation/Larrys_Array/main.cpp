@@ -16,7 +16,7 @@ std::string checkSorted(std::vector<int> A) {
     return "NO";
 }
 
-void mainFunc(int t, int n) {
+void outputResult(int t, int n) {
     std::cin >> t;
     while (t) {
         std::cin >> n;
@@ -31,7 +31,7 @@ void mainFunc(int t, int n) {
 
 int main() {
     int t, n;
-    mainFunc(t, n);
+    outputResult(t, n);
 
     return 0;
 }

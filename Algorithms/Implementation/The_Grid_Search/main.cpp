@@ -24,7 +24,7 @@ std::string checkExists(std::vector<std::string> G, std::vector<std::string> P) 
     return "NO";
 }
 
-void mainFunc() {
+void outputResult() {
     int t, R, C, r, c;
     std::string s1, s2;
     std::cin >> t;
@@ -49,7 +49,7 @@ void mainFunc() {
 }
 
 int main() {
-    mainFunc();
+    outputResult();
 
     return 0;
 }

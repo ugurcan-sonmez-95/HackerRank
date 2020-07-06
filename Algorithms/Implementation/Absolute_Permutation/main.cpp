@@ -29,7 +29,7 @@ std::vector<int> smallestAbsolutePermutation(int n, int k) {
     return perm;
 }
 
-void mainFunc(int t, int n, int k) {
+void outputResult(int t, int n, int k) {
     std::cin >> t;
     while (t) {
         std::cin >> n >> k;
@@ -43,7 +43,7 @@ void mainFunc(int t, int n, int k) {
 
 int main() {
     int t, n, k;
-    mainFunc(t, n, k);
+    outputResult(t, n, k);
     
     return 0;
 }

@@ -24,7 +24,7 @@ int calcOranges(int n, int b, int s, int t, int orange_dist, int orange_on_house
     return orange_on_house;
 }
 
-void mainFunc(int apple_count, int orange_count) {
+void outputResult(int apple_count, int orange_count) {
     std::cout << apple_count << "\n" << orange_count;
 }
 
@@ -33,7 +33,7 @@ int main() {
     std::cin >> s >> t >> a >> b >> m >> n;
     int apple_count = calcApples(m, a, s, t, apple_dist, apple_on_house);
     int orange_count = calcOranges(n, b, s, t, orange_dist, orange_on_house);
-    mainFunc(apple_count, orange_count);
+    outputResult(apple_count, orange_count);
     
     return 0;
 }

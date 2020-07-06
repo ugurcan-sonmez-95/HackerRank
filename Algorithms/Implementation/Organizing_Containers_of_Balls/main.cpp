@@ -27,7 +27,7 @@ std::string checkPossible(std::vector<std::vector<int>> container) {
         return "Impossible";
 }
 
-void mainFunc(int q, int num) {
+void outputResult(int q, int num) {
     std::cin >> q;
     while (q) {
         std::cin >> num;
@@ -47,7 +47,7 @@ void mainFunc(int q, int num) {
 
 int main() {
     int q, num;
-    mainFunc(q, num);
+    outputResult(q, num);
 
     return 0;
 }

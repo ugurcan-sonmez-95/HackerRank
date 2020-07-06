@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include <vector>
-#include <unordered_set>
+#include <set>
 
-std::vector<std::string> getAnswers(std::unordered_set<int> total_weight, int query_count) {
+std::vector<std::string> getAnswers(std::set<int> total_weight, int query_count) {
     int query;
     std::vector<std::string> ans;
     for (int j{}; j < query_count; j++) {
@@ -18,8 +18,8 @@ std::vector<std::string> getAnswers(std::unordered_set<int> total_weight, int qu
     return ans;
 }
 
-std::vector<std::string> mainFunc(std::string s, int query_count) {
-    std::unordered_set<int> total_weight;
+void outputResult(std::string s, int query_count) {
+    std::set<int> total_weight;
     int count{1}, weight;
     for (int i{}; i < s.size(); i++) {
         weight = s[i]-'a'+1;
@@ -30,7 +30,8 @@ std::vector<std::string> mainFunc(std::string s, int query_count) {
         total_weight.insert(weight*count);
     }
     std::vector<std::string> answers = getAnswers(total_weight, query_count);
-    return answers;
+    for (auto ans: answers)
+        std::cout << ans << '\n';
 }
 
 int main() {
@@ -38,9 +39,7 @@ int main() {
     std::cin >> s;
     int query_count{};
     std::cin >> query_count;
-    std::vector<std::string> result = mainFunc(s, query_count);
-    for (auto ans: result)
-        std::cout << ans << '\n';
+    outputResult(s, query_count);
     
     return 0;
 }

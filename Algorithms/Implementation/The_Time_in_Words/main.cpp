@@ -37,7 +37,7 @@ std::map<int, std::string> timeDefs() {
     return time;
 }
 
-void mainFunc(int h, int m) {
+void outputResult(int h, int m) {
     std::string time_str;
     std::map<int, std::string> time = timeDefs();
     for (int i{1}; i <= 12; i++) {
@@ -64,7 +64,7 @@ void mainFunc(int h, int m) {
 int main() {
     int h, m;
     std::cin >> h >> m;
-    mainFunc(h, m);
+    outputResult(h, m);
 
     return 0;
 }

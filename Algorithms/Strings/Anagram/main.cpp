@@ -19,7 +19,7 @@ int calcChangeCount(std::string s) {
     return count;
 }
 
-void mainFunc(int q, std::string s) {
+void outputResult(int q, std::string s) {
     std::cin >> q;
     while (q) {
         std::cin >> s;
@@ -32,7 +32,7 @@ void mainFunc(int q, std::string s) {
 int main() {
     int q;
     std::string s;
-    mainFunc(q, s);
+    outputResult(q, s);
 
     return 0;
 }
