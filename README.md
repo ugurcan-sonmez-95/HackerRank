@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-118-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-124-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
 </p>
 
@@ -14,6 +14,7 @@
 * [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#warmup)
 * [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#implementation)
 * [Strings](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#strings)
+* [Sorting](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#sorting)
 
 ## Data Structures
 
@@ -131,6 +132,17 @@
 | [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Game_of_Thrones_1/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Game_of_Thrones_1/main.py)</li><ul></p> | **Easy**
 | [Two Strings](https://www.hackerrank.com/challenges/two-strings) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Two_Strings/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Two_Strings/main.py)</li><ul></p> | **Easy**
 | [String Construction](https://www.hackerrank.com/challenges/string-construction) | <p align="center"><ul><li>[C++](./Algorithms/Strings/String_Construction/main.cpp)</li><li>[Python 3](./Algorithms/Strings/String_Construction/main.py)</li><ul></p> | **Easy**
+| [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Sherlock_and_the_Valid_String/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Sherlock_and_the_Valid_String/main.py)</li><ul></p> | **Medium**
+| [Highest Value Palindrome](https://www.hackerrank.com/challenges/richie-rich) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Highest_Value_Palindrome/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Highest_Value_Palindrome/main.py)</li><ul></p> | **Medium**
+| [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams) | <p align="center"><ul><li>[C++](./Algorithms/Strings/Sherlock_and_Anagrams/main.cpp)</li><li>[Python 3](./Algorithms/Strings/Sherlock_and_Anagrams/main.py)</li><ul></p> | **Medium**
+
+### Sorting
+
+| Name | Solution | Difficulty
+| ---- | -------- | :--------:
+| [Big Sorting](https://www.hackerrank.com/challenges/big-sorting) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Big_Sorting/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Big_Sorting/main.py)</li><ul></p> | **Easy**
+| [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Intro_to_Tutorial_Challenges/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Intro_to_Tutorial_Challenges/main.py)</li><ul></p> | **Easy**
+| [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Insertion_Sort-Part_1/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Insertion_Sort-Part_1/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
