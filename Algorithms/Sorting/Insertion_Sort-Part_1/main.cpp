@@ -1,28 +1,27 @@
 // Insertion Sort - Part 1 - Solution
 
 #include <iostream>
-#include <vector>
 
-void printVector(std::vector<int> vec) {
-    for (auto num: vec)
-        std::cout << num << " ";
+void printVector(int n, int arr[]) {
+    for (int i{}; i < n; i++) 
+        std::cout << arr[i] << " ";
     std::cout << '\n';
 }
 
-void insertionSort1(std::vector<int> vec) {
-    int num {vec[vec.size()-1]};
-    for (int i{vec.size()-2}; i >= 0; i--) {
-        if (num <= vec[i]) {
-            vec[i+1] = vec[i];
-            printVector(vec);
+void insertionSort1(int n, int arr[]) {
+    int num {arr[n-1]};
+    for (int i{n-2}; i >= 0; i--) {
+        if (num <= arr[i]) {
+            arr[i+1] = arr[i];
+            printVector(n, arr);
             if (i == 0) {
-                vec[i] = num;
-                printVector(vec);
+                arr[i] = num;
+                printVector(n, arr);
             }
         }
         else {
-            vec[i+1] = num;
-            printVector(vec);
+            arr[i+1] = num;
+            printVector(n, arr);
             break;
         }
     }
@@ -31,10 +30,10 @@ void insertionSort1(std::vector<int> vec) {
 int main() {
     int n;
     std::cin >> n;
-    std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++)
-        std::cin >> vec[i];
-    insertionSort1(vec);
+    int arr[n];
+    for (int i{}; i < n; i++)
+        std::cin >> arr[i];
+    insertionSort1(n, arr);
 
     return 0;
 }

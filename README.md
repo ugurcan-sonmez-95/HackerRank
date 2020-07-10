@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-124-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-132-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
 </p>
 
@@ -143,6 +143,14 @@
 | [Big Sorting](https://www.hackerrank.com/challenges/big-sorting) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Big_Sorting/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Big_Sorting/main.py)</li><ul></p> | **Easy**
 | [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Intro_to_Tutorial_Challenges/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Intro_to_Tutorial_Challenges/main.py)</li><ul></p> | **Easy**
 | [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Insertion_Sort-Part_1/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Insertion_Sort-Part_1/main.py)</li><ul></p> | **Easy**
+| [Insertion Sort - Part 2](https://www.hackerrank.com/challenges/insertionsort2) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Insertion_Sort-Part_2/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Insertion_Sort-Part_2/main.py)</li><ul></p> | **Easy**
+| [Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Correctness_and_the_Loop_Invariant/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Correctness_and_the_Loop_Invariant/main.py)</li><ul></p> | **Easy**
+| [Running Time of Algorithms](https://www.hackerrank.com/challenges/runningtime) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Running_Time_of_Algorithms/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Running_Time_of_Algorithms/main.py)</li><ul></p> | **Easy**
+| [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Quicksort_1-Partition/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Quicksort_1-Partition/main.py)</li><ul></p> | **Easy**
+| [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Counting_Sort_1/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Counting_Sort_1/main.py)</li><ul></p> | **Easy**
+| [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Counting_Sort_2/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Counting_Sort_2/main.py)</li><ul></p> | **Easy**
+| [Closest Numbers](https://www.hackerrank.com/challenges/closest-numbers) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Closest_Numbers/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Closest_Numbers/main.py)</li><ul></p> | **Easy**
+| [Find the Median](https://www.hackerrank.com/challenges/find-the-median) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Find_the_Median/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Find_the_Median/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 

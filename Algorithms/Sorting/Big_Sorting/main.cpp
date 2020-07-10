@@ -17,7 +17,7 @@ void bigSorting(std::vector<std::string> nums) {
 }
 
 int main() {
-    long long n;
+    int n;
     std::cin >> n;
     std::vector<std::string> nums(n);
     for (int i{}; i < nums.size(); i++) 

@@ -1,11 +1,10 @@
 // Intro to Tutorial Challenges - Solution
 
 #include <iostream>
-#include <vector>
 
-void introTutorial(int V, std::vector<int> vec) {
-    for (int i{}; i < vec.size(); i++) {
-        if (vec[i] == V) {
+void introTutorial(int V, int n, int arr[]) {
+    for (int i{}; i < n; i++) {
+        if (arr[i] == V) {
             std::cout << i; 
             break;
         }
@@ -15,10 +14,10 @@ void introTutorial(int V, std::vector<int> vec) {
 int main() {
     int V, n;
     std::cin >> V >> n;
-    std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++)
-        std::cin >> vec[i];
-    introTutorial(V, vec);
+    int arr[n];
+    for (int i{}; i < n; i++)
+        std::cin >> arr[i];
+    introTutorial(V, n, arr);
 
     return 0;
 }
