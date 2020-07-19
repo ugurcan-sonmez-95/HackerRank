@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-132-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-135-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
 </p>
 
@@ -15,6 +15,7 @@
 * [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#implementation)
 * [Strings](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#strings)
 * [Sorting](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#sorting)
+* [Search](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#search)
 
 ## Data Structures
 
@@ -151,6 +152,13 @@
 | [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Counting_Sort_2/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Counting_Sort_2/main.py)</li><ul></p> | **Easy**
 | [Closest Numbers](https://www.hackerrank.com/challenges/closest-numbers) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Closest_Numbers/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Closest_Numbers/main.py)</li><ul></p> | **Easy**
 | [Find the Median](https://www.hackerrank.com/challenges/find-the-median) | <p align="center"><ul><li>[C++](./Algorithms/Sorting/Find_the_Median/main.cpp)</li><li>[Python 3](./Algorithms/Sorting/Find_the_Median/main.py)</li><ul></p> | **Easy**
+
+### Search
+| Name | Solution | Difficulty
+| ---- | -------- | :--------:
+| [Ice Cream Parlor](https://www.hackerrank.com/challenges/icecream-parlor) | <p align="center"><ul><li>[C++](./Algorithms/Search/Ice_Cream_Parlor/main.cpp)</li><li>[Python 3](./Algorithms/Search/Ice_Cream_Parlor/main.py)</li><ul></p> | **Easy**
+| [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers) | <p align="center"><ul><li>[C++](./Algorithms/Search/Missing_Numbers/main.cpp)</li><li>[Python 3](./Algorithms/Search/Missing_Numbers/main.py)</li><ul></p> | **Easy**
+| [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array) | <p align="center"><ul><li>[C++](./Algorithms/Search/Sherlock_and_Array/main.cpp)</li><li>[Python 3](./Algorithms/Search/Sherlock_and_Array/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
