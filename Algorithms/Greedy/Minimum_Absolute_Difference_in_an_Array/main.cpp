@@ -12,7 +12,7 @@ void minimumAbsoluteDifference(std::vector<int> nums) {
         if (temp < min)
             min = temp;
     }
-    std::cout << min << '\n';
+    std::cout << min;
 }
 
 int main() {

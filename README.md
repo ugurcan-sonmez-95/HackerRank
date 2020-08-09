@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-137-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-138-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
 </p>
 
@@ -166,6 +166,7 @@
 | ---- | -------- | :--------:
 | [Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Minimum_Absolute_Difference_in_an_Array/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Minimum_Absolute_Difference_in_an_Array/main.py)</li><ul></p> | **Easy**
 | [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Marcs_Cakewalk/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Marcs_Cakewalk/main.py)</li><ul></p> | **Easy**
+| [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Grid_Challenge/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Grid_Challenge/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
