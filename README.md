@@ -5,7 +5,7 @@
 <p align="center">Here, you can find my solutions to the problems.</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-140-brightgreen.svg">
+    <img src="https://img.shields.io/badge/Problems%20Solved-142-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
 </p>
 
@@ -169,6 +169,8 @@
 | [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Grid_Challenge/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Grid_Challenge/main.py)</li><ul></p> | **Easy**
 | [Luck Balance](https://www.hackerrank.com/challenges/luck-balance) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Luck_Balance/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Luck_Balance/main.py)</li><ul></p> | **Easy**
 | [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/maximum-perimeter-triangle) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Maximum_Perimeter_Triangle/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Maximum_Perimeter_Triangle/main.py)</li><ul></p> | **Easy**
+| [Beautiful Pairs](https://www.hackerrank.com/challenges/beautiful-pairs) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Beautiful_Pairs/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Beautiful_Pairs/main.py)</li><ul></p> | **Easy**
+| [Sherlock and The Beast](https://www.hackerrank.com/challenges/sherlock-and-the-beast) | <p align="center"><ul><li>[C++](./Algorithms/Greedy/Sherlock_and_The_Beast/main.cpp)</li><li>[Python 3](./Algorithms/Greedy/Sherlock_and_The_Beast/main.py)</li><ul></p> | **Easy**
 
 ### Arrays
 
