@@ -11,7 +11,7 @@ def gridChallenge(grid):
                     return "NO"
     return "YES"
 
-def outputResult():
+def main():
     t = int(input())
     while t:
         n = int(input())
@@ -20,4 +20,4 @@ def outputResult():
         print(result)
         t -= 1
 
-outputResult()
+main()
