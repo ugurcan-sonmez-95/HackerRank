@@ -2,8 +2,6 @@
     <a href="https://www.hackerrank.com/ugur_snmz95"><img src="https://miro.medium.com/max/5522/1*JhV105AX1GNhHhqc8ZunEg.png"></a>
 </p>
 
-<p align="center">Here, you can find my solutions to the problems.</p>
-
 <p align="center">
     <img src="https://img.shields.io/badge/Problems%20Solved-142-brightgreen.svg">
     <img src="https://img.shields.io/badge/Language-C++,_Python_3-red.svg">
