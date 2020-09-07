@@ -19,7 +19,7 @@
 ## Data Structures
 
 * <a href="#arrays">Arrays</a>
-* <a href="#linked lists">Linked Lists</a>
+* <a href="#linkedlists">Linked Lists</a>
 
 ### Warmup
 
