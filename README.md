@@ -9,17 +9,17 @@
 
 ## Algorithms
 
-* [Warmup](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#warmup)
-* [Implementation](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#implementation)
-* [Strings](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#strings)
-* [Sorting](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#sorting)
-* [Search](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#search)
-* [Greedy](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#greedy)
+* <a href="#warmup">Warmup</a>
+* <a href="#implementation">Implementation</a>
+* <a href="#strings">Strings</a>
+* <a href="#sorting">Sorting</a>
+* <a href="#search">Search</a>
+* <a href="#greedy">Greedy</a>
 
 ## Data Structures
 
-* [Arrays](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#arrays)
-* [Linked Lists](https://github.com/ugurcan-sonmez-95/HackerRank_Problems#linked_lists)
+* <a href="#arrays">Arrays</a>
+* <a href="#linked lists">Linked Lists</a>
 
 ### Warmup
 
