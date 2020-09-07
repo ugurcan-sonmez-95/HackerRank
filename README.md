@@ -19,7 +19,7 @@
 ## Data Structures
 
 * <a href="#arrays">Arrays</a>
-* <a href="#linkedlists">Linked Lists</a>
+* <a href="#linked_lists">Linked_Lists</a>
 
 ### Warmup
 
@@ -181,7 +181,7 @@
 | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Sparse_Arrays/main.cpp)</li><li>[Python 3](./Data_Structures/Arrays/Sparse_Arrays/main.py)</li><ul></p> | **Medium**
 | [Array Manipulation](https://www.hackerrank.com/challenges/crush) | <p align="center"><ul><li>[C++](./Data_Structures/Arrays/Array_Manipulation/main.cpp)</li><li>[Python 3](./Data_Structures/Arrays/Array_Manipulation/main.py)</li><ul></p> | **Hard**
 
-### Linked Lists
+### Linked_Lists
 
 | Name | Solution | Difficulty
 | ---- | -------- | :--------:
