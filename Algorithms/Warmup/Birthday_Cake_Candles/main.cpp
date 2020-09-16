@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 
-int birthdayCakeCandles(std::vector<int> vec) {
+int birthdayCakeCandles(std::vector<int> &vec) {
     int count{};
     std::sort(vec.begin(), vec.end());
     for (int i{}; i < vec.size(); i++) {
@@ -18,9 +18,8 @@ int main() {
     int n;
     std::cin >> n;
     std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++) {
+    for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    }
     int result = birthdayCakeCandles(vec);
     std::cout << result;
 
