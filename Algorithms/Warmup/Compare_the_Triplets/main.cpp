@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> compareTriplets(std::vector<int> &a, std::vector<int> &b) {
+std::vector<int> compareTriplets(const std::vector<int> &a, const std::vector<int> &b) {
     int pointAlice{}, pointBob{};
     std::vector<int> result;
     for (int i{}; i < a.size(); i++) {
@@ -23,7 +23,7 @@ int main() {
         std::cin >> a[i];
     for (int j{}; j < b.size(); j++) 
         std::cin >> b[j];
-    std::vector<int> result = compareTriplets(a, b);
+    const std::vector<int> result = compareTriplets(a, b);
     for (auto &el: result) 
         std::cout << el << " ";
 

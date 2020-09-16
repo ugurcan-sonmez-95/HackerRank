@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-int diagonalDifference(std::vector<std::vector<int>> &vec) {
+int diagonalDifference(const std::vector<std::vector<int>> &vec) {
     int total{};
     for (int i{}; i < vec.size(); i++)
         total += vec[i][i] - vec[i][(vec.size()-1)-i];
@@ -21,7 +21,7 @@ int main() {
             vec[i].push_back(val);
         }
     }
-    int result = diagonalDifference(vec);
+    const int result = diagonalDifference(vec);
     std::cout << result;
 
     return 0;

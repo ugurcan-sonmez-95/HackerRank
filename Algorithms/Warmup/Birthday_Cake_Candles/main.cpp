@@ -20,7 +20,7 @@ int main() {
     std::vector<int> vec(n);
     for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    int result = birthdayCakeCandles(vec);
+    const int result = birthdayCakeCandles(vec);
     std::cout << result;
 
     return 0;

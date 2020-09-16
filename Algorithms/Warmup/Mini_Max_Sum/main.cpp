@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-void miniMaxSum(std::vector<int> &vec) {
+void miniMaxSum(const std::vector<int> &vec) {
     long min{}, max{}, sum{};
     min = vec[0];
     max = min;

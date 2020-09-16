@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <vector>
 
-void plusMinus(std::vector<int> &vec) {
+void plusMinus(const std::vector<int> &vec) {
     double p{}, n{}, z{};
     for (int i{}; i < vec.size(); i++)
         vec[i] > 0 ? p++ : vec[i] < 0 ? n++ : z++;

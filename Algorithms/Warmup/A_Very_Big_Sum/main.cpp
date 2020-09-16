@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-long aVeryBigSum(std::vector<long> &vec) {
+long aVeryBigSum(const std::vector<long> &vec) {
     long sum{};
     for (auto &num: vec)
         sum += num;
@@ -16,7 +16,7 @@ int main() {
     std::vector<long> vec(n);
     for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    long result = aVeryBigSum(vec);
+    const long result = aVeryBigSum(vec);
     std::cout << result;
 
     return 0;

@@ -2,9 +2,9 @@
 
 #include <iostream>
 
-void staircase(int n) {
+void staircase(const int n) {
     for (int i{1}; i <= n; i++) {
-        std::string hash(i,'#'), space(n-i,' ');
+        const std::string hash(i,'#'), space(n-i,' ');
         std::cout << space << std::right << hash << '\n';
     }
 }

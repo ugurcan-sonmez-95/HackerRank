@@ -52,5 +52,5 @@
         "typeinfo": "cpp",
         "cstring": "cpp"
     },
-    "editor.wordWrap": "wordWrapColumn"
+    "editor.wordWrap": "on"
 }
