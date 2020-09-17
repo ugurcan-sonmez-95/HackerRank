@@ -3,7 +3,7 @@
 #include <iostream>
 #include <algorithm>
 
-void biggerIsGreater(int t, std::string w) {
+void biggerIsGreater(int t, std::string &w) {
     std::cin >> t;
     while (t) {
         std::cin >> w;

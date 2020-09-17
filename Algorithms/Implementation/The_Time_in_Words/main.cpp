@@ -37,7 +37,7 @@ std::map<int, std::string> timeDefs() {
     return time;
 }
 
-void outputResult(int h, int m) {
+void outputResult(const int h, const int m) {
     std::string time_str;
     std::map<int, std::string> time = timeDefs();
     for (int i{1}; i <= 12; i++) {

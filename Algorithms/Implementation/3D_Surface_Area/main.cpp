@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 
-int surfaceArea(std::vector<std::vector<int>> A) {
+int surfaceArea(const std::vector<std::vector<int>> &A) {
     int area{}, temp;
     for (int i{}; i < A.size(); i++) {
         for (int j{}; j < A[i].size(); j++) {
@@ -30,7 +30,7 @@ int main() {
             A[i].push_back(val);  
         } 
     }
-    int result = surfaceArea(A);
+    const int result = surfaceArea(A);
     std::cout << result;
 
     return 0;

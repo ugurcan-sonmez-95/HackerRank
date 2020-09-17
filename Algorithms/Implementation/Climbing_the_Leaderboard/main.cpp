@@ -4,14 +4,13 @@
 #include <vector>
 #include <map>
 
-std::vector<int> climbingLeaderboard(std::vector<int> scores, std::vector<int> alice) {
+std::vector<int> climbingLeaderboard(const std::vector<int> &scores, const std::vector<int> &alice) {
     std::vector<int> ranks;
     std::map<int, int> scoresRank;
     int rank{1};
-    for (int i{}; i < scores.size(); i++) {
+    for (int i{}; i < scores.size(); i++) 
         if (scoresRank[scores[i]] == 0) 
             scoresRank[scores[i]] = rank++;
-    }
     for (auto sc: alice) {
         auto it = scoresRank.upper_bound(sc);
         if (it->second == 0) 
@@ -33,8 +32,8 @@ int main() {
     std::vector<int> alice(m);
     for (int j{}; j < alice.size(); j++) 
         std::cin >> alice[j];
-    std::vector<int> result = climbingLeaderboard(scores, alice);
-    for (auto el: result)
+    const std::vector<int> result = climbingLeaderboard(scores, alice);
+    for (auto &el: result)
         std::cout << el << '\n';
 
     return 0;

@@ -4,12 +4,12 @@
 #include <vector>
 #include <algorithm>
 
-int queensAttack(int n, int k, int r_q, int c_q, std::vector<std::vector<int>> obstacles) {
+int queensAttack(const int n, const int k, const int r_q, const int c_q, const std::vector<std::vector<int>> &obstacles) {
     int up {n - r_q}, down {r_q - 1}, left {c_q - 1}, right {n - c_q};
     int right_up = std::min(right,up), right_down = std::min(right,down);
     int left_up = std::min(left,up), left_down = std::min(left,down);
     // Check all possible squares that queen can move 
-    for (auto obstacle: obstacles) {
+    for (auto &obstacle: obstacles) {
         if (obstacle[1] == c_q) {
             if (obstacle[0] < r_q) 
                 down = std::min(down, r_q-1-obstacle[0]);
@@ -29,14 +29,15 @@ int queensAttack(int n, int k, int r_q, int c_q, std::vector<std::vector<int>> o
                 else 
                     left_down = std::min(left_down, c_q-obstacle[1]-1);
             }
-            else
+            else {
                 if (r_q < obstacle[0])
                     right_up = std::min(right_up, obstacle[1]-c_q-1);
                 else
                     right_down = std::min(right_down, obstacle[1]-c_q-1);
+            }
         }
     }
-    int sum = up + down + left + right + left_up + left_down + right_up + right_down;
+    const int sum = up + down + left + right + left_up + left_down + right_up + right_down;
     return sum;
 }
 
@@ -53,7 +54,7 @@ int main() {
             }
         }
     }
-    int result = queensAttack(n, k, r_q, c_q, obstacles);
+    const int result = queensAttack(n, k, r_q, c_q, obstacles);
     std::cout << result;
 
     return 0;

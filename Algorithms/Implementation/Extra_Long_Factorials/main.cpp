@@ -1,13 +1,12 @@
 // Extra Long Factorials - Solution
 
 #include <iostream>
-
 #define max 500
 
-int multiply(int x, int result[], int result_size) {
+int multiply(const int x, int result[], int result_size) {
     int carry{};
     for (int i{}; i < result_size; i++) {
-        int temp = result[i] * x + carry;
+        const int temp = result[i] * x + carry;
         result[i] = temp % 10;
         carry = temp / 10;
     }
@@ -19,7 +18,7 @@ int multiply(int x, int result[], int result_size) {
     return result_size;
 }
 
-void extraLongFactorials(int n) {
+void extraLongFactorials(const int n) {
     int result[max];
     result[0] = 1;
     int result_size{1};

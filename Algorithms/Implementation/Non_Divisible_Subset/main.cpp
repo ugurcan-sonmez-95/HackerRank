@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 
-int nonDivisibleSubset(int n, int k, std::vector<int> s) {
+int nonDivisibleSubset(const int n, const int k, const std::vector<int> &s) {
     std::vector<int> vec(k);
     for (int i{}; i < n; i++) 
         vec[s[i] % k]++;
@@ -20,10 +20,9 @@ int main() {
     int n, k;
     std::cin >> n >> k;
     std::vector<int> s(n);
-    for (int i{}; i < s.size(); i++) {
+    for (int i{}; i < s.size(); i++) 
         std::cin >> s[i];
-    }
-    int result = nonDivisibleSubset(n, k, s);
+    const int result = nonDivisibleSubset(n, k, s);
     std::cout << result;
 
     return 0;

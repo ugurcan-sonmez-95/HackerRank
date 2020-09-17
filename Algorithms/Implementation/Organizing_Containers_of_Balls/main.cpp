@@ -4,9 +4,9 @@
 #include <vector>
 #include <algorithm>
 
-std::string checkPossible(std::vector<std::vector<int>> container) {
+std::string checkPossible(const std::vector<std::vector<int>> &container) {
     std::vector<int> rowSum, colSum;
-    int n = container.size();
+    const int n = container.size();
     for (int i{}; i < n; i++) {
         int sum{};  
         for (int j{}; j < n; j++)
@@ -39,7 +39,7 @@ void outputResult(int q, int num) {
                 container[i].push_back(val);
             } 
         }
-        std::string result = checkPossible(container);
+        const std::string result = checkPossible(container);
         std::cout << result << '\n';
         q--;
     }

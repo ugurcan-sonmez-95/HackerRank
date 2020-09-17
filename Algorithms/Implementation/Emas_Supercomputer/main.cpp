@@ -3,12 +3,11 @@
 #include <iostream>
 #include <algorithm>
 
-int twoPluses(int n, int m, int N) {
+int twoPluses(const int n, const int m, const int N) {
     char grid[N][N];
-    for (int i{}; i < n; i++) {
+    for (int i{}; i < n; i++) 
         for (int j{}; j < m; j++)
             std::cin >> grid[i][j];
-    }
     int product;
     for (int i{1}; i < n; i++) {
         for (int j{1}; j < m; j++) {
@@ -37,9 +36,10 @@ int twoPluses(int n, int m, int N) {
 }
 
 int main() {
-    int n, m, N{20};
+    int n, m;
+    const int N{20};
     std::cin >> n >> m;
-    int result = twoPluses(n, m, N);
+    const int result = twoPluses(n, m, N);
     std::cout << result;
 
     return 0;

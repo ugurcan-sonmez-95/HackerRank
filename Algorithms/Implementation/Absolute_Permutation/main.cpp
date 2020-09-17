@@ -3,12 +3,11 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> smallestAbsolutePermutation(int n, int k) {
+std::vector<int> smallestAbsolutePermutation(const int n, const int k) {
     std::vector<int> perm;
-    if (k == 0) {
+    if (k == 0) 
         for (int i{1}; i <= n; i++)
             perm.push_back(i);
-    } 
     else if (n % (k*2) != 0)
         perm.push_back(-1);
     else {
@@ -33,8 +32,8 @@ void outputResult(int t, int n, int k) {
     std::cin >> t;
     while (t) {
         std::cin >> n >> k;
-        std::vector<int> result = smallestAbsolutePermutation(n, k);
-        for (auto el: result)
+        const std::vector<int> result = smallestAbsolutePermutation(n, k);
+        for (auto &el: result)
             std::cout << el << " ";
         std::cout << '\n';
         t--;

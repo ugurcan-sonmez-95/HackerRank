@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::string checkExists(std::vector<std::string> G, std::vector<std::string> P) {
+std::string checkExists(const std::vector<std::string> &G, const std::vector<std::string> &P) {
     for (int i{}; i < G.size(); i++) {
         for (int j{}; j < G[0].size(); j++) {
             int testCount{};
@@ -42,7 +42,7 @@ void outputResult() {
             if (s2.size() == c)
                 P.push_back(s2);
         }
-        std::string ans = checkExists(G, P);
+        const std::string ans = checkExists(G, P);
         std::cout << ans << '\n';
         t--;
     }

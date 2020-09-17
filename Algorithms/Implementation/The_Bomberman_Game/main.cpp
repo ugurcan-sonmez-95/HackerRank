@@ -3,12 +3,11 @@
 #include <iostream>
 #include <vector>
 
-std::vector<std::string> bomberMan(int r, int c, int n, std::vector<std::string> grid) {
+std::vector<std::string> bomberMan(const int r, const int c, const int n, const std::vector<std::string> &grid) {
     std::vector<std::string> finalGrid1 = grid, finalGrid2, finalGrid3;
-    for (int i{}; i < r; i++) {
+    for (int i{}; i < r; i++) 
         for (int j{}; j < c; j++)
             finalGrid1[i][j] = 'O';
-    } 
     finalGrid3 = finalGrid2 = finalGrid1;
     for (int k{}; k < r; k++) {
         for (int l{}; l < c; l++) {
@@ -60,8 +59,8 @@ int main() {
             grid[i].push_back(ch);
         }
     }
-    std::vector<std::string> result = bomberMan(r, c, n, grid);
-    for (auto el: result)
+    const std::vector<std::string> result = bomberMan(r, c, n, grid);
+    for (auto &el: result)
         std::cout << el << '\n';
 
     return 0;

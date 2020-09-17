@@ -4,8 +4,8 @@
 #include <cmath>
 #include <string>
 
-void encryption(std::string s) {
-    int colCount = std::ceil(std::sqrt(s.size()));
+void encryption(const std::string &s) {
+    const int colCount = std::ceil(std::sqrt(s.size()));
     for (int i{}; i < colCount; i++) {
         for (int j{i}; j < s.size(); j += colCount) 
             std::cout << s[j];

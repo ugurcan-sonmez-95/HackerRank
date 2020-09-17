@@ -5,8 +5,8 @@
 #include <algorithm>
 #include <cmath>
 
-int formingMagicSquare(std::vector<std::vector<int>> s) {
-    std::vector<std::vector<std::vector<int>>> magic_squares 
+int formingMagicSquare(const std::vector<std::vector<int>> &s) {
+    const std::vector<std::vector<std::vector<int>>> magic_squares 
                                    {{{8,1,6},{3,5,7},{4,9,2}}, 
                                     {{6,1,8},{7,5,3},{2,9,4}},
                                     {{4,9,2},{3,5,7},{8,1,6}},
@@ -18,15 +18,13 @@ int formingMagicSquare(std::vector<std::vector<int>> s) {
     std::vector<int> totalSum;
     int sum{};
     for (int i{}; i < 8; i++) {
-        for (int j{}; j < 3; j++) {
-            for (int k{}; k < 3; k++) {
+        for (int j{}; j < 3; j++) 
+            for (int k{}; k < 3; k++) 
                 sum += std::abs(magic_squares[i][j][k] - s[j][k]);
-            }
-        }
         totalSum.push_back(sum);
         sum = 0;
     }
-    int min = *std::min_element(totalSum.begin(), totalSum.end());
+    const int min = *std::min_element(totalSum.begin(), totalSum.end());
     return min;
 }
 
@@ -39,7 +37,7 @@ int main() {
             s[i].push_back(value);
         }
     }
-    int result = formingMagicSquare(s);
+    const int result = formingMagicSquare(s);
     std::cout << result; 
 
     return 0;
