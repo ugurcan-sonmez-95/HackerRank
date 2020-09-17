@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-std::string kangaroo(int x1, int v1, int x2, int v2) {
+std::string kangaroo(const int x1, const int v1, const int x2, const int v2) {
     if (v1 > v2) {
         if ((x1-x2) % (v2-v1) == 0) 
             return "YES";
@@ -13,7 +13,7 @@ std::string kangaroo(int x1, int v1, int x2, int v2) {
 int main() {
     int x1, v1, x2, v2;
     std::cin >> x1 >> v1 >> x2 >> v2;
-    std::string result = kangaroo(x1, v1, x2, v2);
+    const std::string result = kangaroo(x1, v1, x2, v2);
     std::cout << result;
 
     return 0;

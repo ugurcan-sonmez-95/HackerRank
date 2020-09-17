@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> breakingRecords(std::vector<int> scores) {
+std::vector<int> breakingRecords(const std::vector<int> &scores) {
     std::vector<int> highest_lowest;
     int count_highest{}, count_lowest{};
     int max{scores[0]}, min{scores[0]};
@@ -26,11 +26,10 @@ int main() {
     int n; 
     std::cin >> n;
     std::vector<int> scores(n);
-    for (int i{}; i < scores.size(); i++) {
+    for (int i{}; i < scores.size(); i++) 
         std::cin >> scores[i];
-    }
-    std::vector<int> result = breakingRecords(scores);
-    for (auto el: result) 
+    const std::vector<int> result = breakingRecords(scores);
+    for (auto &el: result) 
         std::cout << el << " ";
 
     return 0;

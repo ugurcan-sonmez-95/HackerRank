@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-std::string dayOfProgrammer(int year) {
-    std::string s{std::to_string(year)};
+std::string dayOfProgrammer(const int year) {
+    const std::string s{std::to_string(year)};
     if (year == 1918) 
         return "26.09.1918";
     else if ((year < 1918) && (year%4 == 0)) 
@@ -17,7 +17,7 @@ std::string dayOfProgrammer(int year) {
 int main() {
     int year;
     std::cin >> year;
-    std::string result = dayOfProgrammer(year);
+    const std::string result = dayOfProgrammer(year);
     std::cout << result;
 
     return 0;

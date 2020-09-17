@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-int jumpingOnClouds(std::vector<int> c, int k) {
+int jumpingOnClouds(const std::vector<int> &c, const int k) {
     int e{100}, i = c.size();
     while (i != 0) {
         i = (i+k) % c.size();
@@ -19,10 +19,9 @@ int main() {
     int n, k;
     std::cin >> n >> k;
     std::vector<int> c(n);
-    for (int i{}; i < n; i++) {
+    for (int i{}; i < n; i++) 
         std::cin >> c[i];
-    }
-    int result = jumpingOnClouds(c, k);
+    const int result = jumpingOnClouds(c, k);
     std::cout << result;
 
     return 0;

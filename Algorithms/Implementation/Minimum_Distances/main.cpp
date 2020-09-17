@@ -4,13 +4,12 @@
 #include <vector>
 #include <algorithm>
 
-int minimumDistances(std::vector<int> a) {
+int minimumDistances(const std::vector<int> &a) {
     std::vector<int> nums;
     for (int i{}; i < a.size()-1; i++) {
-        for (int j{i+1}; j < a.size(); j++) {
+        for (int j{i+1}; j < a.size(); j++) 
             if (a[i] == a[j])
                 nums.push_back(j-i);
-        }
     }
     int min;
     if (!nums.empty()) 
@@ -26,7 +25,7 @@ int main() {
     std::vector<int> a(n);
     for (int i{}; i < a.size(); i++) 
         std::cin >> a[i];
-    int result = minimumDistances(a);
+    const int result = minimumDistances(a);
     std::cout << result;
 
     return 0;

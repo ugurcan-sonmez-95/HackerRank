@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int beautifulDays(int i, int j, int k) {
+int beautifulDays(const int i, const int j, const int k) {
     int count{}, m{}, reversed{}, remainder;
     for (int n{i}; n <= j; n++) {
         m = n;
@@ -21,7 +21,7 @@ int beautifulDays(int i, int j, int k) {
 int main() {
     int i, j, k;
     std::cin >> i >> j >> k;
-    int result = beautifulDays(i, j, k);
+    const int result = beautifulDays(i, j, k);
     std::cout << result;
 
     return 0;

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> acmTeam(std::vector<std::string> topic) {
+std::vector<int> acmTeam(const std::vector<std::string> &topic) {
     std::string s[topic[0].size()];
     int count, max{}, temp{1};
     for (int i{}; i < topic.size(); i++) {
@@ -38,8 +38,8 @@ int main() {
         if (s.size() == m) 
             topic.push_back(s);
     }
-    std::vector<int> result = acmTeam(topic);
-    for (auto el: result) 
+    const std::vector<int> result = acmTeam(topic);
+    for (auto &el: result) 
         std::cout << el << '\n';
 
     return 0;

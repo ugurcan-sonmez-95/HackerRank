@@ -3,12 +3,12 @@
 #include <iostream>
 #include <cmath>
 
-void kaprekarNumbers(long p, long q) {
+void kaprekarNumbers(const long p, const long q) {
     int testCount{};
     for (long i{p}; i <= q; i++) {
-        std::string str{std::to_string(i)};
-        long squared{i*i}, digits = std::pow(10, str.size());
-        long n1{squared / digits}, n2{squared % digits};
+        const std::string str{std::to_string(i)};
+        const long squared{i*i}, digits = std::pow(10, str.size());
+        const long n1{squared / digits}, n2{squared % digits};
         if (n1+n2 == i) {
             std::cout << i << " ";
             testCount++;        

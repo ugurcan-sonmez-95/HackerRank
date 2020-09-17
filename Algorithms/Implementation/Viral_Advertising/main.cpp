@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 
-int viralAdvertising(int n) {
+int viralAdvertising(const int n) {
     int sharedCount{5}, likeCount{2}, cumulativeCount{2};
     for (int i{}; i < n-1; i++) {
         sharedCount = likeCount * 3;
@@ -16,7 +16,7 @@ int viralAdvertising(int n) {
 int main() {
     int n;
     std::cin >> n;
-    int result = viralAdvertising(n);
+    const int result = viralAdvertising(n);
     std::cout << result;
 
     return 0;

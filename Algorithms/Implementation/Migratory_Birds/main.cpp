@@ -4,9 +4,9 @@
 #include <vector> 
 #include <map> 
 
-int migratoryBirds(std::vector<int> vec) {
+int migratoryBirds(const std::vector<int> &vec) {
     std::map<int,int> m;
-    for (auto el: vec) 
+    for (auto &el: vec) 
         m[el]++;
     auto it = m.begin();
     int id{it->first}, max{it->second};
@@ -24,10 +24,9 @@ int main() {
     int n;
     std::cin >> n;
     std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++) {
+    for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    }
-    int result = migratoryBirds(vec);
+    const int result = migratoryBirds(vec);
     std::cout << result;
 
     return 0;

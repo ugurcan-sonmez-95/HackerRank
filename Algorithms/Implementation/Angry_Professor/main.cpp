@@ -11,7 +11,7 @@ void angryProfessor(int t, int n, int k) {
         std::vector<int> a(n);
         for (int i{}; i < a.size(); i++)
             std::cin >> a[i];
-        int count = std::count_if(a.begin(), a.end(), [](int x) {return x <= 0;});
+        const int count = std::count_if(a.begin(), a.end(), [](int x) {return x <= 0;});
         std::cout << (count >= k ? "NO" : "YES") << '\n';        
         t--;
     }

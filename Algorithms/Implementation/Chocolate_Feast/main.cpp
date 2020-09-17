@@ -10,7 +10,7 @@ void chocolateFeast(int t, int n, int c, int m) {
         while (wrapper >= m) {
             int count{};
             count += wrapper / m;
-            int remainder{wrapper % m};
+            const int remainder{wrapper % m};
             wrapper = count + remainder;
             chocolateCount += count;
         }

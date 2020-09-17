@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 
-int sockMerchant(int n, std::vector<int> vec) {
+int sockMerchant(const int n, std::vector<int> &vec) {
     int pairCount{}, i{};
     std::sort(vec.begin(), vec.end());
     while (i < n) {
@@ -21,10 +21,9 @@ int main() {
     int n;
     std::cin >> n;
     std::vector<int> vec(n);
-    for (int i{}; i < vec.size(); i++) {
+    for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    }
-    int result = sockMerchant(n, vec);
+    const int result = sockMerchant(n, vec);
     std::cout << result;
 
     return 0;

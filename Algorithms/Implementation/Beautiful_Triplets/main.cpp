@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-int beautifulTriplets(int d, std::vector<int> vec) {
+int beautifulTriplets(const int d, const std::vector<int> &vec) {
     int count{};
     if (vec.size() < 3) 
         return 0;
@@ -11,10 +11,9 @@ int beautifulTriplets(int d, std::vector<int> vec) {
         for (int i{}; i < vec.size()-2; i++) {
             for (int  j{i+1}; j < vec.size()-1; j++) {
                 if (vec[j] - vec[i] == d) {
-                    for (int k{j+1}; k < vec.size(); k++) {
+                    for (int k{j+1}; k < vec.size(); k++) 
                         if (vec[k] - vec[j] == d) 
                             count++;
-                    }
                 }
             }
         }
@@ -28,7 +27,7 @@ int main() {
     std::vector<int> vec(n);
     for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    int result = beautifulTriplets(d, vec);
+    const int result = beautifulTriplets(d, vec);
     std::cout << result;
 
     return 0;

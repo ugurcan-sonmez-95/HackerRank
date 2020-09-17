@@ -11,7 +11,7 @@ void serviceLane(int n, int t, int i, int j) {
         std::cin >> width[k];
     while (t) {
         std::cin >> i >> j;
-        int largest = *std::min_element(width.begin()+i, width.begin()+j+1);
+        const int largest = *std::min_element(width.begin()+i, width.begin()+j+1);
         std::cout << largest << '\n';
         t--;
     }

@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int libraryFine(int d1, int m1, int y1, int d2, int m2, int y2) {
+int libraryFine(const int d1, const int m1, const int y1, const int d2, const int m2, const int y2) {
     if (y1 > y2) 
         return 10000;
     if (y2 > y1) 
@@ -19,7 +19,7 @@ int libraryFine(int d1, int m1, int y1, int d2, int m2, int y2) {
 int main() {
     int d1, m1, y1, d2, m2, y2;
     std::cin >> d1 >> m1 >> y1 >> d2 >> m2 >> y2;
-    int result = libraryFine(d1, m1, y1, d2, m2, y2);
+    const int result = libraryFine(d1, m1, y1, d2, m2, y2);
     std::cout << result;
 
     return 0;

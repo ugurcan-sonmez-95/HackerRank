@@ -3,7 +3,7 @@
 #include <iostream> 
 #include <vector>
 
-int workbook(int n, int k, std::vector<int> vec) {
+int workbook(const int n, const int k, const std::vector<int> &vec) {
     int specials{}, pageNum{1};
     for (int i{1}; i <= n; i++) {
         for (int j{1}; j <= vec[i-1]; j++) {
@@ -22,7 +22,7 @@ int main() {
     std::vector<int> vec(n);
     for (int i{}; i < vec.size(); i++) 
         std::cin >> vec[i];
-    int result = workbook(n, k, vec);
+    const int result = workbook(n, k, vec);
     std::cout << result;
 
     return 0;

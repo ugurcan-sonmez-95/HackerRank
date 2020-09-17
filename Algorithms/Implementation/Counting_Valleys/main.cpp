@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int countingValleys(int n, std::string s) {
+int countingValleys(const int n, const std::string &s) {
     int level{}, valleyCount{};
     for (int i{}; i < n; i++) {
         if (s[i] == 'U') {
@@ -20,7 +20,7 @@ int main() {
     std::cin >> n;
     std::string s;
     std::cin >> s;
-    int result = countingValleys(n, s);
+    const int result = countingValleys(n, s);
     std::cout << result;
 
     return 0;

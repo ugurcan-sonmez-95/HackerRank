@@ -3,7 +3,7 @@
 #include <iostream> 
 #include <vector>
 
-int birthday(std::vector<int> s, int d, int m) {
+int birthday(const std::vector<int> &s, const int d, const int m) {
     int count{};
     for (int i{}; i < s.size(); i++) {
         int sum{};
@@ -19,12 +19,11 @@ int main() {
     int n;
     std::cin >> n;
     std::vector<int> s(n);
-    for (int i{}; i < s.size(); i++) {
+    for (int i{}; i < s.size(); i++) 
         std::cin >> s[i];
-    }
     int d, m;
     std::cin >> d >> m;
-    int result = birthday(s, d, m);
+    const int result = birthday(s, d, m);
     std::cout << result;
 
     return 0;

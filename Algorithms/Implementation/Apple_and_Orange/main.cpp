@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int calcApples(int m, int a, int s, int t, int apple_dist, int apple_on_house) {
+int calcApples(const int m, const int a, const int s, const int t, int apple_dist, int apple_on_house) {
     apple_on_house = 0;
     for (int i{}; i < m; i++) {
         std::cin >> apple_dist;
@@ -13,7 +13,7 @@ int calcApples(int m, int a, int s, int t, int apple_dist, int apple_on_house) {
     return apple_on_house;
 }
 
-int calcOranges(int n, int b, int s, int t, int orange_dist, int orange_on_house) {
+int calcOranges(const int n, const int b, const int s, const int t, int orange_dist, int orange_on_house) {
     orange_on_house = 0;
     for (int j{}; j < n; j++) {
         std::cin >> orange_dist;
@@ -24,15 +24,15 @@ int calcOranges(int n, int b, int s, int t, int orange_dist, int orange_on_house
     return orange_on_house;
 }
 
-void outputResult(int apple_count, int orange_count) {
+void outputResult(const int apple_count, const int orange_count) {
     std::cout << apple_count << "\n" << orange_count;
 }
 
 int main() {
     int s, t, a, b, m, n, apple_dist, orange_dist, apple_on_house, orange_on_house;
     std::cin >> s >> t >> a >> b >> m >> n;
-    int apple_count = calcApples(m, a, s, t, apple_dist, apple_on_house);
-    int orange_count = calcOranges(n, b, s, t, orange_dist, orange_on_house);
+    const int apple_count = calcApples(m, a, s, t, apple_dist, apple_on_house);
+    const int orange_count = calcOranges(n, b, s, t, orange_dist, orange_on_house);
     outputResult(apple_count, orange_count);
     
     return 0;

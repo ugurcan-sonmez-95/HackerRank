@@ -3,7 +3,7 @@
 #include <iostream>
 #define sizeSum (s.size() + t.size())
 
-void appendAndDelete(std::string s, std::string t, int k, int i) {
+void appendAndDelete(const std::string &s, const std::string &t, const int k, int i) {
     for (i = 0; s[i] == t[i]; i++);
     std::cout << (sizeSum <= k + i*2 && (sizeSum % 2 == k % 2 || sizeSum < k) ? "Yes" : "No");
 }

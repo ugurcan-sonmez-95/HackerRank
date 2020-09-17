@@ -4,12 +4,12 @@
 #include <vector>
 #include <algorithm>
 
-int flatlandSpaceStations(int n, std::vector<int> c) {
+int flatlandSpaceStations(const int n, const std::vector<int> &c) {
     int max{};
     for (int i{}; i < n; i++) {
         int temp{n};
         for (int j{}; j < c.size(); j++) {
-            int diff{abs(c[j]-i)}; 
+            const int diff{abs(c[j]-i)}; 
             temp = std::min(temp, diff);
         }
         max = std::max(temp, max);
@@ -23,7 +23,7 @@ int main() {
     std::vector<int> c(m);
     for (int i{}; i < c.size(); i++) 
         std::cin >> c[i];
-    int result = flatlandSpaceStations(n, c);
+    const int result = flatlandSpaceStations(n, c);
     std::cout << result;
 
     return 0;

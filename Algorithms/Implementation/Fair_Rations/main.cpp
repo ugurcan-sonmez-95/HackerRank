@@ -4,12 +4,11 @@
 #include <vector>
 #include <string>
 
-std::string fairRations(std::vector<int> B) {
+std::string fairRations(std::vector<int> &B) {
     int oddNum{};
-    for (int i{}; i < B.size(); i++) {
+    for (int i{}; i < B.size(); i++) 
         if (B[i] % 2 != 0) 
             oddNum++;
-    }
     if (oddNum % 2 != 0) 
         return "NO";
     else {
@@ -21,7 +20,7 @@ std::string fairRations(std::vector<int> B) {
             count += 2;
             }
         }
-        std::string strNum{std::to_string(count)};
+        const std::string strNum{std::to_string(count)};
         return strNum;    
     }
 }
@@ -32,7 +31,7 @@ int main() {
     std::vector<int> B(N);
     for (int i{}; i < B.size(); i++) 
         std::cin >> B[i];
-    std::string result = fairRations(B);
+    const std::string result = fairRations(B);
     std::cout << result;
 
     return 0;

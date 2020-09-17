@@ -4,9 +4,9 @@
 #include <vector>
 #include <numeric>
 
-void bonAppetit(std::vector<int> bill, int k, int b) {
-    int sum {std::accumulate(bill.begin(), bill.end(), 0)};
-    int costAnna {(sum - bill[k]) / 2};
+void bonAppetit(const std::vector<int> &bill, const int k, const int b) {
+    const int sum {std::accumulate(bill.begin(), bill.end(), 0)};
+    const int costAnna {(sum - bill[k]) / 2};
     if (costAnna == b) 
         std::cout << "Bon Appetit";
     else 
@@ -17,9 +17,8 @@ int main() {
     int n, k;
     std::cin >> n >> k;
     std::vector<int> bill(n);
-    for (int i{}; i < bill.size(); i++) {
+    for (int i{}; i < bill.size(); i++) 
         std::cin >> bill[i];
-    }
     int b;
     std::cin >> b;
     bonAppetit(bill, k, b);

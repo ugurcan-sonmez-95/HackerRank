@@ -8,14 +8,14 @@ long strangeCounter(long t) {
         t -= val;
         val *= 2;
     }
-    long result = val - t + 1;
+    const long result = val - t + 1;
     return result;
 }
 
 int main() {
     long t;
     std::cin >> t;
-    long result = strangeCounter(t);
+    const long result = strangeCounter(t);
     std::cout << result;
 
     return 0;

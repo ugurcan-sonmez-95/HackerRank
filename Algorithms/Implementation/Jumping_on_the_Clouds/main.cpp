@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-int jumpingOnClouds(std::vector<int> c) {
+int jumpingOnClouds(const std::vector<int> &c) {
     int count{};
     for (int i{}; i < c.size()-1; i++) {
         if (c[i+2] == 0) {
@@ -19,10 +19,9 @@ int main() {
     int n;
     std::cin >> n;
     std::vector<int> c(n);
-    for (int i{}; i < c.size(); i++) {
+    for (int i{}; i < c.size(); i++) 
         std::cin >> c[i];
-    }
-    int result = jumpingOnClouds(c);
+    const int result = jumpingOnClouds(c);
     std::cout << result;
 
     return 0;
