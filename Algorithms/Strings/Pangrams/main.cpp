@@ -6,10 +6,10 @@
 #include <algorithm>
 
 
-void pangrams(std::string s) {
+void pangrams(std::string &s) {
     s.erase(std::remove_if(s.begin(), s.end(), isspace), s.end());
     std::transform(s.begin(), s.end(), s.begin(), tolower);
-    std::set<char> uniques(s.begin(), s.end());
+    const std::set<char> uniques(s.begin(), s.end());
     if (uniques.size() == 26) 
         std::cout << "pangram";
     else

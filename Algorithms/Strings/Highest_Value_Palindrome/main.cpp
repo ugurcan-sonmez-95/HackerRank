@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 
-std::string checkHighestPalindrome(int k, int start, int end, std::string pal_s, std::string s) {
+std::string checkHighestPalindrome(int k, int start, int end, std::string &pal_s, const std::string &s) {
     start = 0;
     end = s.size()-1;
     while (start <= end) {
@@ -27,7 +27,7 @@ std::string checkHighestPalindrome(int k, int start, int end, std::string pal_s,
     return pal_s;
 }
 
-void outputResult(int k, std::string s) {
+void outputResult(int k, const std::string &s) {
     std::string pal_s = s;
     int start{}, end{s.size()-1};
     while (start < end) {
@@ -41,7 +41,7 @@ void outputResult(int k, std::string s) {
     if (k < 0)
         std::cout << "-1";
     else {
-        std::string result = checkHighestPalindrome(k, start, end, pal_s, s);
+        const std::string result = checkHighestPalindrome(k, start, end, pal_s, s);
         std::cout << result;
     }
 }

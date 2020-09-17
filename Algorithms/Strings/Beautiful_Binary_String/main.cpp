@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void beautifulBinaryString(std::string b) {
+void beautifulBinaryString(std::string &b) {
     int change_count{};
     for (int i{}; i < b.size()-2; i++) {
         if (b.substr(i, 3) == "010") {

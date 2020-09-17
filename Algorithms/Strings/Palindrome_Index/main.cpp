@@ -3,7 +3,7 @@
 #include <iostream>
 #include <algorithm>
 
-int getIndex(std::string s) {
+int getIndex(const std::string &s) {
     std::string rev_str(s);
     std::reverse(rev_str.begin(), rev_str.end());
     if (s == rev_str)
@@ -21,11 +21,11 @@ int getIndex(std::string s) {
     return idx_last;    
 }
 
-void outputResult(int q, std::string s) {
+void outputResult(int q, std::string &s) {
     std::cin >> q;
     while (q) {
         std::cin >> s;
-        int result = getIndex(s);
+        const int result = getIndex(s);
         std::cout << result << '\n';
         q--;
     }

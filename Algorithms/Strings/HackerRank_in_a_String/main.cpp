@@ -2,11 +2,11 @@
 
 #include <iostream>
 
-void hackerrankInString(int query_count, std::string s) {
+void hackerrankInString(int query_count, std::string &s) {
     std::cin >> query_count;
     while (query_count) {
         std::cin >> s;
-        std::string s1 = "hackerrank";
+        const std::string s1 = "hackerrank";
         int count{}, temp{};
         for (int i{}; i < s1.size(); i++) {
             for (int j{temp}; j < s.size(); j++) {
@@ -17,7 +17,7 @@ void hackerrankInString(int query_count, std::string s) {
                 }
             }
         }
-        std::string ans = (count == 10 ? "YES" : "NO"); 
+        const std::string ans = (count == 10 ? "YES" : "NO"); 
         std::cout << ans << '\n';
         query_count--;
     }

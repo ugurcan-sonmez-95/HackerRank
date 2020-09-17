@@ -5,9 +5,9 @@
 #include <map>
 #include <algorithm>
 
-void gemstones(std::vector<std::string> str_vec) {
+void gemstones(std::vector<std::string> &str_vec) {
     std::map<char, int> char_dict;
-    for (auto str: str_vec) {
+    for (auto &str: str_vec) {
         std::sort(str.begin(), str.end());
         for (int i{}; i < str.size(); i++)
             if (str[i] != str[i+1])

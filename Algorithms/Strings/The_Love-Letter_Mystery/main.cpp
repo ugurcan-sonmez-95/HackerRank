@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void theLoveLetterMystery(int q, std::string s) {
+void theLoveLetterMystery(int q, std::string &s) {
     std::cin >> q;
     while (q) {
         std::cin >> s;

@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <vector>
 
-void funnyString(int q, std::string s) {
+void funnyString(int q, std::string &s) {
     std::cin >> q;
     while (q) {
         std::vector<std::string> ans;
@@ -19,7 +19,7 @@ void funnyString(int q, std::string s) {
         } 
         if (!ans.size())
             ans.push_back("Funny");
-        for (auto string: ans)
+        for (auto &string: ans)
             std::cout << string << '\n';
         q--;
     }

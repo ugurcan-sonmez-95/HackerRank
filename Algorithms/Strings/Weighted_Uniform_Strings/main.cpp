@@ -4,7 +4,7 @@
 #include <vector>
 #include <set>
 
-std::vector<std::string> getAnswers(std::set<int> total_weight, int query_count) {
+std::vector<std::string> getAnswers(const std::set<int> &total_weight, const int query_count) {
     int query;
     std::vector<std::string> ans;
     for (int j{}; j < query_count; j++) {
@@ -18,7 +18,7 @@ std::vector<std::string> getAnswers(std::set<int> total_weight, int query_count)
     return ans;
 }
 
-void outputResult(std::string s, int query_count) {
+void outputResult(const std::string &s, const int query_count) {
     std::set<int> total_weight;
     int count{1}, weight;
     for (int i{}; i < s.size(); i++) {
@@ -29,8 +29,8 @@ void outputResult(std::string s, int query_count) {
             count = 1;
         total_weight.insert(weight*count);
     }
-    std::vector<std::string> answers = getAnswers(total_weight, query_count);
-    for (auto ans: answers)
+    const std::vector<std::string> answers = getAnswers(total_weight, query_count);
+    for (auto &ans: answers)
         std::cout << ans << '\n';
 }
 

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <algorithm>
 
-void makingAnagrams(std::string s1, std::string s2) {
+void makingAnagrams(std::string &s1, std::string &s2) {
     for (int i{}; i < s1.size(); i++) {
         auto find = std::find(s2.begin(), s2.end(), s1[i]);
         if (find != s2.end()) {
@@ -12,7 +12,7 @@ void makingAnagrams(std::string s1, std::string s2) {
             i--;
         }
     }
-    int count{s1.size()+s2.size()};
+    const int count{s1.size()+s2.size()};
     std::cout << count;
 }
 

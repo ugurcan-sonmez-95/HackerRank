@@ -5,7 +5,7 @@
 #include <cctype>
 #include <string>
 
-void numberOfWords(std::string s) {
+void numberOfWords(const std::string &s) {
     std::cout << 1 + std::count_if(s.begin()+1, s.end(), [](char c) { return std::isupper(c); }) << '\n';
 }
 

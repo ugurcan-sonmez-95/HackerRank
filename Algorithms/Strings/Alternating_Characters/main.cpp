@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void alternatingCharacters(int q, std::string s) {
+void alternatingCharacters(int q, std::string &s) {
     std::cin >> q;
     while (q) {
         std::cin >> s;

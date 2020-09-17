@@ -3,17 +3,17 @@
 #include <iostream>
 #include <set>
 
-int calcMinCost(std::string s) {
-    std::set<char> set_s(s.begin(), s.end());
-    int cost{set_s.size()};
+int calcMinCost(const std::string &s) {
+    const std::set<char> set_s(s.begin(), s.end());
+    const int cost{set_s.size()};
     return cost;
 }
 
-void outputResult(int n, std::string s) {
+void outputResult(int n, std::string &s) {
     std::cin >> n;
     while (n) {
         std::cin >> s;
-        int cost = calcMinCost(s);
+        const int cost = calcMinCost(s);
         std::cout << cost << '\n';
         n--;
     }

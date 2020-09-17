@@ -3,7 +3,7 @@
 #include <iostream>
 #include <algorithm>
 
-void gameOfThrones(std::string s) {
+void gameOfThrones(std::string &s) {
     std::sort(s.begin(), s.end());
     int count{1}, oddCount{};
     for (int i{}; i < s.size()-1; i++) {

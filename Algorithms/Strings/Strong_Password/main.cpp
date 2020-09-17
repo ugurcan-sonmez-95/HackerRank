@@ -4,9 +4,9 @@
 #include <cctype>
 #include <algorithm>
 
-int minimumNumber(int n, std::string password) {
+int minimumNumber(const int n, const std::string &password) {
     bool lowercase=false, uppercase=false, digit=false, special_char=false;
-    for (auto ch: password) {
+    for (auto &ch: password) {
         if (std::isalpha(ch)) {
             if (std::islower(ch))
                 lowercase = true;
@@ -41,7 +41,7 @@ int main() {
         std::cin >> ch;
         password.push_back(ch);
     }
-    int result = minimumNumber(n, password);
+    const int result = minimumNumber(n, password);
     std::cout << result; 
 
     return 0;

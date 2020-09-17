@@ -4,7 +4,7 @@
 #include <vector>
 #include <cctype>
 
-void caesarCipher(std::string s, int k) {
+void caesarCipher(std::string &s, const int k) {
     char first_letter;
     for (auto &ch: s) {
         if (std::isalpha(ch)) {
