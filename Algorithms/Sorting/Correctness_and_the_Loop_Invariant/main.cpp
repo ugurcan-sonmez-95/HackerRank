@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void insertionSort(int N, int arr[]) {
+void insertionSort(const int N, int arr[]) {
     int j, value;
     for (int i{1}; i < N; i++) {
         value = arr[i];

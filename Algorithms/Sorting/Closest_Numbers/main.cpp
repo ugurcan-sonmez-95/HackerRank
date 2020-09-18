@@ -4,12 +4,12 @@
 #include <vector>
 #include <algorithm>
 
-void closestNumbers(std::vector<int> nums) {
+void closestNumbers(std::vector<int> &nums) {
     std::sort(nums.begin(), nums.end());
     std::vector<int> diffNums;
     for (int i{}; i < nums.size()-1; i++) 
         diffNums.push_back(nums[i+1]-nums[i]);
-    int minDiff = *std::min_element(diffNums.begin(), diffNums.end());
+    const int minDiff = *std::min_element(diffNums.begin(), diffNums.end());
     std::vector<int> pairs;
     for (int j{}; j < nums.size()-1; j++) {
         if (nums[j+1]-nums[j] == minDiff) {
@@ -17,7 +17,7 @@ void closestNumbers(std::vector<int> nums) {
             pairs.push_back(nums[j+1]);
         }
     }
-    for (auto num: pairs)
+    for (auto &num: pairs)
         std::cout << num << " ";
 }
 

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> icecreamParlor(int m, std::vector<int> vec) {
+std::vector<int> icecreamParlor(int m, const std::vector<int> &vec) {
     std::vector<int> indexes;
     for (int i{}; i < vec.size()-1; i++) {
         for (int j{i+1}; j < vec.size(); j++) {
@@ -27,8 +27,8 @@ void outputResult() {
         std::vector<int> vec(n);
         for (int i{}; i < vec.size(); i++)
             std::cin >> vec[i];
-        std::vector<int> result = icecreamParlor(m, vec);
-        for (auto num: result)
+        const std::vector<int> result = icecreamParlor(m, vec);
+        for (auto &num: result)
             std::cout << num << " ";
         std::cout << '\n';
         t--;

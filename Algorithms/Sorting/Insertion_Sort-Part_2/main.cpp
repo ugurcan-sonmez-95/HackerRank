@@ -2,13 +2,13 @@
 
 #include <iostream>
 
-void printVector(int n, int nums[]) {
+void printVector(const int n, const int nums[]) {
     for (int i{}; i < n; i++)
         std::cout << nums[i] << " ";
     std::cout << '\n';
 }
 
-void insertionSort2(int n, int nums[]) {
+void insertionSort2(const int n, int nums[]) {
     int cmp, prev;
     for (int i{1}; i < n; i++) {
         cmp = nums[i]; 

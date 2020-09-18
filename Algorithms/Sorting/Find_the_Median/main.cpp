@@ -4,9 +4,9 @@
 #include <vector>
 #include <algorithm>
 
-void findMedian(std::vector<int> nums) {
+void findMedian(std::vector<int> &nums) {
     std::sort(nums.begin(), nums.end());
-    int idx{nums.size()/2};
+    const int idx{nums.size()/2};
     std::cout << nums[idx];
 }
 

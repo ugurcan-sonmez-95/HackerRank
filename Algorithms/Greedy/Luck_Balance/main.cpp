@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <numeric>
 
-void luckBalance(int k, std::vector<std::vector<int>> contests) {
+void luckBalance(const int k, const std::vector<std::vector<int>> &contests) {
     std::vector<int> important, unimportant;
     for (int i{}; i < contests.size(); i++) {
         if (contests[i][1] == 1)
@@ -15,10 +15,10 @@ void luckBalance(int k, std::vector<std::vector<int>> contests) {
     }
     std::sort(important.begin(), important.end());
     int sum1 = std::accumulate(important.begin(), important.end(), 0);
-    int sum2 = std::accumulate(unimportant.begin(), unimportant.end(), 0);
+    const int sum2 = std::accumulate(unimportant.begin(), unimportant.end(), 0);
     for (int j{}; j < static_cast<int>(important.size())-k; j++)
         sum1 -= important[j] * 2;
-    int max_luck {sum1 + sum2};
+    const int max_luck {sum1 + sum2};
     std::cout << max_luck;
 }
 

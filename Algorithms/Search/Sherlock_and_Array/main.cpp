@@ -4,10 +4,10 @@
 #include <vector>
 #include <numeric>
 
-std::string getAns(std::vector<int> nums) {  
+std::string getAns(const std::vector<int> &nums) {  
     int sum = std::accumulate(nums.begin(), nums.end(), 0); 
     int left_sum {}, cur;
-    for (auto num: nums) {
+    for (auto &num: nums) {
         cur = num;
         sum -= cur;
         if (left_sum == sum)
@@ -25,7 +25,7 @@ void outputResult() {
         std::vector<int> nums(n);
         for (int i{}; i < nums.size(); i++)
             std::cin >> nums[i];
-        std::string result = getAns(nums);
+        const std::string result = getAns(nums);
         std::cout << result << '\n';
         t--;
     }

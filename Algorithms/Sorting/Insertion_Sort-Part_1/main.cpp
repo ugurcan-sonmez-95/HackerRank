@@ -2,14 +2,14 @@
 
 #include <iostream>
 
-void printVector(int n, int arr[]) {
+void printVector(const int n, const int arr[]) {
     for (int i{}; i < n; i++) 
         std::cout << arr[i] << " ";
     std::cout << '\n';
 }
 
-void insertionSort1(int n, int arr[]) {
-    int num {arr[n-1]};
+void insertionSort1(const int n, int arr[]) {
+    const int num {arr[n-1]};
     for (int i{n-2}; i >= 0; i--) {
         if (num <= arr[i]) {
             arr[i+1] = arr[i];

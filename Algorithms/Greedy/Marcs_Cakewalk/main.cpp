@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <cmath>
 
-void marcsCakewalk(std::vector<int> calorie) {
+void marcsCakewalk(std::vector<int> &calorie) {
     std::sort(calorie.rbegin(), calorie.rend());
     long sum {};
     for (int i{}; i < calorie.size(); i++)

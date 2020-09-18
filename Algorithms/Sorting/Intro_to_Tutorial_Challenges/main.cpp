@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void introTutorial(int V, int n, int arr[]) {
+void introTutorial(const int V, const int n, const int arr[]) {
     for (int i{}; i < n; i++) {
         if (arr[i] == V) {
             std::cout << i; 

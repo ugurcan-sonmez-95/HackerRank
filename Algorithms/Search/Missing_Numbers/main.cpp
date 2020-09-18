@@ -5,9 +5,9 @@
 #include <set>
 #include <algorithm>
 
-std::vector<int> missingNumbers(std::vector<int> first_vec, std::vector<int> sec_vec) {
+std::vector<int> missingNumbers(std::vector<int> &first_vec, const std::vector<int> &sec_vec) {
     std::set<int> missingNums;
-    for (auto num: sec_vec) {
+    for (auto &num: sec_vec) {
         auto find = std::find(first_vec.begin(), first_vec.end(), num);
         if (find != first_vec.end())
             first_vec.erase(find);
@@ -30,8 +30,8 @@ int main() {
     for (int j{}; j < sec_vec.size(); j++)
         std::cin >> sec_vec[j];
     
-    std::vector<int> result = missingNumbers(first_vec, sec_vec);
-    for (auto num: result)
+    const std::vector<int> result = missingNumbers(first_vec, sec_vec);
+    for (auto &num: result)
         std::cout << num << " ";
 
     return 0;

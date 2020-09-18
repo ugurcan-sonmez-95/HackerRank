@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void runningTime(int n, int arr[]) {
+void runningTime(const int n, int arr[]) {
     int cmp, prev, shiftCount{};
     for (int i{1}; i < n; i++) {
         cmp = arr[i];

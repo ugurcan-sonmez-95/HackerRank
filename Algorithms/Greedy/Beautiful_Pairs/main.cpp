@@ -4,9 +4,9 @@
 #include <vector>
 #include <algorithm>
 
-void beautifulPairs(std::vector<int> A, std::vector<int> B) {
+void beautifulPairs(const std::vector<int> &A, std::vector<int> &B) {
     int count{};
-    for (auto num: A) {
+    for (auto &num: A) {
         auto find = std::find(B.begin(), B.end(), num);
         if (find != B.end()) {
             B.erase(find);

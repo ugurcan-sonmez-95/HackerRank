@@ -4,11 +4,11 @@
 #include <vector>
 #include <algorithm>
 
-void minimumAbsoluteDifference(std::vector<int> nums) {
+void minimumAbsoluteDifference(std::vector<int> &nums) {
     std::sort(nums.begin(), nums.end());
     int min = abs(nums[1]-nums[0]);
     for (int i{2}; i < nums.size(); i++) {
-        int temp = abs(nums[i]-nums[i-1]);
+        const int temp = abs(nums[i]-nums[i-1]);
         if (temp < min)
             min = temp;
     }

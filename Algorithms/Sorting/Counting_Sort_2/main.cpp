@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cstring>
 
-void countingSort(int n, int arr[]) {
+void countingSort(const int n, const int arr[]) {
     int zeroArr[100];
     std::memset(zeroArr, 0, sizeof zeroArr);
     for (int i{}; i < n; i++)

@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-std::string findDecentNumber(int n) {
+std::string findDecentNumber(const int n) {
     int temp {n};
     while (temp > 0) {
         if (temp%3 == 0) 
@@ -31,7 +31,7 @@ void outputResult() {
     std::cin >> t;
     while (t) {
         std::cin >> n;
-        std::string result = findDecentNumber(n);
+        const std::string result = findDecentNumber(n);
         std::cout << result << '\n';
         t--;
     }

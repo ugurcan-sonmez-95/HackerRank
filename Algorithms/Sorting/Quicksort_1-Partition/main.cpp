@@ -2,8 +2,9 @@
 
 #include <iostream>
 
-void quickSort(int n, int arr[]) {
-    int pivotNum{arr[0]}, temp;
+void quickSort(const int n, int arr[]) {
+    const int pivotNum{arr[0]}; 
+    int temp;
     for (int i{1}; i < n; i++) {
         if (pivotNum > arr[i]) {
             for (int j{i}; j > 0; j--) {
