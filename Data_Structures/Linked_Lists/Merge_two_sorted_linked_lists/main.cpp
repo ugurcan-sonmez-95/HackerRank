@@ -38,14 +38,6 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Merges two sorted linked lists
 SinglyLinkedListNode* mergeLists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
     // If one of the linked lists is empty, return the other one 
@@ -84,8 +76,6 @@ int main() {
         }
         SinglyLinkedListNode *llist3 = mergeLists(llist1->head, llist2->head);
         print_singly_linked_list(llist3);
-        free_singly_linked_list(llist3);
-        delete llist3;
     }
     return 0;
 }

@@ -38,14 +38,6 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }    
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Deletes duplicate values
 SinglyLinkedListNode* removeDuplicates(SinglyLinkedListNode* head) {
     // Create current pointer and a pointer that will keep the next of next of current node
@@ -63,8 +55,6 @@ SinglyLinkedListNode* removeDuplicates(SinglyLinkedListNode* head) {
             cur = cur->next;
     }
     return head;
-    delete cur;
-    delete tmp;
 }
 
 int main() {
@@ -81,8 +71,6 @@ int main() {
         }
         SinglyLinkedListNode *llist1 = removeDuplicates(llist->head);
         print_singly_linked_list(llist1);
-        free_singly_linked_list(llist1);
-        delete llist1;
     }
     return 0;
 }

@@ -39,19 +39,18 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
 }
 
 // Inserts a node at the head of the linked list
-SinglyLinkedListNode* insertNodeAtHead(SinglyLinkedListNode* head, int data) {
+SinglyLinkedListNode* insertNodeAtHead(SinglyLinkedListNode* head, const int data) {
     SinglyLinkedListNode *new_node = new SinglyLinkedListNode(data);
     // Assign data to new_node's data
     new_node->data = data;
     // Make new_node's next as head
     new_node->next = head;
-    // Make head point to new_node
-    head = new_node;
-    return head;
+    // Return new_node
+    return new_node;
 }
 
 int main() {
-    std::unique_ptr<SinglyLinkedList> llist = std::make_unique<SinglyLinkedList>();
+    SinglyLinkedList* llist = new SinglyLinkedList();
     int llist_size;
     std::cin >> llist_size;
     for (int i = 0; i < llist_size; i++) {
@@ -59,6 +58,7 @@ int main() {
         std::cin >> llist_item;    
       	SinglyLinkedListNode* llist_head = insertNodeAtHead(llist->head, llist_item);
         llist->head = llist_head;
+        delete llist_head;
     }
     print_singly_linked_list(llist->head);
     free_singly_linked_list(llist->head);

@@ -42,14 +42,6 @@ void print_doubly_linked_list(DoublyLinkedListNode* node) {
     }
 }
 
-void free_doubly_linked_list(DoublyLinkedListNode* node) {
-    while (node) {
-        DoublyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Reverses a doubly linked list
 DoublyLinkedListNode* reverse(DoublyLinkedListNode* head) {
     DoublyLinkedListNode *tmp = nullptr, *cur = head;
@@ -64,8 +56,6 @@ DoublyLinkedListNode* reverse(DoublyLinkedListNode* head) {
     if (tmp != nullptr)
         head = tmp->prev;
     return head;
-    delete tmp;
-    delete cur;
 }
 
 int main() {
@@ -82,8 +72,6 @@ int main() {
         }
         DoublyLinkedListNode *llist1 = reverse(llist->head);
         print_doubly_linked_list(llist1);
-        free_doubly_linked_list(llist1);
-        delete llist1; 
     }
     return 0;
 }

@@ -38,14 +38,6 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }    
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Checks whether there is a cycle in the linked list
 bool has_cycle(SinglyLinkedListNode* head) {
     // ptr1 is a slow pointer and ptr2 is a fast pointer
@@ -60,8 +52,6 @@ bool has_cycle(SinglyLinkedListNode* head) {
             return true;
     }
     return false;
-    delete ptr1;
-    delete ptr2;
 }
 
 int main() {
@@ -90,7 +80,6 @@ int main() {
         bool result = has_cycle(llist->head);
         std::cout << result << '\n';
         delete extra;
-        delete temp;
     }
     return 0;
 }

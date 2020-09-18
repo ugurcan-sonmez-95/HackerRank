@@ -38,14 +38,6 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Compares two linked lists
 bool compare_lists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
     // Traverse both linked lists and stop whether there is a mismatching or when reaching the end of a linked list

@@ -39,16 +39,8 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Deletes a node
-SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, int position) {
+SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, const int position) {
     // If the linked list is empty
     if (head == nullptr)
         return head;
@@ -70,8 +62,6 @@ SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, int position) {
     delete tmp->next;
     tmp->next = temp;
     return head;
-    delete tmp;
-    delete temp;
 }
 
 int main() {
@@ -87,7 +77,6 @@ int main() {
     std::cin >> position;
     SinglyLinkedListNode* llist1 = deleteNode(llist->head, position);
     print_singly_linked_list(llist1);
-    free_singly_linked_list(llist1);
 
     return 0;
 }

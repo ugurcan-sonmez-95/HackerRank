@@ -38,14 +38,6 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Prints the reversed linked list
 void reversePrint(SinglyLinkedListNode* head) {
     // Initialize prev, cur and next
@@ -61,9 +53,6 @@ void reversePrint(SinglyLinkedListNode* head) {
     }
     head = prev;
     print_singly_linked_list(head);
-    delete cur;
-    delete prev;
-    delete next;
 }
 
 int main() {

@@ -38,16 +38,8 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }    
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Gets the node value at a specific position
-int getNode(SinglyLinkedListNode* head, int positionFromTail) {
+int getNode(SinglyLinkedListNode* head, const int positionFromTail) {
     SinglyLinkedListNode *main_ptr = head;
     SinglyLinkedListNode *ref_ptr = head;
     // Move ref_ptr to the next node until the count equals to positionFromTail
@@ -59,8 +51,6 @@ int getNode(SinglyLinkedListNode* head, int positionFromTail) {
         ref_ptr = ref_ptr->next;
     }   
     return main_ptr->data;
-    delete main_ptr;
-    delete ref_ptr;
 }
 
 int main() {

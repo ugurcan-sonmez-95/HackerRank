@@ -3,11 +3,11 @@
 #include <iostream>
 #include <vector>
 
-long arrayManipulation(long n, std::vector<std::vector<long>> queries) {
+long arrayManipulation(const long n, const std::vector<std::vector<long>> &queries) {
     std::vector<long> nums(n+1);
     long max{}, tmp{};
     for (long i{}; i < queries.size(); i++) {
-        long a = queries[i][0], b = queries[i][1], k = queries[i][2];
+        const long a = queries[i][0], b = queries[i][1], k = queries[i][2];
         nums[a] += k;
         if ((b+1) <= n)
             nums[b+1] -= k;
@@ -31,7 +31,7 @@ int main() {
             queries[i].push_back(val);
         }
     }
-    long result = arrayManipulation(n, queries);
+    const long result = arrayManipulation(n, queries);
     std::cout << result;
 
     return 0;

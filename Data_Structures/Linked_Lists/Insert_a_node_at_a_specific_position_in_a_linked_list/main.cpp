@@ -47,7 +47,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
 }
 
 // Inserts node to a specific position
-SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data, int position) {
+SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, const int data, int position) {
     SinglyLinkedListNode *new_node = new SinglyLinkedListNode(data);
     new_node->data = data;
     // If the linked list is empty
@@ -67,9 +67,8 @@ SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data,
     // Make new_node's next as prev's next and assign new_node to prev's next
     new_node->next = prev->next;
     prev->next = new_node;
-    return head;
-    delete new_node;
-    delete prev;
+    new_node = head;
+    return new_node;
 }
 
 int main() {

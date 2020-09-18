@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-int hourglassSum(std::vector<std::vector<int>> v) {
+int hourglassSum(const std::vector<std::vector<int>> &v) {
     int largestSum{-63}, tmp;
     for (int i{}; i < v.size()-2; i++) {
         for (int j{}; j < v[0].size()-2; j++) {
@@ -24,7 +24,7 @@ int main() {
             v[i].push_back(val);
         }
     }
-    int result = hourglassSum(v);
+    const int result = hourglassSum(v);
     std::cout << result;
 
     return 0;

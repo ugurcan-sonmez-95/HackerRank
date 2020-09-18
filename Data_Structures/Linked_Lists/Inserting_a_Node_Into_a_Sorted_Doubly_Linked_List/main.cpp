@@ -51,26 +51,24 @@ void free_doubly_linked_list(DoublyLinkedListNode* node) {
 }
 
 // Inserts a node into a sorted doubly linked list
-DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* head, int data) {
+DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* head, const int data) {
+    DoublyLinkedListNode *cur = new DoublyLinkedListNode(data);
     // Check whether the linked list is empty
-    if (head == nullptr) {
-        DoublyLinkedListNode *cur = new DoublyLinkedListNode(data);
+    if (head == nullptr) 
         return cur;
-    }
     // Compare data and the data of head 
     else if (head->data <= data) {
         head->next = sortedInsert(head->next, data);
         head->next->prev = head;
+        cur = head;
     }
     // Put data in the linked list when the data of head is greater than data
     else {
-        DoublyLinkedListNode *cur = new DoublyLinkedListNode(data);
         cur->next = head;
         cur->prev = head->prev;
         head->prev = cur;
-        head = cur;
     }
-    return head;
+    return cur;
 }
 
 int main() {
@@ -90,7 +88,6 @@ int main() {
         DoublyLinkedListNode* llist1 = sortedInsert(llist->head, data);
         print_doubly_linked_list(llist1);
         free_doubly_linked_list(llist1);
-        delete llist1;
     }
     return 0;
 }

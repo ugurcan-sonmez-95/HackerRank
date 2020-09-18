@@ -38,14 +38,6 @@ void print_singly_linked_list(SinglyLinkedListNode* node) {
     }    
 }
 
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-        delete temp;
-    }
-}
-
 // Finds the intersection point of two linked lists
 int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
     // Create current pointers and make them point to head of the linked lists
@@ -62,8 +54,6 @@ int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
             curr2 = curr2->next;
     }
     return curr1->data;
-    delete curr1;
-    delete curr2;
 }
 
 int main() {
@@ -101,8 +91,6 @@ int main() {
       	ptr2->next = ptr1;
         int result = findMergeNode(llist1->head, llist2->head);
         std::cout << result << '\n';
-        delete ptr1;
-        delete ptr2;
     }
     return 0;
 }

@@ -4,9 +4,9 @@
 #include <vector>
 #include <algorithm>
 
-void leftRotation(int d, std::vector<int> v) {
+void leftRotation(const int d, std::vector<int> &v) {
     std::rotate(v.begin(), v.begin()+d, v.end());
-    for (auto el: v)
+    for (auto &el: v)
         std::cout << el << " ";
 }
 
