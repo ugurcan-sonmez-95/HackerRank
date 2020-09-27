@@ -6,5 +6,5 @@ def birthdayCakeCandles(heights):
     print(count)
 
 candle_count = int(input())
-heights = list(map(int, input().split()[:candle_count]))
+heights = tuple(map(int, input().split()[:candle_count]))
 birthdayCakeCandles(heights)

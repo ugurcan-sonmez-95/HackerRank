@@ -4,5 +4,5 @@ def simpleArraySum(arr):
     print(sum(arr))
 
 size = int(input())
-arr = list(map(int, input().split()[:size]))
+arr = tuple(map(int, input().split()[:size]))
 simpleArraySum(arr)

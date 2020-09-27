@@ -5,5 +5,5 @@ def miniMaxSum(arr):
   maximum = sum(arr) - min(arr)
   print(minimum, maximum)  
 
-arr = list(map(int, input().split()[:5]))
+arr = tuple(map(int, input().split()[:5]))
 miniMaxSum(arr)

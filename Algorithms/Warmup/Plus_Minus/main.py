@@ -9,9 +9,9 @@ def plusMinus(arr):
             neg += 1
         else:
             zero += 1
-    decimals = [format(pos/len(arr), ".6f"), format(neg/len(arr), ".6f"), format(zero/len(arr), ".6f")]
+    decimals = (format(pos/len(arr), ".6f"), format(neg/len(arr), ".6f"), format(zero/len(arr), ".6f"))
     print(*decimals, sep='\n')
 
 size = int(input())
-arr = list(map(int, input().split()[:size]))
+arr = tuple(map(int, input().split()[:size]))
 plusMinus(arr)
