@@ -10,6 +10,6 @@ def beautifulPairs(A, B):
     print(count)
 
 n = int(input())
-A = list(map(int, input().split()[:n]))
+A = tuple(map(int, input().split()[:n]))
 B = list(map(int, input().split()[:n]))
 beautifulPairs(A, B)

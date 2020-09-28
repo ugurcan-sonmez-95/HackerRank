@@ -8,5 +8,5 @@ def countingSort(arr):
     print(*idxCounter) 
 
 n = int(input())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 countingSort(arr)

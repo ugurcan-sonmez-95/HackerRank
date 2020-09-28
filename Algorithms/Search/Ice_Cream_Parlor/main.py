@@ -16,7 +16,7 @@ def main():
     t = int(input())
     while t:
         m, n = int(input()), int(input())
-        arr = list(map(int, input().split()[:n]))
+        arr = tuple(map(int, input().split()[:n]))
         result = icecreamParlor(m, arr)
         print(*result)
         t -= 1

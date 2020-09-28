@@ -15,5 +15,5 @@ def luckBalance(k, contests):
     print(max_luck)
 
 n, k = map(int, input().split())
-contests = [list(map(int, input().split()[:2])) for _ in range(n)]
+contests = tuple(tuple(map(int, input().split()[:2])) for _ in range(n))
 luckBalance(k, contests)

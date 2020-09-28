@@ -15,7 +15,7 @@ def main():
     t = int(input())
     while t:
         n = int(input())
-        arr = list(map(int, input().split()[:n]))
+        arr = tuple(map(int, input().split()[:n]))
         result = getAns(arr)
         print(result)
         t -= 1

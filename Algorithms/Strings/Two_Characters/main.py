@@ -8,8 +8,8 @@ def validate(check_valid):
 
 def main(s):
     max_size = 0
-    unique_chars = set(s)
-    list_of_uniques = list(unique_chars)
+    unique_chars = tuple(set(s))
+    list_of_uniques = tuple(unique_chars)
     for i in range(len(list_of_uniques)):
         for j in range(i+1, len(list_of_uniques)):
             check_valid = []
@@ -21,5 +21,5 @@ def main(s):
     print(max_size)
 
 size = int(input())
-s = list(input()[:size])
+s = tuple(input()[:size])
 main(s)

@@ -15,7 +15,7 @@ def main():
     t = int(input())
     while t:
         n = int(input())
-        grid = [list(map(str, input().split()[:n])) for _ in range(n)]
+        grid = tuple(tuple(map(str, input().split()[:n])) for _ in range(n))
         result = gridChallenge(grid)
         print(result)
         t -= 1
