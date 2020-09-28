@@ -9,5 +9,5 @@ def hourglassSum(arr):
                 largest_sum = temp
     print(largest_sum)
 
-arr = [list(map(int, input().split()[:6])) for _ in range(6)]
+arr = tuple(tuple(map(int, input().split()[:6])) for _ in range(6))
 hourglassSum(arr)

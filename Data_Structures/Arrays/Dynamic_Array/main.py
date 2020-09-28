@@ -1,7 +1,7 @@
 ### Dynamic Array - Solution
 
 def dynamicArray(n, queries):
-    seq = [[] for _ in range(n)]
+    seq = tuple([] for _ in range(n))
     last_answers = []
     last_answer = 0
     for i in range(len(queries)):
@@ -15,5 +15,5 @@ def dynamicArray(n, queries):
     print(*last_answers, sep='\n')
 
 n, q = map(int, input().split())
-queries = [list(map(int, input().split()[:3])) for _ in range(q)]
+queries = tuple(tuple(map(int, input().split()[:3])) for _ in range(q))
 dynamicArray(n, queries)

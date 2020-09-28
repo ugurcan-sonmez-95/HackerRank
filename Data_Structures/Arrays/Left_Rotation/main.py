@@ -5,5 +5,5 @@ def leftRotation(arr):
     print(*new_arr)
 
 n, d = map(int, input().split())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 leftRotation(arr)

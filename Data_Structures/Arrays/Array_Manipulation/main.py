@@ -15,5 +15,5 @@ def arrayManipulation(n, queries):
     print(maximum)
 
 n, m = map(int, input().split())
-queries = [list(map(int, input().split())) for _ in range(m)]
+queries = tuple(tuple(map(int, input().split())) for _ in range(m))
 arrayManipulation(n, queries)
