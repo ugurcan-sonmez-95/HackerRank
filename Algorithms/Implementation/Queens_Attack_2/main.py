@@ -32,5 +32,5 @@ def queensAttack(*args):
 
 n, k = map(int, input().split())
 r_q, c_q = map(int, input().split())
-obstacles = [list(map(int, input().split()[:2])) for _ in range(k)]
+obstacles = tuple(tuple(map(int, input().split()[:2])) for _ in range(k))
 queensAttack(n, k, r_q, c_q, obstacles)

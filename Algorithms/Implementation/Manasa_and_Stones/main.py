@@ -7,7 +7,7 @@ def stones():
         last_stones = set()
         for i in range(n):
             last_stones.add((a*i) + b*(n-i-1))
-        result = sorted(list(last_stones))
+        result = tuple(sorted(last_stones))
         print(*result)
         t -= 1
 

@@ -9,6 +9,6 @@ def bonAppetit(bill, k, b):
         print(b - costAnna)
 
 n, k = map(int, input().split())
-bill = list(map(int, input().split()[:n]))
+bill = tuple(map(int, input().split()[:n]))
 b = int(input())
 bonAppetit(bill, k, b)

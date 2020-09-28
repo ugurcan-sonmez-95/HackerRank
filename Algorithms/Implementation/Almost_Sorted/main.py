@@ -1,7 +1,7 @@
 ### Almost Sorted - Solution 
 
 def almostSorted(arr):
-    sorted_arr = sorted(arr)
+    sorted_arr = tuple(sorted(arr))
     if arr == sorted_arr:
         print("yes")
     else: 
@@ -26,5 +26,5 @@ def almostSorted(arr):
                 print("no")
 
 n = int(input())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 almostSorted(arr)

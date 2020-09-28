@@ -8,6 +8,6 @@ def birthday(nums, d, m):
     print(count)
 
 squares = int(input())
-nums = list(map(int, input().split()[:squares]))
+nums = tuple(map(int, input().split()[:squares]))
 d, m = map(int, input().split())
 birthday(nums, d, m)

@@ -12,5 +12,5 @@ def minimumDistances(arr):
         print(-1)
 
 n = int(input())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 minimumDistances(arr)

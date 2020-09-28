@@ -8,5 +8,5 @@ def gradingStudents(grades):
             print((grade+5) - (grade%5))
 
 num_of_studs = int(input())
-grades = [int(input()) for _ in range(num_of_studs)]
+grades = tuple(int(input()) for _ in range(num_of_studs))
 gradingStudents(grades)

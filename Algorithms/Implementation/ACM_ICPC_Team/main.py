@@ -3,9 +3,9 @@
 from itertools import combinations
 
 def acmTeam(topic):
-    total = [sum(x[0] or x[1] for x in list(zip(*i))) for i in combinations(topic, 2)]
+    total = tuple(sum(x[0] or x[1] for x in tuple(zip(*i))) for i in combinations(topic, 2))
     print(max(total), total.count(max(total)), sep='\n')
 
 n, m = map(int, input().split())
-topic = [list(map(int, input()[:m])) for _ in range(n)]
+topic = tuple(tuple(map(int, input()[:m])) for _ in range(n))
 acmTeam(topic)

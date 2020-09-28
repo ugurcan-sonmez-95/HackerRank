@@ -11,5 +11,5 @@ def jumpingOnClouds(c, k):
     print(energy)
 
 n, k = map(int, input().split())
-c = list(map(int, input().split()[:n]))
+c = tuple(map(int, input().split()[:n]))
 jumpingOnClouds(c, k)

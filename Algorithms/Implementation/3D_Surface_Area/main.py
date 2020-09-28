@@ -13,5 +13,5 @@ def surfaceArea(A):
     print(area)
 
 h, w = map(int, input().split())
-A = [list(map(int, input().split()[:w])) for _ in range(h)]
+A = tuple(tuple(map(int, input().split()[:w])) for _ in range(h))
 surfaceArea(A)

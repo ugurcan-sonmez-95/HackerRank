@@ -18,9 +18,9 @@ def main():
     t = int(input())
     while t:
         R, C = map(int, input().split())
-        grid = [list(map(str, input()[:C])) for _ in range(R)]
+        grid = tuple(tuple(map(str, input()[:C])) for _ in range(R))
         r, c = map(int, input().split())
-        pattern = [list(map(str, input()[:c])) for _ in range(r)]
+        pattern = tuple(tuple(map(str, input()[:c])) for _ in range(r))
         result = checkExists(grid, pattern)
         print(result)
         t -= 1

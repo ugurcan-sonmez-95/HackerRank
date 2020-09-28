@@ -8,5 +8,5 @@ def migratoryBirds(type_nums):
     print(min_id)
 
 birds = int(input())
-type_nums = list(map(int, input().split()[:birds]))
+type_nums = tuple(map(int, input().split()[:birds]))
 migratoryBirds(type_nums)

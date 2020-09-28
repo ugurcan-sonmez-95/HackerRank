@@ -9,5 +9,5 @@ def permutationEquation(p):
     print(*arr, sep='\n')
 
 n = int(input())
-p = list(map(int, input().split()[:n]))
+p = tuple(map(int, input().split()[:n]))
 permutationEquation(p)

@@ -14,5 +14,5 @@ def breakingRecords(scores):
 
 
 games = int(input())
-scores = list(map(int, input().split()[:games]))
+scores = tuple(map(int, input().split()[:games]))
 breakingRecords(scores)

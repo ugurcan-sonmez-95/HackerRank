@@ -7,6 +7,6 @@ def designerPdfViewer(h, word):
     area = len(word) * maximum
     print(area)
 
-h = list(map(int, input().split()[:26]))
+h = tuple(map(int, input().split()[:26]))
 word = input()[:10]
 designerPdfViewer(h, word)

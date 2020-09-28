@@ -8,5 +8,5 @@ def beautifulTriplets(d, arr):
     print(count)
 
 n, d = map(int, input().split())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 beautifulTriplets(d, arr)

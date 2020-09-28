@@ -4,7 +4,7 @@ def larrysArray():
     t = int(input())
     while t:
         n = int(input())
-        arr = list(map(int, input().split()[:n]))
+        arr = tuple(map(int, input().split()[:n]))
         count = 0
         for i in range(len(arr)-1):
             for j in range(i+1, len(arr)):

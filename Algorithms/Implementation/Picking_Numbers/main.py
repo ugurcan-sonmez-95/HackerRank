@@ -11,5 +11,5 @@ def pickingNumbers(arr):
     print(maximum)
 
 n = int(input())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 pickingNumbers(arr)

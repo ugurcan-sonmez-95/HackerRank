@@ -12,5 +12,5 @@ def nonDivisibleSubset(k, s):
     print(result)
 
 n, k = map(int, input().split())
-s = list(map(int, input().split()[:n]))
+s = tuple(map(int, input().split()[:n]))
 nonDivisibleSubset(k, s)

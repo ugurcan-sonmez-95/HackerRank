@@ -9,6 +9,6 @@ def getTotalX(arrA, arrB):
     print(count)
 
 n, m = map(int, input().split())
-arrA = list(map(int, input().split()[:n]))
-arrB = list(map(int, input().split()[:m]))
+arrA = tuple(map(int, input().split()[:n]))
+arrB = tuple(map(int, input().split()[:m]))
 getTotalX(arrA, arrB) 

@@ -2,7 +2,7 @@
 
 def serviceLane():
     n, t = map(int, input().split())
-    width = list(map(int, input().split()[:n]))
+    width = tuple(map(int, input().split()[:n]))
     while t:
         i, j = map(int, input().split())
         largest = min(width[i:j+1])

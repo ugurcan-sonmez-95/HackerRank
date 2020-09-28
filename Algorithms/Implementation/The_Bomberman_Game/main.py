@@ -35,14 +35,14 @@ def bomberMan(n, grid):
                     final_grid3[m+1][p] = '.'
     if (n == 1) or (n == 0):
         return grid
-    if (n % 2) == 0:
+    if n % 2 == 0:
         return final_grid1
-    if (n % 4) == 3:
+    if n % 4 == 3:
         return final_grid2
     return final_grid3
 
 r, c, n = map(int, input().split())
-grid = [list(input()[:c]) for _ in range(r)]
+grid = tuple(list(input()[:c]) for _ in range(r))
 result = bomberMan(n, grid)
 for i in range(len(result)):
     print(*result[i], sep='')

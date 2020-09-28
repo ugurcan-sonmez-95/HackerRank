@@ -49,5 +49,5 @@ def main(*args):
         print(*i)
 
 row, col, rot_count = map(int, input().split())
-matrix = [list(map(int, input().split()[:col])) for _ in range(row)]
+matrix = tuple(list(map(int, input().split()[:col])) for _ in range(row))
 main(row, col, rot_count, matrix)

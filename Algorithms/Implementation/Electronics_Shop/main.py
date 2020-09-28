@@ -10,6 +10,6 @@ def getMoneySpent(keyboards, drives, b):
     print(maximum)
 
 b, n, m = map(int, input().split())
-keyboards = list(map(int, input().split()[:n]))
-drives = list(map(int, input().split()[:m]))
+keyboards = tuple(map(int, input().split()[:n]))
+drives = tuple(map(int, input().split()[:m]))
 getMoneySpent(keyboards, drives, b)

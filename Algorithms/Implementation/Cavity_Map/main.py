@@ -8,7 +8,7 @@ def cavityMap(grid):
     return grid
 
 n = int(input())
-grid = [list(map(str, input()[:n])) for _ in range(n)]
+grid = tuple(list(map(str, input()[:n])) for _ in range(n))
 final_grid = cavityMap(grid)
 for i in range(len(final_grid)):
     print(*final_grid[i], sep='')

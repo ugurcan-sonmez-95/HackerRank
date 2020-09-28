@@ -9,5 +9,5 @@ def divisibleSumPairs(k, arr):
     print(count)
 
 n, k = map(int, input().split())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 divisibleSumPairs(k, arr)

@@ -11,5 +11,5 @@ def workbook(*args):
     print(special)
 
 n, k = map(int, input().split())
-arr = list(map(int, input().split()[:n]))
+arr = tuple(map(int, input().split()[:n]))
 workbook(n, k, arr)

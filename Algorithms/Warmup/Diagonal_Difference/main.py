@@ -9,5 +9,5 @@ def diagonalDifference(matrix):
     print(difference)
 
 n = int(input())
-matrix = [list(map(int, input().split()[:n])) for _ in range(n)]
+matrix = tuple(tuple(map(int, input().split()[:n])) for _ in range(n))
 diagonalDifference(matrix)

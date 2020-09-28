@@ -11,5 +11,5 @@ def jumpingOnClouds(c):
     print(count)
 
 n = int(input())
-c = list(map(int, input().split()[:n]))
+c = tuple(map(int, input().split()[:n]))
 jumpingOnClouds(c)

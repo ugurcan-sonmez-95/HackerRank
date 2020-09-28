@@ -23,7 +23,7 @@ def main():
     q = int(input())
     while q:
         n = int(input())
-        container = [list(map(int, input().split())) for _ in range(n)]
+        container = tuple(tuple(map(int, input().split())) for _ in range(n))
         result = checkPossible(container)
         print(result)
         q -= 1

@@ -1,7 +1,7 @@
 ### Climbing the Leaderboard - Solution
 
 def climbingLeaderboard(scores, alice):
-    lb = sorted(set(scores), reverse=True)
+    lb = tuple(sorted(scores, reverse=True))
     length = len(lb)
     for score in alice:
         while (length > 0) and (score >= lb[length-1]):
@@ -9,7 +9,7 @@ def climbingLeaderboard(scores, alice):
         print(length+1)
 
 n = int(input())
-scores = list(map(int, input().split()[:n]))
+scores = set(map(int, input().split()[:n]))
 m = int(input())
-alice = list(map(int, input().split()[:m]))
+alice = tuple(map(int, input().split()[:m]))
 climbingLeaderboard(scores, alice)
